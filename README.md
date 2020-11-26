@@ -1,10 +1,10 @@
 # TIGHT Package v1.0
 TIGHT, or TI GrapH Theory, is a package of lists and programs designed for analyzing and plotting discrete graphs on the TI-83+ series of calculators. These programs are designed to be used as subprograms for larger projects, and are implemented to minimize variable use and overall memory footprint. TIGHT can support both directed and undirected graphs with up to 999 edges and 999 vertices, with a diverse array of graph algorithms and plotting options at your disposal.
 
-To install, simply download and open the group TIGHT, or you may download/copy individuals programs directly. All TIGHT programs are denoted by θGT followed by 2 or more characters. The current graph's edges and vertices are stored in |LE and |LV respectively; most programs require both lists to exist (even if they are empty) to function properly. Plotting and layout functions additionally require |LC, |LX, and |LY to exist. All of these basic lists are included with the TIGHT group, initially empty.
+To install, simply download and open the group TIGHT, or you may download/copy individuals programs directly. All TIGHT programs are denoted by `θGT` followed by 2 or more characters. The current graph's edges and vertices are stored in `|LE` and `|LV` respectively; most programs require both lists to exist (even if they are empty) to function properly. Plotting and layout functions additionally require `|LC`, `|LX`, and `|LY` to exist. All of these basic lists are included with the TIGHT group, initially empty.
 
 # Vars
-The following real variables and lists are defined for the current graph upon creation. They generally should *not* be changed directly by the user during normal use.
+The following real variables and lists are defined for the current graph upon creation and change as components of the graph are added and removed via the specified subprograms. Thus, they generally should *not* be changed directly by the user during normal use, though modifying them in the course of user-designed algorithms may prove beneficial if done properly.
 
 ## Graph Characteristics
 * `D`: Directedness
@@ -14,40 +14,62 @@ The following real variables and lists are defined for the current graph upon cr
 * `E`: # of edges
 * `V`: # of vertices
 
-## Graph Lists
-* `E`: Edges
-* `V`: Vertices
-
-## Program Vars
-* `X`: Initial vertex
+## Internal Vars
+* `X`: Initial vertex or counter
 * `Y`: Terminal vertex or loop var
-* `Z`: Edge
+* `Z`: Input vertex or edge
+
+## Graph Lists
+* `C`: Colors
+	* Entries are BASIC colors (`BLUE` to `DARKGRAY`)
+* `E`: Edges
+	* Entries are `±(I + T|E~3) + W[i]`
+		* `I`: Initial vertex (`001` to `999`)
+		* `T`: Terminal vertex (`001` to `999`)
+		* `W`: Edge weight (any real number)
+	* Sign is negative if directed, positive if undirected
+		* All edges have the same sign (i.e. directed and undirected edges are not mixed)
+	* Contains no duplicate edges
+		* For undirected graphs, the initial vertex is always the minimum of the two vertices
+* `V`: Vertices
+	* Entries are `N + O|E~3 + C[i]`
+		* `N`: Vertex ID (`001` to `999`)
+		* `O`: Outdegree of the vertex (set automatically)
+		* `C`: Vertex color (`01` to `15`)
+* `X`: Vertex X coordinates
+	* Entries are relative to graphing window (see `LAY`)
+* `Y`: Vertex Y coordinates
+	* Entries are relative to graphing window (see `LAY`)
 
 ## Premade Graphs
 * `PETER`: The Petersen Graph
 
 # Programs
-Most programs modify the current graph in-place; the value of `Ans` upon completion is detailed below. Any additional returns are denoted in parentheses.
-* `ADDE`: Adds the edge `Ans` to the graph; sets the weight of the edge to `imag(Ans)` if it already exists
+Most programs modify the current graph in-place; any returns stored in `Ans` upon completion are detailed below.
+* `ADDE`: Adds the edge `Ans` to the graph
+	* Sets the weight of the edge to `imag(Ans)` if the edge already exists
+	* Fails if the initial or terminal vertex does not exist in the graph
   * Returns `E` in all cases
-* `ADDV`: Adds the vertex `Ans` to the graph; sets the color of the vertex to `imag(Ans)` if it already exists
+* `ADDV`: Adds the vertex `Ans` to the graph
+	* Sets the color of the vertex to `imag(Ans)` if the vertex already exists
   * Returns `V` in all cases
 * `CLR`: Clears the graph
-  * Returns `Ans` unmodified
 * `CLRW`: Clears all weights and colors from the graph
-  * Returns `|LV` in all cases
-* `CONT`: Contracts the edge `Ans` in the graph
+* `CONT`: Contracts the edge `Ans` in the graph; does nothing if the edge does not exist
   * Returns `E` if the graph has at least one edge
-  * Returns `Ans` unmodified otherwise
 * `DELE`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
   * Returns `E` if the edge exists
-  * Returns `Ans` unmodified otherwise
 * `DELV`: Deletes the vertex `Ans` and all edges containing it from the graph; does nothing if the vertex does not exist
   * Returns `V` if the vertex exists
-  * Returns `Ans` unmodified otherwise
 * `GEN`: Generates the specified graph family
-* `HASE`: Returns the index of the edge `Ans` if it exists and zero otherwise
-* `HASV`: Returns the index of the vertex `Ans` if it exists and zero otherwise
+* `HASE`: Checks if the edge `Ans` is in the graph
+	* Returns the index of the edge if it exists
+	* Returns zero otherwise
+* `HASV`: Checks if the vertex `Ans` is in the graph
+	* Returns the index of the vertex if it exists
+	* Returnz zero otherwise
+* `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting using the specified layout method
+* `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists and the `|LC` vertex color list; does nothing if `|LX` or `|LY` is empty
 
 Have any questions? Found a bug?
 Contact kg583 on TI-Basic Developer or Cemetech.
