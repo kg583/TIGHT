@@ -60,7 +60,7 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
   * Returns `E` if the edge exists and zero otherwise
 * `DELV`: Deletes the vertex `Ans` and all edges containing it from the graph; does nothing if the vertex does not exist
   * Returns `V` if the vertex exists and zero otherwise
-* `EXT`: Extracts the specified imported graph edges and vertices to `|LE` and `LV` respectively
+* `EXT`: Extracts the edges and vertices of the imported graph `Ans` to `|LE` and `LV` respectively
 * `GEN`: Generates the specified graph family
 * `HASE`: Checks if the edge `Ans` is in the graph
 	* Returns the index of the edge if it exists and zero otherwise
