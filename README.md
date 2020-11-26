@@ -47,29 +47,28 @@ Premade graphs are stored in a compressed form as singular lists, use `EXT` to e
 
 # Programs
 Most programs modify the current graph in-place; any returns stored in `Ans` upon completion are detailed below.
-* `ADDE`: Adds the edge `Ans` to the graph
+* `ADDE`: Adds the edge `Ans` to the graph; fails if the initial or terminal vertex does not exist
 	* Sets the weight of the edge to `imag(Ans)` if the edge already exists
-	* Fails if the initial or terminal vertex does not exist in the graph
+  * Returns `E` in all cases
+* `ADDS`: Adds the edge `Ans` to the graph; adds the initial and terminal vertex if they do not exist
+	* Sets the weight of the edge to `imag(Ans)` if the edge already exists
   * Returns `E` in all cases
 * `ADDV`: Adds the vertex `Ans` to the graph
 	* Sets the color of the vertex to `imag(Ans)` if the vertex already exists
   * Returns `V` in all cases
 * `CLR`: Clears the graph
 * `CLRW`: Clears all weights and colors from the graph
-* `CONT`: Contracts the edge `Ans` in the graph; does nothing if the edge does not exist
-  * Returns `E` if the graph has at least one edge
+* `CONT`: Contracts the edge `Ans` in the graph; does nothing if the edge does not exist or the graph is directed
 * `DELE`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
-  * Returns `E` if the edge exists
+  * Returns `E` if the edge exists and zero otherwise
 * `DELV`: Deletes the vertex `Ans` and all edges containing it from the graph; does nothing if the vertex does not exist
-  * Returns `V` if the vertex exists
+  * Returns `V` if the vertex exists and zero otherwise
 * `EXT`: Extracts the specified imported graph edges and vertices to `|LE` and `LV` respectively
 * `GEN`: Generates the specified graph family
 * `HASE`: Checks if the edge `Ans` is in the graph
-	* Returns the index of the edge if it exists
-	* Returns zero otherwise
+	* Returns the index of the edge if it exists and zero otherwise
 * `HASV`: Checks if the vertex `Ans` is in the graph
-	* Returns the index of the vertex if it exists
-	* Returnz zero otherwise
+	* Returns the index of the vertex if it exists and zero otherwise
 * `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting using the specified layout method
 * `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists and the `|LC` vertex color list; does nothing if `|LX` or `|LY` is empty
 
