@@ -8,9 +8,6 @@ The following real variables and lists are defined for the current graph upon cr
 
 ## Graph Characteristics
 * `D`: Directedness
-  * `0`: Graph is undirected
-  * `1`: Graph has vertices but no edges
-  * `2`: Graph is directed
 * `E`: # of edges
 * `V`: # of vertices
 
