@@ -44,6 +44,8 @@ Premade graphs are stored as their edge lists; use `EXT` to extract the graph by
 Most programs modify the current graph in-place; any returns stored in `Ans` upon completion are detailed below.
 * `ADD`: Adds the edge `Ans` to the graph; sets the weight of the edge to `imag(Ans)` if the edge already exists
 	* Returns `E` in all cases
+* `ARG`: Parses the input string `Ans` into separate arguments in `|LθGT`
+	* Returns `|LθGT` in all cases
 * `CLR`: Clears the graph
 * `CLRW`: Clears all weights from the graph
 * `CONT`: Contracts the edge `Ans` in the graph; does nothing if the edge does not exist or the graph is directed
@@ -53,13 +55,14 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `DEL`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
   * Returns `E` if the edge exists and zero otherwise
 * `EXT`: Extracts the imported graph named in `Ans` to `|LE` and sets the graphs characteristics
-* `GEN`: Generates the specified graph family
+* `GEN`: Generates the graph family member named in `Ans`
 * `HAS`: Checks if the edge `Ans` is in the graph
 	* Returns the index of the edge if it exists and zero otherwise
-* `ID`: Identifies the largest vertex with the vertex `Ans`
-	* Returns `V` in all cases
 * `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting using the specified layout method
 * `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists and the `|LC` vertex color list (if it exists); does nothing if `|LX` or `|LY` is empty
+* `RMV`: Identifies the largest vertex with the empty vertex `Ans`
+	* May preserve duplicate edges if the vertex is not empty
+	* Returns `V` in all cases
 
 Have any questions? Found a bug?
 Contact kg583 on TI-Basic Developer or Cemetech.
