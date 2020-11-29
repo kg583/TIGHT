@@ -15,7 +15,7 @@ The following real variables and lists are defined for the current graph upon cr
 * `V`: # of vertices
 
 ## Internal Vars
-* `X,Y,Z`: Real vars
+* `X,Y,Z,θ`: Real vars
 * `|LGT`: Argument list
 * `|LGT1`: Temporary list
 * `|LGT2`: Temporary list
@@ -54,7 +54,7 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `DEG`: Calculates the degree of the vertex `Ans`
 	* Returns the out-degree if the graph is directed and the total degree otherwise
 * `DEL`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
-  * Returns `E` if the edge exists and zero otherwise
+  	* Returns `E` if the edge exists and zero otherwise
 * `EXT`: Extracts the imported graph named in `Ans` to `|LE` and sets the graphs characteristics
 * `GEN`: Generates the graph family member named in `Ans`
 * `HAS`: Checks if the edge `Ans` is in the graph
