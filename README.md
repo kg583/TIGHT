@@ -4,7 +4,7 @@ TIGHT, or TI GrapH Theory, is a package of lists and programs designed for analy
 To install, simply download and open the group `TIGHT`, or you may download/copy individuals programs directly. All TIGHT programs are denoted by `θGT` followed by 2 or more characters. The current graph's edges are stored in `|LE` respectively; most programs require this list to exist (even if it ise empty) to function properly. Plotting and layout functions additionally require `|LX` and `|LY` to exist; `|LC` is required for graph coloring algorithms and plotting. All of these basic lists are included with the `TIGHT` group, initially empty.
 
 # Vars
-The following real variables and lists are defined for the current graph upon creation and change as components of the graph are added and removed via the specified subprograms. Thus, they generally should *not* be changed directly by the user during normal use, though modifying them in the course of user-designed algorithms may prove beneficial if done properly.
+The following real variables and lists are defined for the current graph upon creation and change as components of the graph are added and removed via the specified subprograms. Thus, they generally should *not* be changed directly by the user during normal use, though modifying them in the course of user-designed algorithms may prove more efficient if done properly.
 
 ## Graph Characteristics
 * `D`: Directedness
@@ -15,9 +15,10 @@ The following real variables and lists are defined for the current graph upon cr
 * `V`: # of vertices
 
 ## Internal Vars
-* `X`: Initial vertex or counter
-* `Y`: Terminal vertex or loop var
-* `Z`: Input vertex or edge
+* `X,Y,Z`: Real vars
+* `|LGT`: Argument list
+* `|LGT1`: Temporary list
+* `|LGT2`: Temporary list
 
 ## Graph Lists
 * `C`: Colors
@@ -32,12 +33,12 @@ The following real variables and lists are defined for the current graph upon cr
 	* Contains no duplicate edges
 		* For undirected graphs, the initial vertex is always the minimum of the two vertices
 * `X`: Vertex X coordinates
-	* Entries are relative to graphing window (see `LAY`)
+	* Entries are within the range `[-1,1]`
 * `Y`: Vertex Y coordinates
-	* Entries are relative to graphing window (see `LAY`)
+	* Entries are within the range `[-1,1]`
 
 ## Premade Graphs
-Premade graphs are stored as their edge lists; use `EXT` to extract the graph by name and set the graph characteristics.
+Premade graphs are stored as their edge lists; use `EXT` to extract the graph by name and set its graph characteristics.
 * `PETER`: The Petersen graph
 
 # Programs
@@ -59,10 +60,14 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `HAS`: Checks if the edge `Ans` is in the graph
 	* Returns the index of the edge if it exists and zero otherwise
 * `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting using the specified layout method
-* `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists and the `|LC` vertex color list (if it exists); does nothing if `|LX` or `|LY` is empty
+* `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists, scaled by `Ans`; does nothing if `|LX` or `|LY` is empty
+	* Colors vertices using `|LC` if possible; defaults to `BLACK` otherwise
+	* Coordinate lists are mapped to the range `Ans * [Ymin,Ymax]` for plotting
 * `RMV`: Identifies the largest vertex with the empty vertex `Ans`
 	* May preserve duplicate edges if the vertex is not empty
 	* Returns `V` in all cases
+* `SUB`: Creates the induced subgraph on the vertices in `Ans`
+	* Returns the edges of the subgraph in all cases
 
 Have any questions? Found a bug?
 Contact kg583 on TI-Basic Developer or Cemetech.
