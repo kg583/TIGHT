@@ -56,6 +56,7 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `DEL`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
   	* Returns `E` if the edge exists and zero otherwise
 * `EXT`: Extracts the imported graph named in `Ans` to `|LE` and sets the graphs characteristics
+	* Returns `V` in all cases
 * `GEN`: Generates the graph family member named in `Ans`
 * `HAS`: Checks if the edge `Ans` is in the graph
 	* Returns the index of the edge if it exists and zero otherwise
