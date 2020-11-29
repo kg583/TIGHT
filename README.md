@@ -48,7 +48,7 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `ARG`: Parses the input string `Ans` into separate arguments in `|LθGT`
 	* Returns `|LθGT` in all cases
 * `CLR`: Clears the graph
-* `CLRW`: Clears all weights from the graph
+* `CLRW`: Clears all weights from the graph; does nothing if the graph is empty
 * `CONT`: Contracts the edge `Ans` in the graph; does nothing if the edge does not exist or the graph is directed
 	* Returns `V` in all cases
 * `DEG`: Calculates the degree of the vertex `Ans`
@@ -61,7 +61,7 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 	* Returns the index of the edge if it exists and zero otherwise
 * `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting using the specified layout method
 * `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists, scaled by `Ans`; does nothing if `|LX` or `|LY` is empty
-	* Colors vertices using `|LC` if possible; defaults to `BLACK` otherwise
+	* Colors vertices using `|LV` if possible; defaults to `BLACK` otherwise
 	* Coordinate lists are mapped to the range `Ans * [Ymin,Ymax]` for plotting
 * `RMV`: Identifies the largest vertex with the empty vertex `Ans`
 	* May preserve duplicate edges if the vertex is not empty
