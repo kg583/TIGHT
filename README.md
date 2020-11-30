@@ -1,7 +1,7 @@
 # TIGHT Package v1.0
 TIGHT, or TI GrapH Theory, is a package of lists and programs designed for analyzing and plotting discrete graphs on the TI-83+ series of calculators. These programs are intended to be used as subprograms for larger projects, and are implemented to minimize variable use and overall memory footprint. TIGHT can support both directed and undirected graphs with up to 999 edges and 999 vertices, with a diverse array of graph algorithms and plotting options at your disposal.
 
-To install, simply download and open the group `TIGHT`, or you may download/copy individuals programs directly. All TIGHT programs are denoted by `θGT` followed by 2 or more characters. The current graph's edges are stored in `|LE` respectively; most programs require this list to exist (even if it ise empty) to function properly. Plotting and layout functions additionally require `|LX` and `|LY` to exist; `|LC` is required for graph coloring algorithms and plotting. All of these basic lists are included with the `TIGHT` group, initially empty.
+To install, simply download and open the group `TIGHT`, or you may download/copy individuals programs directly. All TIGHT programs are denoted by `θGT` followed by 2 or more characters. The current graph's edges are stored in `|LE` respectively; most programs require this list to exist (even if it ise empty) to function properly. Plotting and layout functions additionally require `|LX` and `|LY` to exist; `|LV` is required for graph search algorithms and plotting. All of these basic lists are included with the `TIGHT` group, initially empty.
 
 # Vars
 The following real variables and lists are defined for the current graph upon creation and change as components of the graph are added and removed via the specified subprograms. Thus, they generally should *not* be changed directly by the user during normal use, though modifying them in the course of user-designed algorithms may prove more efficient if done properly.
@@ -21,8 +21,6 @@ The following real variables and lists are defined for the current graph upon cr
 * `|LGT2`: Temporary list
 
 ## Graph Lists
-* `C`: Colors
-	* Entries are BASIC colors (`BLUE` to `DARKGRAY`)
 * `E`: Edges
 	* Entries are `±(I + T|E~3) + W[i]`
 		* `I`: Initial vertex (`001` to `999`)
@@ -32,6 +30,13 @@ The following real variables and lists are defined for the current graph upon cr
 		* All edges have the same sign (i.e. directed and undirected edges are not mixed)
 	* Contains no duplicate edges
 		* For undirected graphs, the initial vertex is always the minimum of the two vertices
+* `V`: Vertices
+	* Entries are `C + D[i]`
+		* `C`: Color of the vertex (`BLUE` to `DARKGRAY`)
+		* `D`: Vertex data (any real number)
+	* Sign and decimal part of real part can be set arbitrarily by the user
+		* All subprograms ignore these components of vertex entries
+	* If a vertex contains no entry, it is assumed to be uncolored and have no associated data
 * `X`: Vertex X coordinates
 	* Entries are within the range `[-1,1]`
 * `Y`: Vertex Y coordinates
@@ -50,8 +55,10 @@ Premade graphs are stored as their edge lists; use `EXT` to extract the graph by
 Most programs modify the current graph in-place; any returns stored in `Ans` upon completion are detailed below.
 * `ADD`: Adds the edge `Ans` to the graph; sets the weight of the edge to `imag(Ans)` if the edge already exists
 	* Returns `E` in all cases
+* `ADJ`: Computes the adjacency matrix of the graph in `[A]`
 * `ARG`: Parses the input string `Ans` into separate arguments in `|LθGT`
 	* Returns `|LθGT` in all cases
+* `BFS`: Performs a breadth-first search of the graph beginning at the vertex `Ans`
 * `CLR`: Clears the graph
 * `CLRW`: Clears all weights from the graph; does nothing if the graph is empty
 * `CONT`: Contracts the edge `Ans` in the graph; does nothing if the edge does not exist or the graph is directed
@@ -60,6 +67,9 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 	* Returns the out-degree if the graph is directed and the total degree otherwise
 * `DEL`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
   	* Returns `E` if the edge exists and zero otherwise
+* `DFS`: Performs a depth-first search of the graph beginning at the vertex `Ans`
+* `ES`: Lists the edges adjacent to the vertex `Ans` sorted by edge weight
+	* Returns the adjacent edges if any exist
 * `EXT`: Extracts the imported graph named in `Ans` to `|LE` and sets the graphs characteristics
 	* Truncates `Ans` to at most five characters
 	* Returns `V` in all cases
@@ -76,7 +86,11 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 	* May preserve duplicate edges if the vertex is not empty
 	* Returns `V` in all cases
 * `SUB`: Creates the induced subgraph on the vertices in `Ans`
-	* Returns the edges of the subgraph in all cases
+	* Returns the edges of the subgraph if it is non-empty
+* `TO`: Checks if the vertices `Ans(1)` and `Ans(2)` are adjacent
+	* Returns the index of the connecting edge if it exists and zero otherwise
+* `VS`: Lists the vertices adjacent to the vertex `Ans` sorted by connecting edge weight
+	* Returns the adjacent vertices if any exist
 
 Have any questions? Found a bug?
 Contact kg583 on TI-Basic Developer or Cemetech.
