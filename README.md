@@ -39,6 +39,11 @@ The following real variables and lists are defined for the current graph upon cr
 
 ## Premade Graphs
 Premade graphs are stored as their edge lists; use `EXT` to extract the graph by name and set its graph characteristics.
+* `BFLY`: The butterfly graph
+* `BULL`: The bull graph
+* `DIAM`: The diamond graph
+* `DURER`: The Dürer graph
+* `GOLOM`: The Golomb graph
 * `PETER`: The Petersen graph
 
 # Programs
@@ -56,10 +61,13 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `DEL`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
   	* Returns `E` if the edge exists and zero otherwise
 * `EXT`: Extracts the imported graph named in `Ans` to `|LE` and sets the graphs characteristics
+	* Truncates `Ans` to at most five characters
 	* Returns `V` in all cases
 * `GEN`: Generates the graph family member named in `Ans`
 * `HAS`: Checks if the edge `Ans` is in the graph
 	* Returns the index of the edge if it exists and zero otherwise
+* `MAP`: Maps the vertices of the graph to the vertex ordering `Ans`
+	* May preserve duplicate edges for non-injective mappings
 * `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting using the specified layout method
 * `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists, scaled by `Ans`; does nothing if `|LX` or `|LY` is empty
 	* Colors vertices using `|LV` if possible; defaults to `BLACK` otherwise
