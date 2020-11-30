@@ -44,12 +44,7 @@ The following real variables and lists are defined for the current graph upon cr
 
 ## Premade Graphs
 Premade graphs are stored as their edge lists; use `EXT` to extract the graph by name and set its graph characteristics.
-* `BFLY`: The butterfly graph
-* `BULL`: The bull graph
-* `DIAM`: The diamond graph
-* `DURER`: The Dürer graph
-* `GOLOM`: The Golomb graph
-* `PETER`: The Petersen graph
+A list of premade graphs is given in `graphs.md`; all premade graphs are saved in the group `TIGHTGDB`.
 
 # Programs
 Most programs modify the current graph in-place; any returns stored in `Ans` upon completion are detailed below.
@@ -70,15 +65,17 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `DFS`: Performs a depth-first search of the graph beginning at the vertex `Ans`
 * `ES`: Lists the edges adjacent to the vertex `Ans` sorted by edge weight
 	* Returns the adjacent edges if any exist
-* `EXT`: Extracts the imported graph named in `Ans` to `|LE` and sets the graphs characteristics
+* `EXT`: Extracts the saved graph named in `Ans` to `|LE` and sets the graphs characteristics
 	* Truncates `Ans` to at most five characters
 	* Returns `V` in all cases
 * `GEN`: Generates the graph family member named in `Ans`
+	* Generation options are given in `gen.md`
 * `HAS`: Checks if the edge `Ans` is in the graph
 	* Returns the index of the edge if it exists and zero otherwise
 * `MAP`: Maps the vertices of the graph to the vertex ordering `Ans`
 	* May preserve duplicate edges for non-injective mappings
 * `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting using the specified layout method
+	* Layout options are given in `layout.md`
 * `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists, scaled by `Ans`; does nothing if `|LX` or `|LY` is empty
 	* Colors vertices using `|LV` if possible; defaults to `BLACK` otherwise
 	* Coordinate lists are mapped to the range `Ans * [Ymin,Ymax]` for plotting
