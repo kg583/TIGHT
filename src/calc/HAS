@@ -1,7 +1,7 @@
 If E:Then:real(Ans->Z
   abs(iPart(Ans->X
   abs(|E3fPart(Z->Y
-  X+Ans|E~3:If D>0:min(X,Ans)+|E~3max(X,Ans
+  prgmθGTE
   1+sum(not(cumSum(Ans=real(|LE
   If Ans>E:0
 Else:0

@@ -58,15 +58,15 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `BFS`: Performs a breadth-first search of the graph beginning at the vertex `Ans`
 * `CLR`: Clears the graph
 * `CLRW`: Clears all weights from the graph; does nothing if the graph is empty
-* `CONT`: Contracts the edge `Ans` in the graph; does nothing if the edge does not exist or the graph is directed
-	* Returns `V` in all cases
 * `DEG`: Calculates the degree of the vertex `Ans`
 	* Returns the out-degree if the graph is directed and the total degree otherwise
 * `DEL`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
   	* Returns `E` if the edge exists and zero otherwise
 * `DFS`: Performs a depth-first search of the graph beginning at the vertex `Ans`
+* `E`: Computes the edge that would connect vertices `X` and `Y` given the directedness of the graph
+	* Returns the desired edge in all cases
 * `ES`: Lists the edges adjacent to the vertex `Ans` sorted by edge weight
-	* Returns the adjacent edges if any exist
+	* Returns the adjacent edges (may be none)
 * `EXT`: Extracts the saved graph named in `Ans` to `|LE` and sets the graphs characteristics
 	* Truncates `Ans` to at most five characters
 	* Returns `V` in all cases
@@ -86,10 +86,12 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 	* Returns `V` in all cases
 * `SUB`: Creates the induced subgraph on the vertices in `Ans`
 	* Returns the edges of the subgraph if it is non-empty
-* `TO`: Checks if the vertices `Ans(1)` and `Ans(2)` are adjacent
+* `TO`: Checks if the vertices `X` and `Y` are adjacent
 	* Returns the index of the connecting edge if it exists and zero otherwise
+* `V`: Computes the number of vertices in the graph
+	* Returns `V` in all cases
 * `VS`: Lists the vertices adjacent to the vertex `Ans` sorted by connecting edge weight
-	* Returns the adjacent vertices if any exist
+	* Returns the adjacent vertices (may be none)
 
 # Contact
 Have any questions? Found a bug?
