@@ -40,9 +40,9 @@ The following real variables and lists are defined for the current graph upon cr
 		* All subprograms ignore these components of vertex entries
 	* If a vertex contains no entry, it is assumed to be uncolored and have no associated data
 * `X`: Vertex X coordinates
-	* Entries are within the range `[-1,1]`
+	* Entries are within the range `[~1,1]`
 * `Y`: Vertex Y coordinates
-	* Entries are within the range `[-1,1]`
+	* Entries are within the range `[~1,1]`
 
 ## Premade Graphs
 Premade graphs are stored as their edge lists; use `EXT` to extract the graph by name and set its graph characteristics.
