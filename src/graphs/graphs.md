@@ -1,7 +1,6 @@
 The following graphs are saved in the group `TIGHTGDB`. Extract the graph by name via `EXT` to load its edge list and set its graph characteristics.
 
 * `BULL`: The bull graph
-* `DIAM`: The diamond graph
 * `DURER`: The Dürer graph
 * `GOLOM`: The Golomb graph
 * `HERSC`: The Herschel graph
