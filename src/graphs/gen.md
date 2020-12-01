@@ -10,6 +10,10 @@ The vertex ordering used for generation are implemented with some convenient plo
 The _cycle graph_ on _n_ vertices is (up to isomorphism) the graph composed of precisely one cycle of length _n_ and nothing else.
 The vertex ordering is the natural one: sequential vertices arranged to be best plotted with a single-layer circular layout.
 
+## `D[n]:` Directed Cycle Graphs
+The _directed cycle graph_ on _n_ vertices is (up to isomorphism) the directed graph of precisely one cycle of length _n_ and nothing else.
+The vertex ordering is the natural one: sequential vertices arranged to be best plotted with a single-layer circular layout.
+
 ## `F[n]`: Friendship Graphs
 The _friendship graph_ on _n_ vertices is the graph (up to isomorphism) such that every two vertices have exactly one neighbor in common.
 The vertex ordering is such that the first vertex is adjacent to every other; this ordering befits a double-layer circular layout with the first vertex at the origin and the remaining vertices placed on the outer circle.
@@ -18,7 +22,7 @@ The vertex ordering is such that the first vertex is adjacent to every other; th
 The _complete graph_ on _n_ vertices is (up to isomorphism) the graph with every possible edge. A complete graph is also called a _clique_.
 The vertex ordering is the natural one: sequential vertices arranged to be best plotted with a single-layer circular layout.
 
-## `S[n]:` Star Graphs
+## `S[n]`: Star Graphs
 The _star graph_ on _n_ vertices is (up to isomorphism) the graph with one vertex that is the sole neighbor of every other vertex.
 The vertex ordering is such that the first vertex is adjacent to all others; this ordering befits a double-layer circular layout with the first vertex at the origin and the remaining vertices placed on the outer circle.
 
