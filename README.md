@@ -3,10 +3,10 @@ TIGHT, or TI GrapH Theory, is a package of lists and programs designed for analy
 
 # How to Use
 
-To install, simply download and open the group `TIGHT`, or you may download/copy individuals programs directly. All TIGHT programs are denoted by `θGT` followed by 2 or more characters. The current graph's edges are stored in `|LE` respectively; most programs require this list to exist (even if it ise empty) to function properly. Plotting and layout functions additionally require `|LX` and `|LY` to exist; `|LV` is required for graph search algorithms and plotting. All of these basic lists are included with the `TIGHT` group, initially empty.
+To install, simply download and open the group `TIGHT`, or you may download/copy individual programs directly. All TIGHT programs are denoted by `θGT` followed by 2 or more characters. The current graph's edges are stored in `|LE`; most programs require this list to exist (even if it is empty) to function properly. Plotting and layout functions additionally require `|LX` and `|LY` to exist; `|LV` is required for graph search algorithms and plotting. All of these basic lists are included with the `TIGHT` group, initially empty.
 
 # Vars
-The following real variables and lists are defined for the current graph upon creation and change as components of the graph are added and removed via the specified subprograms. Thus, they generally should *not* be changed directly by the user during normal use, though modifying them in the course of user-designed algorithms may prove more efficient if done properly.
+The following real variables and lists are defined for the current graph upon creation and change as components of the graph are added and removed via the specified subprograms. Thus, they generally should _not_ be changed directly by the user during normal use, though modifying them in the course of user-designed algorithms may prove more efficient if done properly.
 
 ## Graph Characteristics
 * `D`: Directedness
