@@ -1,0 +1,9 @@
+If not(E:Then:{Ans->|LE
+  tanh(|E9real(Ans(1->D
+Else:Ans->Z
+  abs(iPart(real(Ans->X
+  abs(|E3fPart(real(Z->Y
+  ~X-Ans|E~3:If D>0:min(X,Ans)+|E~3max(X,Ans
+  Ans+[i]imag(Z->|LE(1+sum(not(cumSum(Ans=real(|LE
+End:dim(|LE->E:real(|LE
+max(max(abs(iPart(Ans)),abs(|E3fPart(Ans->V

@@ -1,6 +1,8 @@
 # TIGHT Package v1.0
 TIGHT, or TI GrapH Theory, is a package of lists and programs designed for analyzing and plotting discrete graphs on the TI-83+ series of calculators. These programs are intended to be used as subprograms for larger projects, and are implemented to minimize variable use and overall memory footprint. TIGHT can support both directed and undirected graphs with up to 999 edges and 999 vertices, with a diverse array of graph algorithms and plotting options at your disposal.
 
+# How to Use
+
 To install, simply download and open the group `TIGHT`, or you may download/copy individuals programs directly. All TIGHT programs are denoted by `θGT` followed by 2 or more characters. The current graph's edges are stored in `|LE` respectively; most programs require this list to exist (even if it ise empty) to function properly. Plotting and layout functions additionally require `|LX` and `|LY` to exist; `|LV` is required for graph search algorithms and plotting. All of these basic lists are included with the `TIGHT` group, initially empty.
 
 # Vars
@@ -34,7 +36,7 @@ The following real variables and lists are defined for the current graph upon cr
 	* Entries are `C + D[i]`
 		* `C`: Color of the vertex (`BLUE` to `DARKGRAY`)
 		* `D`: Vertex data (any real number)
-	* Sign and decimal part of real part can be set arbitrarily by the user
+	* Sign and fractional part of real part can be set arbitrarily by the user
 		* All subprograms ignore these components of vertex entries
 	* If a vertex contains no entry, it is assumed to be uncolored and have no associated data
 * `X`: Vertex X coordinates
@@ -89,7 +91,8 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `VS`: Lists the vertices adjacent to the vertex `Ans` sorted by connecting edge weight
 	* Returns the adjacent vertices if any exist
 
+# Contact
 Have any questions? Found a bug?
-Contact kg583 on TI-Basic Developer or Cemetech.
+Raise an issue on this repository or contact kg583 on TI-Basic Developer or Cemetech.
 
 Copyright © Kevin Gomez 2020. All rights reserved.

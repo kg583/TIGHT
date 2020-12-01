@@ -1,0 +1,6 @@
+If Enot(D:Then
+  prgmθGTHAS
+  If Ans:Then
+    Z:prgmθGTDEL:X-Y
+    |LE+Ans((Y=abs(iPart(real(|LE)))+|E~3(Y=abs(|E3fPart(real(|LE->|LE
+    Y:prgmθGTRMV

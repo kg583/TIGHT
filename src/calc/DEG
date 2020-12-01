@@ -1,0 +1,6 @@
+Ans->Z
+sum(Ans=abs(|E3fPart(real(|LE->I
+sum(Z=abs(iPart(real(|LE
+If D=1:Then
+  Ans+I:Ans->I
+End:Ans->O

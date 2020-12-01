@@ -1,0 +1,7 @@
+prgmθGTES
+If dim(Ans:Then
+  abs(real(Ans->|LθGT1
+  iPart(Ans->|LθGT2
+  |E3fPart(|LθGT1
+  (Z=Ans)|LθGT2+(Z=|LθGT2)Ans
+  DelVar |LθGT1DelVar |LθGT2

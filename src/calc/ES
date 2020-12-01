@@ -1,0 +1,11 @@
+abs(iPart(real(Ans->Z
+0->dim(|LθGT1
+For(θ,1,E
+  abs(real(|LE(θ
+  If Z=iPart(Ans) or D=1 and Z=|E3fPart(Ans:|LE(θ->|LθGT1(1+dim(|LθGT1
+End
+If dim(|LθGT1:Then
+    imag(|LθGT1->|LθGT2
+    SortA(|LθGT2,|LθGT1:|LθGT1
+End
+DelVar |LθGT1DelVar |LθGT2

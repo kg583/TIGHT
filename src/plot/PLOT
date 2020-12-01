@@ -1,0 +1,17 @@
+If Ansdim(|LX)dim(|LY:Then
+  .5Ans(Ymax-Ymin->Z
+  Ans|LX+.5(Xmax+Xmin->|LX
+  Z|LY+.5(Ymax+Ymin->|LY
+  ClrDraw
+  For(θ,1,V
+    BLACK:If θ<=dim(|LV:abs(iPart(real(|LV(θ
+    Pt-On(LX(θ),LY(θ),Ans,2
+  End
+  For(θ,1,E
+    abs(iPart(real(|LE(θ->X
+    abs(|E3fPart(real(|LE(θ->Y
+    Line(|LX(X),|LY(X),|LX(Ans),|LY(Ans),BLACK
+  End
+  Z^^-1(|LX-.5(Xmax+Xmin->|LX
+  Z^^-1(|LY-.5(Ymax+Ymin->|LY
+  DispGraph
