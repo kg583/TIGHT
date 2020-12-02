@@ -1,0 +1,5 @@
+For(θ,1,V
+θ:prgmθGTDEG:0
+If θ>1 and (O!=K or O!=I and D<0:Return
+O->K
+End:1

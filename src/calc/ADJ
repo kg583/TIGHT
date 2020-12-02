@@ -1,7 +1,6 @@
 {V,V->dim([A]
-abs(real(|LE->|LθGT2
-For(X,1,V:For(Y,1,V
-X+Y|E~3:If D>0:min(X,Y)+|E~3max(X,Y
-(1+(X=Y))max(Ans=|LθGT2->[A](X,Y
-End:End
-DelVar |LθGT2
+For(X,1,V
+  For(Y,1+X(D>0),V
+    (1+(X=Y))max(D(X+Y|E~3)=real(|LE->[A](X,Y
+  End
+End

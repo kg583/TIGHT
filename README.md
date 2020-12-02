@@ -58,6 +58,8 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `BFS`: Performs a breadth-first search of the graph beginning at the vertex `Ans`
 * `CLR`: Clears the graph
 * `CLRW`: Clears all weights from the graph; does nothing if the graph is empty
+* `COMP`: Computes the complement of the graph
+	* Returns the complement edges in all cases
 * `DEG`: Calculates the degree of the vertex `Ans`
 	* Returns the out-degree if the graph is directed and the total degree otherwise
 * `DEL`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
@@ -65,32 +67,38 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `DFS`: Performs a depth-first search of the graph beginning at the vertex `Ans`
 * `E`: Computes the edge that would connect vertices `X` and `Y` given the directedness of the graph
 	* Returns the desired edge in all cases
-* `ES`: Lists the edges adjacent to the vertex `Ans` sorted by edge weight
+* `ES`: Lists the edges adjacent to the vertex `Ans` ordered by the current edge ordering
 	* Returns the adjacent edges (may be none)
-* `EXT`: Extracts the saved graph named in `Ans` to `|LE` and sets the graphs characteristics
-	* Truncates `Ans` to at most five characters
-	* Returns `V` in all cases
 * `GEN`: Generates the graph family member named in `Ans`
 	* Generation options are given in `gen.md`
 * `HAS`: Checks if the edge `Ans` is in the graph
 	* Returns the index of the edge if it exists and zero otherwise
-* `MAP`: Maps the vertices of the graph to the vertex ordering `Ans`
-	* May preserve duplicate edges for non-injective mappings
+* `KREG`: Checks if the graph is regular
+	* Returns the valency of the graph if it is regular and zero otherwise
+* `KRUS`: Performs Kruskal's algorithm on the graph rooted at the vertex `Ans`
+	* Returns the minimum spanning tree of the connected component of the graph containing the root
 * `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting using the specified layout method
 	* Layout options are given in `layout.md`
+* `LOAD`: Extracts the saved graph named in `Ans` to `|LE` and sets the graphs characteristics
+	* Truncates `Ans` to at most five characters
+	* Returns `V` in all cases
+* `MAP`: Maps the vertices of the graph to the vertex ordering `Ans`
+	* May preserve duplicate edges for non-injective mappings
 * `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists, scaled by `Ans`; does nothing if `|LX` or `|LY` is empty
 	* Colors vertices using `|LV` if possible; defaults to `BLACK` otherwise
 	* Coordinate lists are mapped to the range `Ans * [Ymin,Ymax]` for plotting
 * `RMV`: Identifies the largest vertex with the empty vertex `Ans`
 	* May preserve duplicate edges if the vertex is not empty
 	* Returns `V` in all cases
+* `SORT`: Sorts the edges of the graph by edge weight
+* `STO`: Stores the edge list `Ans` into `|LE` and sets the graph characteristics
 * `SUB`: Creates the induced subgraph on the vertices in `Ans`
 	* Returns the edges of the subgraph if it is non-empty
 * `TO`: Checks if the vertices `X` and `Y` are adjacent
 	* Returns the index of the connecting edge if it exists and zero otherwise
 * `V`: Computes the number of vertices in the graph
 	* Returns `V` in all cases
-* `VS`: Lists the vertices adjacent to the vertex `Ans` sorted by connecting edge weight
+* `VS`: Lists the vertices adjacent to the vertex `Ans` ordered by the current edge ordering
 	* Returns the adjacent vertices (may be none)
 
 # Contact

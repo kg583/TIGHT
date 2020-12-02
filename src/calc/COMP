@@ -1,0 +1,8 @@
+0->dim(|LθGT1
+For(X,1,V
+  For(Y,1+X(D>0),V
+    D(X+Y|E~3
+    If min(Ans!=real(|LE:Ans->|LθGT1(1+dim(|LθGT1
+  End
+End:|LθGT1
+DelVar |LθGT1

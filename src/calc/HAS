@@ -1,7 +1,5 @@
 If E:Then:real(Ans->Z
   abs(iPart(Ans->X
   abs(|E3fPart(Z->Y
-  prgmθGTE
-  1+sum(not(cumSum(Ans=real(|LE
-  If Ans>E:0
+  prgmθGTTO
 Else:0

@@ -26,6 +26,10 @@ The vertex ordering is the natural one: sequential vertices arranged to be best 
 The _star graph_ on _n_ vertices is (up to isomorphism) the graph with one vertex that is the sole neighbor of every other vertex.
 The vertex ordering is such that the first vertex is adjacent to all others; this ordering befits a double-layer circular layout with the first vertex at the origin and the remaining vertices placed on the outer circle.
 
+## `W[n]`: Wheel Graphs
+The _wheel graph_ on _n_ vertices is (up to isomorphism) the graph with _n-1_ vertices in a cycle connected to a single common vertex called the _universal_ vertex.
+The vertex ordering is such that the first vertex is adjacent to all others; this ordering befits a double-layer circular layout with the first vertex at the origin and the remaining vertices placed on the outer circle.
+
 # Complex Families
 
 ## `K[n1,n2,...]`: Multipartite Graphs
@@ -33,5 +37,5 @@ A _multipartite graph_ is a graph which can be partitioned into sets of size _n1
 The vertex ordering is such that the first _n1_ vertices are independent, then the next _n2_, and so on; this ordering befits a linear layout where each layer corresponds to an independent set (in particular avoiding overlapping edges since no layer contains adjacent vertices).
 
 ## `W[n,k]`: Windmill Graphs
-A _windmill graph_ is a graph in which _n_ copies of the complete graph on _k_ vertices are connected so that they all share the same vertex in common; this vertex is called the _universal_ vertex.
+A _windmill graph_ is a graph in which _n_ copies of the complete graph on _k_ vertices are connected with a universal vertex in common.
 The vertex ordering is such that the first vertex is the universal vertex; the vertices then proceed in groups of size _k-1_ corresponding to each of the connected complete graphs. This ordering befits a modified circular layout largely dependent on the choice of _n_ and _k_.

@@ -1,4 +1,4 @@
-If Ansdim(|LX)dim(|LY:Then
+If Ans and V<=dim(|LX) and V<=dim(|LY:Then
   .5Ans(Ymax-Ymin->Z
   Ans|LX+.5(Xmax+Xmin->|LX
   Z|LY+.5(Ymax+Ymin->|LY
