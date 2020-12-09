@@ -2,6 +2,6 @@ abs(iPart(real(Ans->Z
 0->dim(|LθGT1
 For(θ,1,E
   abs(real(|LE(θ
-  If Z=iPart(Ans) or D=1 and Z=|E3fPart(Ans:|LE(θ->|LθGT1(1+dim(|LθGT1
+  If Z=iPart(Ans) or Z=D|E3fPart(Ans:|LE(θ->|LθGT1(1+dim(|LθGT1
 End:|LθGT1
 DelVar |LθGT1

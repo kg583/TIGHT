@@ -23,6 +23,9 @@ The following real variables and lists are defined for the current graph upon cr
 * `|LθGT2`: Temporary list
 
 ## Graph Lists
+*	`C`: Color palette
+	* Entries are BASIC colors (`BLUE` to `DARKGRAY`)
+	* Plotting function indexes the palette using vertex labels
 * `E`: Edges
 	* Entries are `±(I + T|E~3) + W[i]`
 		* `I`: Initial vertex (`001` to `999`)
@@ -33,8 +36,8 @@ The following real variables and lists are defined for the current graph upon cr
 	* Contains no duplicate edges
 		* For undirected graphs, the initial vertex is always the minimum of the two vertices
 * `V`: Vertices
-	* Entries are `C + D[i]`
-		* `C`: Color of the vertex (`BLUE` to `DARKGRAY`)
+	* Entries are `L + D[i]`
+		* `L`: Vertex label
 		* `D`: Vertex data (any real number)
 	* Sign and fractional part of real part can be set arbitrarily by the user
 		* All subprograms ignore these components of vertex entries
@@ -45,7 +48,7 @@ The following real variables and lists are defined for the current graph upon cr
 	* Entries are within the range `[~1,1]`
 
 ## Premade Graphs
-Premade graphs are stored as their edge lists; use `EXT` to extract the graph by name and set its graph characteristics.
+Premade graphs are stored as their edge lists; use `LOAD` to extract the graph by name and set its graph characteristics.
 A list of premade graphs is given in `graphs.md`; all premade graphs are saved in the group `TIGHTGDB`.
 
 # Programs
@@ -55,7 +58,10 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `ADJ`: Computes the adjacency matrix of the graph in `[A]`
 * `ARG`: Parses the input string `Ans` into separate arguments in `|LθGT`
 	* Returns `|LθGT` in all cases
-* `BFS`: Performs a breadth-first search of the graph beginning at the vertex `Ans`
+* `BFS`: Performs a breadth-first search of the graph for vertex label `Ans(1)` beginning at the vertex `Ans(2)`
+	* If not provided, the search will begin at the first vertex
+	* Labels the vertices in `|LV` based on whether they have been visited
+	* Returns the vertex with `Ans(1)` as its label
 * `CLR`: Clears the graph
 * `CLRW`: Clears all weights from the graph; does nothing if the graph is empty
 * `COMP`: Computes the complement of the graph
@@ -63,8 +69,11 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 * `DEG`: Calculates the degree of the vertex `Ans`
 	* Returns the out-degree if the graph is directed and the total degree otherwise
 * `DEL`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
-  	* Returns `E` if the edge exists and zero otherwise
-* `DFS`: Performs a depth-first search of the graph beginning at the vertex `Ans`
+	* Returns `E` if the edge exists and zero otherwise
+* `DFS`: Performs a depth-first search of the graph vertex label `Ans(1)` beginning at the vertex `Ans(2)`
+	* If not provided, the search will begin at the first vertex
+	* Labels the vertices in `|LV` based on whether they have been visited
+	* Returns the vertex with `Ans(1)` as its label
 * `E`: Computes the edge that would connect vertices `X` and `Y` given the directedness of the graph
 	* Returns the desired edge in all cases
 * `ES`: Lists the edges adjacent to the vertex `Ans` ordered by the current edge ordering
@@ -75,8 +84,6 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 	* Returns the index of the edge if it exists and zero otherwise
 * `KREG`: Checks if the graph is regular
 	* Returns the valency of the graph if it is regular and zero otherwise
-* `KRUS`: Performs Kruskal's algorithm on the graph rooted at the vertex `Ans`
-	* Returns the minimum spanning tree of the connected component of the graph containing the root
 * `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting using the specified layout method
 	* Layout options are given in `layout.md`
 * `LOAD`: Extracts the saved graph named in `Ans` to `|LE` and sets the graphs characteristics
@@ -91,6 +98,9 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 	* May preserve duplicate edges if the vertex is not empty
 	* Returns `V` in all cases
 * `SORT`: Sorts the edges of the graph by edge weight
+* `SPAN`: Computes a spanning forest for the graph based on the current edge ordering
+	* Labels the vertices in `|LV` based on their tree within the forest
+	* Returns the edges of the spanning forest
 * `STO`: Stores the edge list `Ans` into `|LE` and sets the graph characteristics
 * `SUB`: Creates the induced subgraph on the vertices in `Ans`
 	* Returns the edges of the subgraph if it is non-empty

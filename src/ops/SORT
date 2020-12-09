@@ -1,4 +1,20 @@
-If E:Then
-  imag(|LE->|LθGT1
-  SortA(|LθGT1,|LE
-  DelVar |LθGT1
+If E:Then:Ans->Z
+  If not(Ans:Then
+    rand(E
+  Else:If 1=abs(Ans:Then
+    imag(|LE
+  Else:If 2=abs(Ans:Then
+    abs(real(|LE
+  Else:If 3=abs(Ans:Then
+    abs(real(|LE:|E3fPart(Ans)+|E~3iPart(Ans
+  Else:If 4=abs(Ans:Then
+    abs(iPart(real(|LE:seq(real(|LV(Ans(Y))),Y,1,E
+  Else:If 5=abs(Ans:Then
+    abs(|E3fPart(real(|LE:seq(real(|LV(Ans(Y))),Y,1,E
+  End:End:End:End:End
+  Ans->|LθGT1
+  If Z>=0:Then
+    SortA(|LθGT1,|LE
+  Else
+    SortD(|LθGT1,|LE
+  End:DelVar |LθGT1

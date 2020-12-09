@@ -1,0 +1,4 @@
+For(Y,1,V
+  Y:prgmθGTDEG
+  Ans+[i]imag(|LV(Y->|LV(Y
+End

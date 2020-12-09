@@ -4,13 +4,21 @@ If Ans and V<=dim(|LX) and V<=dim(|LY:Then
   Z|LY+.5(Ymax+Ymin->|LY
   ClrDraw
   For(θ,1,V
-    BLACK:If θ<=dim(|LV:abs(iPart(real(|LV(θ
+    BLACK
+    If θ<=dim(|LV:Then
+      |LV(θ:If Ans:|LC(abs(iPart(real(Ans
+    End
     Pt-On(LX(θ),LY(θ),Ans,2
   End
   For(θ,1,E
     abs(iPart(real(|LE(θ->X
     abs(|E3fPart(real(|LE(θ->Y
     Line(|LX(X),|LY(X),|LX(Ans),|LY(Ans),BLACK
+    If D<0:Then:Z/(Ymax-Ymin
+      .4sqrt(Ans^^-1)R>Pr(|LX(X)-|LY(Y),|LY(X)-|LY(Y
+      Line(|LX(Y),|LY(Y),|LX(Y)+(.5(|LX(X)-|LX(Y))sqrt(3)-.5(|LY(X)-|LY(Y)))/Ans,|LY(Y)+(.5(|LX(X)-|LX(Y))+.5(|LY(X)-|LY(Y))sqrt(3))/Ans,BLACK
+      Line(|LX(Y),|LY(Y),|LX(Y)+(.5(|LX(X)-|LX(Y))sqrt(3)+.5(|LY(X)-|LY(Y)))/Ans,|LY(Y)-(.5(|LX(X)-|LX(Y))-.5(|LY(X)-|LY(Y))sqrt(3))/Ans,BLACK
+    End
   End
   Z^^-1(|LX-.5(Xmax+Xmin->|LX
   Z^^-1(|LY-.5(Ymax+Ymin->|LY
