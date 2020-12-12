@@ -19,8 +19,7 @@ The following real variables and lists are defined for the current graph upon cr
 ## Internal Vars
 * `X,Y,Z,θ`: Real vars
 * `|LθGT`: Argument list
-* `|LθGT1`: Temporary list
-* `|LθGT2`: Temporary list
+* `|LθGT1` - `|LθGT4`: Temporary lists
 
 ## Graph Lists
 *	`C`: Color palette
