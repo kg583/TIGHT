@@ -6,7 +6,7 @@ Use `PLOT` to plot each vertex of the graph using its layout coordinates (see `l
 	* If `scale >= 1`, vertices may be plotted outside the graphing window
 	* If `scale = 0`, no plotting will occur
 	* If `scale < 0`, coordinates will be reflected about both axes
-2. `vertex_shape`: An integer between 1 and 4 specifying the shape of each vertex (default = `2`)
+2. `vertex_shape`: An integer between 0 and 4 specifying the shape of each vertex (default = `2`)
 	* If `vertex_shape = 0`, vertices are not plotted
 	* If `vertex_shape = 1`, vertices are plotted as large dots
 	* If `vertex_shape = 2`, vertices are plotted as open boxes
