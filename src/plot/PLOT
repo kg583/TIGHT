@@ -13,9 +13,9 @@ If Ans(1) and V<=dim(|LX) and V<=dim(|LY:Then
     End
     If Z:Pt-On(LθGT1(θ),LθGT2(θ),Ans,Z
   End
+  0:If 4<=dim(|LθGT:|LθGT(4
+  If not(Ans:BLACK:Ans->Z
   For(θ,1,E
-    0:If 4<=dim(|LθGT:|LθGT(4
-    If not(Ans:BLACK:Ans->Z
     abs(iPart(real(|LE(θ->X
     abs(|E3fPart(real(|LE(θ->Y
     Line(|LθGT1(X),|LθGT2(X),|LθGT1(Ans),|LθGT2(Ans),Z
