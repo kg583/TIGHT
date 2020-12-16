@@ -24,7 +24,7 @@ The following real variables and lists are defined for the current graph upon cr
 ## Graph Lists
 *	`C`: Color palette
 	* Entries are BASIC colors (`BLUE` to `DARKGRAY`)
-	* Plotting function indexes the palette using vertex labels
+	* Plotting function indexes the palette using vertex labels if specified (see `plot.md`)
 * `E`: Edges
 	* Entries are `±(I + T|E~3) + W[i]`
 		* `I`: Initial vertex (`001` to `999`)
@@ -36,7 +36,7 @@ The following real variables and lists are defined for the current graph upon cr
 		* For undirected graphs, the initial vertex is always the minimum of the two vertices
 * `V`: Vertices
 	* Entries are `L + D[i]`
-		* `L`: Vertex label
+		* `L`: Vertex label (usually an integer)
 		* `D`: Vertex data (any real number)
 	* Sign and fractional part of real part can be set arbitrarily by the user
 		* All subprograms ignore these components of vertex entries
@@ -67,6 +67,7 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 	* Returns the complement edges in all cases
 * `DEG`: Calculates the degree of the vertex `Ans`
 	* Returns the out-degree if the graph is directed and the total degree otherwise
+* `DEGS`: Sets the label of each vertex to its degree
 * `DEL`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
 	* Returns `E` if the edge exists and zero otherwise
 * `DFS`: Performs a depth-first search of the graph vertex label `Ans(1)` beginning at the vertex `Ans(2)`
@@ -83,16 +84,16 @@ Most programs modify the current graph in-place; any returns stored in `Ans` upo
 	* Returns the index of the edge if it exists and zero otherwise
 * `KREG`: Checks if the graph is regular
 	* Returns the valency of the graph if it is regular and zero otherwise
-* `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting using the specified layout method
+* `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting
 	* Layout options are given in `layout.md`
 * `LOAD`: Extracts the saved graph named in `Ans` to `|LE` and sets the graphs characteristics
 	* Truncates `Ans` to at most five characters
 	* Returns `V` in all cases
 * `MAP`: Maps the vertices of the graph to the vertex ordering `Ans`
 	* May preserve duplicate edges for non-injective mappings
-* `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists, scaled by `Ans`; does nothing if `|LX` or `|LY` is empty
+* `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists; does nothing if `|LX` or `|LY` is empty
+	* Plot options are given in `plot.md`
 	* Colors vertices using `|LV` if possible; defaults to `BLACK` otherwise
-	* Coordinate lists are mapped to the range `Ans * [Ymin,Ymax]` for plotting
 * `RMV`: Identifies the largest vertex with the empty vertex `Ans`
 	* May preserve duplicate edges if the vertex is not empty
 	* Returns `V` in all cases

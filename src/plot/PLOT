@@ -1,25 +1,33 @@
-If Ans and V<=dim(|LX) and V<=dim(|LY:Then
-  .5Ans(Ymax-Ymin->Z
-  Ans|LX+.5(Xmax+Xmin->|LX
-  Z|LY+.5(Ymax+Ymin->|LY
+real(Ans->|LθGT
+If Ans(1) and V<=dim(|LX) and V<=dim(|LY:Then
+  .5Ans(1)(Ymax-Ymin->Z
+  Ans|LX+.5(Xmax+Xmin->|LθGT1
+  Z|LY+.5(Ymax+Ymin->|LθGT2
+  2:If 2<=dim(|LθGT:|LθGT(2:Ans->Z
   ClrDraw
   For(θ,1,V
-    BLACK
-    If θ<=dim(|LV:Then
-      |LV(θ:If Ans:|LC(abs(iPart(real(Ans
+    0:If 3<=dim(|LθGT:|LθGT(3
+    If Ans:Then
+      |LC(abs(iPart(real(|LV(θ
+    Else:BLACK
     End
-    Pt-On(LX(θ),LY(θ),Ans,2
+    If Z:Pt-On(LθGT1(θ),LθGT2(θ),Ans,Z
   End
   For(θ,1,E
+    0:If 4<=dim(|LθGT:|LθGT(4
+    If not(Ans:BLACK:Ans->Z
     abs(iPart(real(|LE(θ->X
     abs(|E3fPart(real(|LE(θ->Y
-    Line(|LX(X),|LY(X),|LX(Ans),|LY(Ans),BLACK
-    If D<0:Then:Z/(Ymax-Ymin
-      .4sqrt(Ans^^-1)R>Pr(|LX(X)-|LY(Y),|LY(X)-|LY(Y
-      Line(|LX(Y),|LY(Y),|LX(Y)+.5((|LX(X)-|LX(Y))sqrt(3)-|LY(X)+|LY(Y))/Ans,|LY(Y)+.5(|LX(X)-|LX(Y)+(|LY(X)-|LY(Y))sqrt(3))/Ans,BLACK
-      Line(|LX(Y),|LY(Y),|LX(Y)+.5((|LX(X)-|LX(Y))sqrt(3)+|LY(X)-|LY(Y))/Ans,|LY(Y)-.5(|LX(X)-|LX(Y)-(|LY(X)-|LY(Y))sqrt(3))/Ans,BLACK
+    Line(|LθGT1(X),|LθGT2(X),|LθGT1(Ans),|LθGT2(Ans),Z
+    If D<0:Then
+      abs({|LθGT1(X)-|LθGT1(Ans),|LθGT2(X)-|LθGT2(Ans)->|LθGT3
+      LθGT(1:If 5<=dim(|LθGT:|LθGT(5
+      If Ans:Then
+        .4sqrt(Ans^^-1)R>Pr(|LθGT3(1),|LθGT3(2
+        .5|LθGT3/Ans
+        Line(|LθGT1(Y),|LθGT2(Y),|LθGT1(Y)+sum(Ans{sqrt(3),~1}),|LθGT2(Y)+sum(Ans{1,sqrt(3)}),Z
+        Line(|LθGT1(Y),|LθGT2(Y),|LθGT1(Y)+sum(Ans{sqrt(3),1}),|LθGT2(Y)+sum(Ans{~1,sqrt(3)}),Z
+      End
     End
   End
-  Z^^-1(|LX-.5(Xmax+Xmin->|LX
-  Z^^-1(|LY-.5(Ymax+Ymin->|LY
-  DispGraph
+DelVar |LθGT1DelVar |LθGT2DelVar |LθGT3
