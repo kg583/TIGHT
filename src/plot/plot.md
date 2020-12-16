@@ -1,6 +1,6 @@
 # Plotting Guide
 
-Use `PLOT` to plot each vertex of the graph using its layout coordinates (see `layout.md`) along with its edges. Plotting options are specified in `Ans` as a list of up to five numerical arguments. These arguments are parsed in a set order, with default values assumed if they are not provided. They are given as follows:
+Use `PLOT` to plot each vertex of the graph using its layout coordinates (see `layout.md`) along with its edges. Plotting options are specified in `Ans` as a list of up to five numerical arguments. These arguments are parsed in a set order, with default values assumed if they are not provided. They are parsed as follows:
 
 1. `scale`: A nonzero real number specifying the size of the plot within the graphing window
 	* If `scale >= 1`, vertices may be plotted outside the graphing window
