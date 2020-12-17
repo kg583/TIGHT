@@ -24,7 +24,7 @@ The following real variables and lists are defined for the current graph upon cr
 ## Graph Lists
 *	`C`: Color palette
 	* Entries are BASIC colors (`BLUE` to `DARKGRAY`)
-	* Plotting function indexes the palette using vertex labels if specified (see `plot.md`)
+	* Plotting functions indexes the palette as specified (see `plot.md`)
 * `E`: Edges
 	* Entries are `±(I + T|E~3) + W[i]`
 		* `I`: Initial vertex (`001` to `999`)

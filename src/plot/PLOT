@@ -1,32 +1,48 @@
 real(Ans->|LθGT
-If Ans(1) and V<=dim(|LX) and V<=dim(|LY:Then
-  .5Ans(1)(Ymax-Ymin->Z
+If 2>dim(Ans:2->|LθGT(2
+If 3>dim(|LθGT:0->|LθGT(3
+If 4>dim(|LθGT:2->|LθGT(4
+If 5>dim(|LθGT:0->|LθGT(5
+If 6>dim(|LθGT:1->|LθGT(6
+|LθGT(1
+If Ans and V<=dim(|LX) and V<=dim(|LY:Then
+  .5Ans(Ymax-Ymin->Z
   Ans|LX+.5(Xmax+Xmin->|LθGT1
   Z|LY+.5(Ymax+Ymin->|LθGT2
-  2:If 2<=dim(|LθGT:|LθGT(2:Ans->Z
+  |LθGT(2->Z
   ClrDraw
-  For(θ,1,V
-    0:If 3<=dim(|LθGT:|LθGT(3
-    If Ans:Then
-      |LC(abs(iPart(real(|LV(θ
-    Else:BLACK
-    End
-    If Z:Pt-On(LθGT1(θ),LθGT2(θ),Ans,Z
-  End
-  0:If 4<=dim(|LθGT:|LθGT(4
-  If not(Ans:BLACK:Ans->Z
-  For(θ,1,E
-    abs(iPart(real(|LE(θ->X
-    abs(|E3fPart(real(|LE(θ->Y
-    Line(|LθGT1(X),|LθGT2(X),|LθGT1(Ans),|LθGT2(Ans),Z
-    If D<0:Then
-      abs({|LθGT1(X)-|LθGT1(Ans),|LθGT2(X)-|LθGT2(Ans)->|LθGT3
-      LθGT(1:If 5<=dim(|LθGT:|LθGT(5
+  If Ans:Then
+    For(θ,1,V
+      |LθGT(3
       If Ans:Then
-        .4sqrt(Ans^^-1)R>Pr(|LθGT3(1),|LθGT3(2
-        .5|LθGT3/Ans
-        Line(|LθGT1(Y),|LθGT2(Y),|LθGT1(Y)+sum(Ans{sqrt(3),~1}),|LθGT2(Y)+sum(Ans{1,sqrt(3)}),Z
-        Line(|LθGT1(Y),|LθGT2(Y),|LθGT1(Y)+sum(Ans{sqrt(3),1}),|LθGT2(Y)+sum(Ans{~1,sqrt(3)}),Z
+        If Ans=1:|LC(abs(iPart(real(|LV(θ
+        If Ans=2:|LC(abs(iPart(imag(|LV(θ
+      Else:BLACK
+      End
+      Pt-On(|LθGT1(θ),|LθGT2(θ),Ans,Z
+    End
+  End
+  abs(iPart(|LθGT(4->|LθGT(4
+  If Ans:Then
+    For(θ,1,E
+      abs(iPart(real(|LE(θ->X
+      abs(|E3fPart(real(|LE(θ->Y
+      abs(iPart(|LθGT(5
+      If not(Ans:Then:BLACK
+      Else:If Ans=1:Then:abs(iPart(imag(|LE(θ
+      Else:If Ans=2:Then:X
+      Else:If Ans=3:Then:Y
+      Else:If Ans=4:Then:|LV(X
+      Else:If Ans=5:Then:|LV(Y
+      End:End:End:End:|LC(Ans
+      End:Ans->Z
+      Line(|LθGT1(X),|LθGT2(X),|LθGT1(Y),|LθGT2(Y),1,|LθGT(4),Ans
+      If D<0:Then
+        abs({|LθGT1(X)-|LθGT1(Y),|LθGT2(X)-|LθGT2(Y)->|LθGT3
+        LθGT(1)abs(|LθGT(6
+        |LθGT3sqrt(Ans)/R>Pr(|LθGT3(1),|LθGT3(2
+        Line(|LθGT1(Y),|LθGT2(Y),|LθGT1(Y)+sum(Ans{sqrt(3),~1}),|LθGT2(Y)+sum(Ans{1,sqrt(3)}),1,|LθGT(4),Z
+        Line(|LθGT1(Y),|LθGT2(Y),|LθGT1(Y)+sum(Ans{sqrt(3),1}),|LθGT2(Y)+sum(Ans{~1,sqrt(3)}),1,|LθGT(4),Z
       End
     End
   End
