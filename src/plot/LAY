@@ -9,7 +9,7 @@ If Ans=3:Then
     |LthetaGT(Y+1->Z:abs(iPart(Ans
     If Ans=1:Then:{0
     Else
-      YX^^-1[i]e^(2π[i]/AnscumSum(not(binompdf(Ans-1,0
+      YX^^-1[i]e^(2pi[i]/AnscumSum(not(binompdf(Ans-1,0
     End
     Ans*(1-abs(fPart(Z
     If Y=1:Then:Ans->|LX
