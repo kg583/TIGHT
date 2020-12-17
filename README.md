@@ -59,7 +59,7 @@ Programs are divided into the following subdirectories, grouped according to gen
 	* Ex: `KRUS`, which performs Kruskal's algorithm on the current graph
 * `base`: Programs that are rarely executed by themselves, being mostly used instead as succinct subprograms
 	* Ex: `ARG`, which parses the string `Ans` into a list of arguments
-* `calc`: Programs which calculate relatively simple graph characteristics, metrics, or outputs based on the current graph
+* `calc`: Programs which calculate relatively simple graph characteristics, metrics, or outputs
 	* Ex: `ADJ`, which calculates the adjacency matrix of the graph
 * `graphs`: Programs involved with generating or importing existing graphs
 	* Ex: `LOAD`, which loads an existing graph by name in `Ans`
