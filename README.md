@@ -6,7 +6,7 @@ TIGHT, or TI GrapH Theory, is a package of lists and programs designed for analy
 To install, simply download and open the group `TIGHT`, or you may download/copy individual programs directly. All TIGHT programs are denoted by `θGT` followed by 2 or more characters. The current graph's edges are stored in `|LE`; most programs require this list to exist (even if it is empty) to function properly. Plotting and layout functions additionally require `|LX` and `|LY` to exist; `|LV` is required for graph search algorithms and plotting. All of these basic lists are included with the `TIGHT` group, initially empty.
 
 # Vars
-The following real variables and lists are defined for the current graph upon creation and change as components of the graph are added and removed via the specified subprograms. Thus, they generally should _not_ be changed directly by the user during normal use, though modifying them in the course of user-designed algorithms may prove more efficient if done properly.
+The following real variables and lists are defined for the graph upon creation and change as components of the graph are added and removed via the specified subprograms. Thus, they generally should _not_ be changed directly by the user during normal use, though modifying them in the course of user-designed algorithms may prove more efficient if done properly.
 
 ## Graph Characteristics
 * `D`: Directedness
@@ -51,12 +51,12 @@ Premade graphs are stored as their edge lists; use `LOAD` to extract the graph b
 A list of premade graphs is given in `graphs.md`; all premade graphs are saved in the group `TIGHTGDB`.
 
 # Programs
-Most programs modify the current graph in-place; any programs that return some graph without modifying the current graph return only the edges.
+Most programs modify the graph in-place; any programs that return some graph without modifying the graph return only the edges.
 Any returns stored in `Ans` upon completion are detailed in the corresponding program file.
 
 Programs are divided into the following subdirectories, grouped according to general use cases and functions.
-* `algos`: Graph algorithms that modify the current graph, search for some desired vertex or edge, or compute some challenging characteristic
-	* Ex: `KRUS`, which performs Kruskal's algorithm on the current graph
+* `algos`: Graph algorithms that modify the graph, search for some desired vertex or edge, or compute some challenging characteristic
+	* Ex: `KRUS`, which performs Kruskal's algorithm on the graph
 * `base`: Programs that are rarely executed by themselves, being mostly used instead as succinct subprograms
 	* Ex: `ARG`, which parses the string `Ans` into a list of arguments
 * `calc`: Programs which calculate relatively simple graph characteristics, metrics, or outputs
@@ -65,12 +65,12 @@ Programs are divided into the following subdirectories, grouped according to gen
 	* Ex: `LOAD`, which loads an existing graph by name in `Ans`
 * `label`: Graph algorithms which label the edges or vertices in some manner, most often as a coloring
 	* Ex: `DEGS`, which labels each vertex based on its degree
-* `ops`: Operations which modify the current graph in-place
+* `ops`: Operations which modify the graph in-place
 	* Ex: `ADD`, which adds the edge `Ans` to the graph
-* `plot`: Programs involved with plotting the current graph on the graphscreen
+* `plot`: Programs involved with plotting the graph on the graphscreen
 	* Ex: `LAY`, which lays out the vertices of the graph for plotting
-* `test`: Tests which determine if the current graph satisfies some desired property
-	* Ex: `TREE`, which checks if the current graph is a tree
+* `test`: Tests which determine if the graph satisfies some desired property
+	* Ex: `TREE`, which checks if the graph is a tree
 
 # Contact
 Have any questions? Found a bug?
