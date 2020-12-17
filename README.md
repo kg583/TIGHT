@@ -51,65 +51,26 @@ Premade graphs are stored as their edge lists; use `LOAD` to extract the graph b
 A list of premade graphs is given in `graphs.md`; all premade graphs are saved in the group `TIGHTGDB`.
 
 # Programs
-Most programs modify the current graph in-place; any returns stored in `Ans` upon completion are detailed below.
-* `ADD`: Adds the edge `Ans` to the graph; sets the weight of the edge to `imag(Ans)` if the edge already exists
-	* Returns `E` in all cases
-* `ADJ`: Computes the adjacency matrix of the graph in `[A]`
-* `ARG`: Parses the input string `Ans` into separate arguments in `|LθGT`
-	* Returns `|LθGT` in all cases
-* `BFS`: Performs a breadth-first search of the graph for vertex label `Ans(1)` beginning at the vertex `Ans(2)`
-	* If not provided, the search will begin at the first vertex
-	* Labels the vertices in `|LV` based on whether they have been visited
-	* Returns the vertex with `Ans(1)` as its label
-* `CLR`: Clears the graph
-* `CLRW`: Clears all weights from the graph; does nothing if the graph is empty
-* `COMP`: Computes the complement of the graph
-	* Returns the complement edges in all cases
-* `DEG`: Calculates the degree of the vertex `Ans`
-	* Returns the out-degree if the graph is directed and the total degree otherwise
-* `DEGS`: Sets the label of each vertex to its degree
-* `DEL`: Deletes the edge `Ans` from the graph; does nothing if the edge does not exist
-	* Returns `E` if the edge exists and zero otherwise
-* `DFS`: Performs a depth-first search of the graph vertex label `Ans(1)` beginning at the vertex `Ans(2)`
-	* If not provided, the search will begin at the first vertex
-	* Labels the vertices in `|LV` based on whether they have been visited
-	* Returns the vertex with `Ans(1)` as its label
-* `E`: Computes the edge that would connect vertices `X` and `Y` given the directedness of the graph
-	* Returns the desired edge in all cases
-* `ES`: Lists the edges adjacent to the vertex `Ans` ordered by the current edge ordering
-	* Returns the adjacent edges (may be none)
-* `GEN`: Generates the graph family member named in `Ans`
-	* Generation options are given in `gen.md`
-* `HAS`: Checks if the edge `Ans` is in the graph
-	* Returns the index of the edge if it exists and zero otherwise
-* `KREG`: Checks if the graph is regular
-	* Returns the valency of the graph if it is regular and zero otherwise
-* `LAY`: Sets the `|LX` and `|LY` vertex coordinate lists for plotting
-	* Layout options are given in `layout.md`
-* `LOAD`: Extracts the saved graph named in `Ans` to `|LE` and sets the graphs characteristics
-	* Truncates `Ans` to at most five characters
-	* Returns `V` in all cases
-* `MAP`: Maps the vertices of the graph to the vertex ordering `Ans`
-	* May preserve duplicate edges for non-injective mappings
-* `PLOT`: Plots the graph using the `|LX` and `|LY` vertex coordinate lists; does nothing if `|LX` or `|LY` is empty
-	* Plot options are given in `plot.md`
-	* Colors vertices using `|LV` if possible; defaults to `BLACK` otherwise
-* `RMV`: Identifies the largest vertex with the empty vertex `Ans`
-	* May preserve duplicate edges if the vertex is not empty
-	* Returns `V` in all cases
-* `SORT`: Sorts the edges of the graph by edge weight
-* `SPAN`: Computes a spanning forest for the graph based on the current edge ordering
-	* Labels the vertices in `|LV` based on their tree within the forest
-	* Returns the edges of the spanning forest
-* `STO`: Stores the edge list `Ans` into `|LE` and sets the graph characteristics
-* `SUB`: Creates the induced subgraph on the vertices in `Ans`
-	* Returns the edges of the subgraph if it is non-empty
-* `TO`: Checks if the vertices `X` and `Y` are adjacent
-	* Returns the index of the connecting edge if it exists and zero otherwise
-* `V`: Computes the number of vertices in the graph
-	* Returns `V` in all cases
-* `VS`: Lists the vertices adjacent to the vertex `Ans` ordered by the current edge ordering
-	* Returns the adjacent vertices (may be none)
+Most programs modify the current graph in-place; any programs that return some graph without modifying the current graph return only the edges.
+Any returns stored in `Ans` upon completion are detailed in the corresponding program file.
+
+Programs are divided into the following subdirectories, grouped according to general use cases and functions.
+* `algos`: Graph algorithms that modify the current graph, search for some desired vertex or edge, or compute some challenging characteristic
+	* Ex: `KRUS`, which performs Kruskal's algorithm on the current graph
+* `base`: Programs that are rarely executed by themselves, being mostly used instead as succinct subprograms
+	* Ex: `ARG`, which parses the string `Ans` into a list of arguments
+* `calc`: Programs which calculate relatively simple graph characteristics, metrics, or outputs based on the current graph
+	* Ex: `ADJ`, which calculates the adjacency matrix of the graph
+* `graphs`: Programs involved with generating or importing existing graphs
+	* Ex: `LOAD`, which loads an existing graph by name in `Ans`
+* `label`: Graph algorithms which label the edges or vertices in some manner, most often as a coloring
+	* Ex: `DEGS`, which labels each vertex based on its degree
+* `ops`: Operations which modify the current graph in-place
+	* Ex: `ADD`, which adds the edge `Ans` to the graph
+* `plot`: Programs involved with plotting the current graph on the graphscreen
+	* Ex: `LAY`, which lays out the vertices of the graph for plotting
+* `test`: Tests which determine if the current graph satisfies some desired property
+	* Ex: `TREE`, which checks if the current graph is a tree
 
 # Contact
 Have any questions? Found a bug?

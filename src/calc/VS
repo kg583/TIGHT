@@ -1,4 +1,8 @@
-prgmθGTES
+// VS
+// Lists the vertices adjacent to the vertex Ans ordered by the current edge ordering
+// Returns the adjacent vertices (may be none)
+
+prgmthetaGTES
 If dim(Ans:Then
   abs(real(Ans
   iPart(Ans)+|E3fPart(Ans)-Z

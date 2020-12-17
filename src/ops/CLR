@@ -1,1 +1,4 @@
+// CLR
+// Clears the graph
+
 DelVar DDelVar EDelVar VClrList |LE,|LV,|LX,|LY

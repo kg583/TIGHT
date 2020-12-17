@@ -1,8 +1,12 @@
-prgmθGTARG:|LθGT(1
+// LAY
+// Sets the |LX and |LY vertex coordinate lists
+// Options are specified in Ans as detailed in layout.md
+
+prgmthetaGTARG:|LthetaGT(1
 If Ans=3:Then
-  ~1+dim(|LθGT->X
+  ~1+dim(|LthetaGT->X
   For(Y,1,Ans
-    |LθGT(Y+1->Z:abs(iPart(Ans
+    |LthetaGT(Y+1->Z:abs(iPart(Ans
     If Ans=1:Then:{0
     Else
       YX^^-1[i]e^(2π[i]/AnscumSum(not(binompdf(Ans-1,0
@@ -20,16 +24,16 @@ If Ans=3:Then
   imag(|LX->|LY:real(|LX->|LX
 Else:If Ans=12:Then
   ClrList |LX,|LY
-  ~2+dim(|LθGT->θ
+  ~2+dim(|LthetaGT->theta
   For(Y,0,Ans
-    ~1+abs(|LθGT(Y+2->Z
+    ~1+abs(|LthetaGT(Y+2->Z
     For(X,0,iPart(Ans
       If iPart(Z:Then
         2X/iPart(Z)-1
         Ans-Z^^-1fPart(Z:If Ans<0:Ans+2Z^^-1fPart(Z
       Else:0
-      End:Anstanh(|E9|LθGT(Y+2->|LX(1+dim(|LX
-      1-2Y/θ->|LY(1+dim(|LY
+      End:Anstanh(|E9|LthetaGT(Y+2->|LX(1+dim(|LX
+      1-2Y/theta->|LY(1+dim(|LY
     End
   End
 Else

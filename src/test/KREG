@@ -1,5 +1,9 @@
-For(θ,1,V
-θ:prgmθGTDEG:0
-If θ>1 and (O!=K or O!=I and D<0:Return
+// KREG
+// Checks if the graph is regular
+// Returns the valency of the graph if it is regular and zero otherwise
+
+For(theta,1,V
+theta:prgmthetaGTDEG:0
+If theta>1 and (O!=K or O!=I and D<0:Return
 O->K
 End:1

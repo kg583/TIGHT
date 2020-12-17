@@ -1,8 +1,11 @@
-abs(real(Ans->|LθGT
-0->dim(|LθGT1
+// SUB
+// Creates the induced subgraph on the vertices in Ans
+// Returns the edges of the subgraph (may be none)
+
+abs(real(Ans->|LthetaGT
+0->dim(|LthetaGT1
 For(Y,1,E
   abs(real(|LE(Y
-  If max(|LθGT=iPart(Ans))max(|LθGT=|E3fPart(Ans:|LE(Y->|LθGT1(1+dim(|LθGT1
-End
-If dim(|LθGT1:|LθGT1
-DelVar |LθGT1
+  If max(|LthetaGT=iPart(Ans))max(|LthetaGT=|E3fPart(Ans:|LE(Y->|LthetaGT1(1+dim(|LthetaGT1
+End:|LthetaGT1
+DelVar |LthetaGT1

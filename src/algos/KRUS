@@ -1,2 +1,6 @@
-prgmθGTSORT
-prgmθGTSPAN
+// KRUS
+// Performs Kruskal's algorithm on the graph
+// Returns the edges of the minimum spanning forest
+
+1:prgmthetaGTSORT
+prgmthetaGTSPAN

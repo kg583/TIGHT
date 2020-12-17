@@ -1,8 +1,12 @@
-0->dim(|LθGT1
+// COMP
+// Computes the complement of the graph
+// Returns the complement edges
+
+0->dim(|LthetaGT1
 For(X,1,V
   For(Y,1+X(D>0),V
     D(X+Y|E~3
-    If min(Ans!=real(|LE:Ans->|LθGT1(1+dim(|LθGT1
+    If min(Ans!=real(|LE:Ans->|LthetaGT1(1+dim(|LthetaGT1
   End
-End:|LθGT1
-DelVar |LθGT1
+End:|LthetaGT1
+DelVar |LthetaGT1

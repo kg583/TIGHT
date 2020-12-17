@@ -1,3 +1,7 @@
+// SORT
+// Sorts the edges of the graph
+// Options are specified in Ans as detailed in sort.md
+
 If E:Then:Ans->Z
   If not(Ans:Then
     rand(E
@@ -12,9 +16,9 @@ If E:Then:Ans->Z
   Else:If 5=abs(Ans:Then
     abs(|E3fPart(real(|LE:seq(real(|LV(Ans(Y))),Y,1,E
   End:End:End:End:End
-  Ans->|LθGT1
+  Ans->|LthetaGT1
   If Z>=0:Then
-    SortA(|LθGT1,|LE
+    SortA(|LthetaGT1,|LE
   Else
-    SortD(|LθGT1,|LE
-  End:DelVar |LθGT1
+    SortD(|LthetaGT1,|LE
+  End:DelVar |LthetaGT1

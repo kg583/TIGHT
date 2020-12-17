@@ -1,7 +1,11 @@
-prgmθGTHAS
+// DEL
+// Deletes the edge Ans from the graph if it exists
+// Returns V if the edge exists and zero otherwise
+
+prgmthetaGTHAS
 If Ans:Then
   If E>1:Then
     seq(|LE(Y+(Y>=Ans)),Y,1,E-1->|LE:E-1->E
   Else:DelVar EClrList |LE
   End:real(|LE
-  prgmθGTV
+  prgmthetaGTV

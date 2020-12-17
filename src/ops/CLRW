@@ -1,2 +1,5 @@
+// CLRW
+// Clears all weights and data from the graph if the graph is non-empty
+
 If E:real(|LE->|LE
 If dim(|LV:real(|LV->|LV

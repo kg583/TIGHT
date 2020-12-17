@@ -1,49 +1,53 @@
-real(Ans->|LθGT
-If 2>dim(Ans:2->|LθGT(2
-If 3>dim(|LθGT:0->|LθGT(3
-If 4>dim(|LθGT:2->|LθGT(4
-If 5>dim(|LθGT:0->|LθGT(5
-If 6>dim(|LθGT:1->|LθGT(6
-|LθGT(1
+// PLOT
+// Plots the graph using the |LX and |LY vertex coordinate lists if they are non-empty
+// Options are specified in Ans as detailed in plot.md
+
+real(Ans->|LthetaGT
+If 2>dim(Ans:2->|LthetaGT(2
+If 3>dim(|LthetaGT:0->|LthetaGT(3
+If 4>dim(|LthetaGT:2->|LthetaGT(4
+If 5>dim(|LthetaGT:0->|LthetaGT(5
+If 6>dim(|LthetaGT:1->|LthetaGT(6
+|LthetaGT(1
 If Ans and V<=dim(|LX) and V<=dim(|LY:Then
   .5Ans(Ymax-Ymin->Z
-  Ans|LX+.5(Xmax+Xmin->|LθGT1
-  Z|LY+.5(Ymax+Ymin->|LθGT2
-  |LθGT(2->Z
+  Ans|LX+.5(Xmax+Xmin->|LthetaGT1
+  Z|LY+.5(Ymax+Ymin->|LthetaGT2
+  |LthetaGT(2->Z
   ClrDraw
   If Ans:Then
-    For(θ,1,V
-      |LθGT(3
+    For(theta,1,V
+      |LthetaGT(3
       If Ans:Then
-        If Ans=1:|LC(abs(iPart(real(|LV(θ
-        If Ans=2:|LC(abs(iPart(imag(|LV(θ
+        If Ans=1:|LC(abs(iPart(real(|LV(theta
+        If Ans=2:|LC(abs(iPart(imag(|LV(theta
       Else:BLACK
       End
-      Pt-On(|LθGT1(θ),|LθGT2(θ),Ans,Z
+      Pt-On(|LthetaGT1(theta),|LthetaGT2(theta),Ans,Z
     End
   End
-  abs(iPart(|LθGT(4->|LθGT(4
+  abs(iPart(|LthetaGT(4->|LthetaGT(4
   If Ans:Then
-    For(θ,1,E
-      abs(iPart(real(|LE(θ->X
-      abs(|E3fPart(real(|LE(θ->Y
-      abs(iPart(|LθGT(5
+    For(theta,1,E
+      abs(iPart(real(|LE(theta->X
+      abs(|E3fPart(real(|LE(theta->Y
+      abs(iPart(|LthetaGT(5
       If not(Ans:Then:BLACK
-      Else:If Ans=1:Then:abs(iPart(imag(|LE(θ
+      Else:If Ans=1:Then:abs(iPart(imag(|LE(theta
       Else:If Ans=2:Then:X
       Else:If Ans=3:Then:Y
       Else:If Ans=4:Then:|LV(X
       Else:If Ans=5:Then:|LV(Y
       End:End:End:End:|LC(Ans
       End:Ans->Z
-      Line(|LθGT1(X),|LθGT2(X),|LθGT1(Y),|LθGT2(Y),1,|LθGT(4),Ans
+      Line(|LthetaGT1(X),|LthetaGT2(X),|LthetaGT1(Y),|LthetaGT2(Y),1,|LthetaGT(4),Ans
       If D<0:Then
-        abs({|LθGT1(X)-|LθGT1(Y),|LθGT2(X)-|LθGT2(Y)->|LθGT3
-        LθGT(1)abs(|LθGT(6
-        |LθGT3sqrt(Ans)/R>Pr(|LθGT3(1),|LθGT3(2
-        Line(|LθGT1(Y),|LθGT2(Y),|LθGT1(Y)+sum(Ans{sqrt(3),~1}),|LθGT2(Y)+sum(Ans{1,sqrt(3)}),1,|LθGT(4),Z
-        Line(|LθGT1(Y),|LθGT2(Y),|LθGT1(Y)+sum(Ans{sqrt(3),1}),|LθGT2(Y)+sum(Ans{~1,sqrt(3)}),1,|LθGT(4),Z
+        abs({|LthetaGT1(X)-|LthetaGT1(Y),|LthetaGT2(X)-|LthetaGT2(Y)->|LthetaGT3
+        LthetaGT(1)abs(|LthetaGT(6
+        |LthetaGT3sqrt(Ans)/R>Pr(|LthetaGT3(1),|LthetaGT3(2
+        Line(|LthetaGT1(Y),|LthetaGT2(Y),|LthetaGT1(Y)+sum(Ans{sqrt(3),~1}),|LthetaGT2(Y)+sum(Ans{1,sqrt(3)}),1,|LthetaGT(4),Z
+        Line(|LthetaGT1(Y),|LthetaGT2(Y),|LthetaGT1(Y)+sum(Ans{sqrt(3),1}),|LthetaGT2(Y)+sum(Ans{~1,sqrt(3)}),1,|LthetaGT(4),Z
       End
     End
   End
-DelVar |LθGT1DelVar |LθGT2DelVar |LθGT3
+DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3

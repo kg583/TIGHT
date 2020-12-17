@@ -1,5 +1,9 @@
+// HAS
+// Checks if the edge Ans is in the graph
+// Returns the index of the edge if it exists and zero otherwise
+
 If E:Then:real(Ans->Z
   abs(iPart(Ans->X
   abs(|E3fPart(Z->Y
-  prgmθGTTO
+  prgmthetaGTTO
 Else:0

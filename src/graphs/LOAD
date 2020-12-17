@@ -1,2 +1,7 @@
-expr("|L"+sub(Ans,1,min(5,length(Ans->|LE
-dim(Ans->E:prgmθGTV
+// LOAD
+// Extracts the saved graph named in Ans to |LE and sets the graphs characteristics
+// Truncates Ans to at most five characters
+// Returns V
+
+expr("|L"+sub(Ans,1,min(5,length(Ans
+prgmthetaGTSTO

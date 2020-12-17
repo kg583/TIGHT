@@ -1,50 +1,53 @@
-prgmθGTARG:|LθGT(1
+// GEN
+// Generates the graph family member named in Ans as listed in gen.md
+
+prgmthetaGTARG:|LthetaGT(1
 If Ans=3:Then:1->D
-  |LθGT(2->V:Ans->E
+  |LthetaGT(2->V:Ans->E
   cumSum(binomcdf(Ans-2,0
   augment(1.001Ans+|E~3,{1+V|E~3->|LE
 Else:If Ans=4:Then:~1->D
-  |LθGT(2->V:Ans->E
+  |LthetaGT(2->V:Ans->E
   cumSum(binomcdf(Ans-2,0
   augment(-1.001Ans-|E~3,{-V-|E~3->|LE
 Else:If Ans=6:Then
-  1->D:1+2|LθGT(2->V
+  1->D:1+2|LthetaGT(2->V
   1+|E~3(1+cumSum(binomcdf(Ans-2,0->|LE
-  For(θ,2,V,2
-    1.001θ+|E~3->|LE(1+dim(|LE
+  For(theta,2,V,2
+    1.001theta+|E~3->|LE(1+dim(|LE
   End:dim(|LE->E
 Else:If Ans=11:Then
-  ~Ans+sum(|LθGT->V
-  deltaList(cumSum(|LθGT
+  ~Ans+sum(|LthetaGT->V
+  deltaList(cumSum(|LthetaGT
   If 1=dim(Ans:binomcdf(V-1,0
-  cumSum(Ans->|LθGT
+  cumSum(Ans->|LthetaGT
   DelVar EClrList |LE:1->D
   For(X,1,V
     For(Y,X+1,V
-      1+sum(not(cumSum(X<=|LθGT
-      If Ans!=1+sum(not(cumSum(Y<=|LθGT:Then
+      1+sum(not(cumSum(X<=|LthetaGT
+      If Ans!=1+sum(not(cumSum(Y<=|LthetaGT:Then
         E+1->E:X+Y|E~3->|LE(Ans
       End
     End
   End
 Else:If Ans=19:Then
-  tanh(|E9|LθGT(2->D
-  abs(|LθGT(2->E
+  tanh(|E9|LthetaGT(2->D
+  abs(|LthetaGT(2->E
   1+|E~3(1+cumSum(binomcdf(Ans-1,0:DAns->|LE:E+1->V
 Else:If Ans=23:Then
-  If 2=dim(|LθGT:Then
-    |LθGT(2->V
+  If 2=dim(|LthetaGT:Then
+    |LthetaGT(2->V
     1+cumSum(binomcdf(Ans-2,0
     augment(1+Ans|E~3,1.001Ans+|E~3->|LE:2V-2->E
     2+V|E~3->|LE(Ans
   Else
-    ~1+|LθGT(2->Z:ClrList |LE
-    1+Z|LθGT(3->V
-    For(θ,0,~1+|LθGT(3
+    ~1+|LthetaGT(2->Z:ClrList |LE
+    1+Z|LthetaGT(3->V
+    For(theta,0,~1+|LthetaGT(3
       For(X,2,Z+1
-        1+|E~3(X+θZ->|LE(1+dim(|LE
+        1+|E~3(X+thetaZ->|LE(1+dim(|LE
         For(Y,X+1,Z+1
-          1.001θZ+X+Y|E~3->|LE(1+dim(|LE
+          1.001thetaZ+X+Y|E~3->|LE(1+dim(|LE
         End
       End
     End:dim(|LE->E

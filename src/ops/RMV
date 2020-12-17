@@ -1,4 +1,9 @@
+// RMV
+// Identifies the largest vertex with the empty vertex Ans
+// May preserve duplicate edges if the vertex is not empty
+// Returns V
+
 abs(iPart(real(Ans->Z
 cumSum(binomcdf(V-2,0
 augment(Ans,{Z
-prgmθGTMAP
+prgmthetaGTMAP

@@ -1,4 +1,7 @@
+// DEGS
+// Sets the label of each vertex to its degree
+
 For(Y,1,V
-  Y:prgmθGTDEG
+  Y:prgmthetaGTDEG
   Ans+[i]imag(|LV(Y->|LV(Y
 End

@@ -1,2 +1,7 @@
-prgmθGTSPAN
+// TREE
+// Checks if the graph is a tree
+// Labels the vertices in |LV based on their tree within a minimum spanning forest
+// Returns the number trees in the spanning forest if the graph is a forest and zero otherwise
+
+prgmthetaGTSPAN
 Ans=real(|LE:If Ans:1+sum(0!=deltaList(real(|LV

@@ -1,9 +1,14 @@
-abs(iPart(real(Ans->|LθGT
-For(θ,1,E
-  |LE(θ->Z
-  |LθGT(abs(iPart(real(Ans->X
-  |LθGT(abs(|E3fPart(real(Z->Y
-  prgmθGTE
-  Ans+[i]imag(Z->|LE(θ
+// MAP
+// Maps the vertices of the graph to the vertex ordering Ans
+// May preserve duplicate edges for non-injective mappings
+// Returns V
+
+abs(iPart(real(Ans->|LthetaGT
+For(theta,1,E
+  |LE(theta->Z
+  |LthetaGT(abs(iPart(real(Ans->X
+  |LthetaGT(abs(|E3fPart(real(Z->Y
+  prgmthetaGTE
+  Ans+[i]imag(Z->|LE(theta
 End
-prgmθGTV
+prgmthetaGTV
