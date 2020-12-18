@@ -1,9 +1,14 @@
 // RMV
-// Identifies the largest vertex with the empty vertex Ans
-// May preserve duplicate edges if the vertex is not empty
+// Removes the vertex Ans and all connected edges, then identifies this vertex with the largest vertex
 // Returns V
 
 abs(iPart(real(Ans->Z
+0->dim(|LthetaGT1
+For(theta,1,E
+  abs(real(|LE(theta
+  {iPart(Ans),|E3fPart(Ans
+  If min(Ans!=Z:|LE(theta->|LthetaGT1(1+dim(|LthetaGT1
+End:|LthetaGT1->E
 cumSum(binomcdf(V-2,0
 augment(Ans,{Z
-prgmthetaGTMAP
+DelVar |LthetaGT1prgmthetaGTMAP

@@ -2,4 +2,4 @@
 // Parses the string Ans into separate arguments in |LthetaGT
 // Returns |LthetaGT
 
-augment({inString("ABCDEFGHIJKLMNOPQRSTUVWXYZthetapi",sub(Ans,1,1)},expr("{"+sub(Ans,2,length(Ans)-1->|LthetaGT
+real(augment({inString("ABCDEFGHIJKLMNOPQRSTUVWXYZthetapi",sub(Ans,1,1)},expr("{"+sub(Ans,2,length(Ans)-1->|LthetaGT

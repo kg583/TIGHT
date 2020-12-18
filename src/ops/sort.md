@@ -1,6 +1,6 @@
 # Sorting Guide
 
-Use `SORT` to sort the edges of the graph based on some desired ordering. Sorting options are specified in `Ans` as a single numeric argument; the argument is interpreted as `±iPart`:
+Use `SORT` to sort the edges of the graph based on some desired ordering. Sorting options are specified in `Ans` as a single numeric argument; the argument is parsed as `±iPart`:
 
 * `iPart`: The type of sort to perform
   * If `iPart = 0`, edges are ordered randomly
