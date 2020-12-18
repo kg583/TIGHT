@@ -26,9 +26,9 @@ Use `PLOT` to plot each vertex of the graph using its layout coordinates (see `l
 5. `edge_color`: An option or BASIC color specifying how edges are to be colored (default = `0`)
 	* If `edge_color = 0`, all edges are colored `BLACK`
 	* If `edge_color = 1`, edges are colored using the palette indexed by edge data
-	* If `edge_color = 2`, edges are colored using the palette indexed by the incident vertex
+	* If `edge_color = 2`, edges are colored using the palette indexed by the initial vertex
 	* If `edge_color = 3`, edges are colored using the palette indexed by the terminal vertex
-	* If `edge_color = 4`, edges are colored using the palette indexed by the incident vertex label
+	* If `edge_color = 4`, edges are colored using the palette indexed by the initial vertex label
 	* If `edge_color = 5`, edges are colored using the palette indexed by the terminal vertex label
 	* If `edge_color >= 10`, all edges will be colored using the corresponding BASIC color
 6. `arrow_scale`: A real number specifying the relative size of arrows drawn on directed edges (default = `1`)
