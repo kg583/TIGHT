@@ -1,0 +1,10 @@
+// INCM
+// Computes the incidence matrix of the graph in [I] based on the current edge ordering
+
+{V,E->dim([I]
+For(theta,1,E
+  abs(iPart(real(|LE(theta
+  D->[A](Ans,theta
+  abs(|E3fPart(real(|LE(theta
+  1->[A](Ans,theta
+End

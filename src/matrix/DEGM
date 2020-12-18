@@ -1,4 +1,4 @@
-// LAPM
+// DEGM
 // Computes the degree matrix of the graph in [D]
 
 {V,V->dim([D]
