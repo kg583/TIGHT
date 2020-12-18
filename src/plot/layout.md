@@ -31,3 +31,13 @@ The arguments of a linear layout are parsed as `±iPart`:
   * If `sign = 1`, the vertices increase from left to right
   * If `sign = ~1`, the vertices increase from right to left
 * Each line is placed below the previous, so that vertices increase from top to bottom
+
+## `T`: Binary Tree Layout
+A _binary tree layout_ is composed of equally-spaced horizontal tiers aligned to the x-axis, each corresponding to a different vertex depth within a binary tree. The single argument specifies the number of vertices in the tree, with the sign dictating the direction of the tree (growing downward or upward).
+
+The argument for a binary tree layout is parsed as `±iPart`:
+
+* `iPart`: Number of vertices in the entire tree
+* `sign`: Direction of the tree
+  * If `sign = 1`, vertex depth increases downward
+  * If `sign = ~1`, vertex depth increases upward 
