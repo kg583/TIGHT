@@ -1,0 +1,5 @@
+// ROT
+// Rotates the |LX and |LY coordinate lists counterclockwise by the angle Ans (measured in radians)
+
+e^([i]Ans)(|LX+[i]|LY->|LY
+real(Ans->|LX:imag(|LY->|LY
