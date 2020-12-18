@@ -1,0 +1,9 @@
+// LAPM
+// Computes the degree matrix of the graph in [D]
+
+{V,V->dim([D]
+Fill(0,[D]
+For(theta,1,V
+  theta:prgmGTthetaDEG
+  Ans->[D](theta,theta
+End

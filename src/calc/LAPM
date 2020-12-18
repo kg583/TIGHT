@@ -1,0 +1,7 @@
+// LAPM
+// Computes the Laplacian matrix of the graph in [J]
+// Returns [J]
+
+prgmGTthetaADJM
+prgmGTthetaDEGM
+[D]-[A]->[J]

@@ -1,4 +1,4 @@
-// ADJ
+// ADJM
 // Computes the adjacency matrix of the graph in [A]
 
 {V,V->dim([A]
