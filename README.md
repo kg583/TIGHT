@@ -56,7 +56,7 @@ Any returns stored in `Ans` upon completion are detailed in the corresponding pr
 
 Programs are divided into the following subdirectories, grouped according to general use cases and functions.
 * `algos`: Graph algorithms that modify the graph, search for some desired vertex or edge, or compute some challenging characteristic
-	* Ex: `KRUS`, which performs Kruskal's algorithm on the graph
+	* Ex: `KRUS`, which performs [Kruskal's algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm) on the graph
 * `base`: Programs that are rarely executed by themselves, being mostly used instead as succinct subprograms
 	* Ex: `ARG`, which parses the string `Ans` into a list of arguments
 * `calc`: Programs which calculate relatively simple graph characteristics, metrics, or outputs
