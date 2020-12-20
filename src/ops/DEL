@@ -8,4 +8,5 @@ If Ans:Then
     seq(|LE(Y+(Y>=Ans)),Y,1,E-1->|LE:E-1->E
   Else:DelVar EClrList |LE
   End:real(|LE
+  prgmthetaGTW
   prgmthetaGTV

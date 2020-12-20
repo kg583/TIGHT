@@ -11,4 +11,5 @@ Else:Ans->Z
   prgmthetaGTE
   Ans+[i]imag(Z->|LE(1+sum(not(cumSum(Ans=real(|LE
 End:dim(|LE->E:real(|LE
+prgmthetaGTW
 prgmthetaGTV

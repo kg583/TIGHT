@@ -1,5 +1,6 @@
 // CLRW
 // Clears all weights and data from the graph if the graph is non-empty
+// Sets the weightedness of the graph to 0
 
-If E:real(|LE->|LE
+If E:DelVar Wreal(|LE->|LE
 If dim(|LV:real(|LV->|LV

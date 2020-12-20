@@ -15,6 +15,9 @@ The following real variables and lists are defined for the graph upon creation a
 	* `1`: Graph is undirected
 * `E`: # of edges
 * `V`: # of vertices
+* `W`: Weightedness
+	* `0`: Graph is unweighted (or has all zero weights)
+	* `1`: Graph is weighted (has at least one nonzero weight)
 
 ## Internal Vars
 * `X,Y,Z,θ`: Real vars
