@@ -14,7 +14,7 @@ Repeat X=Z or min(|LthetaGT3
   For(theta,1,dim(Ans
     |thetaGT2(theta->Y
     If not(|LthetaGT3(Ans:Then
-      not(W)+Wimag(|LthetaGT1(theta
+      1:If W:imag(|LthetaGT1(theta
       min(Ans+real(|LV(Z)),real(|LV(Y
       Ans+[i]imag(|LV(Y->|LV(Y
     End
