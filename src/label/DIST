@@ -1,0 +1,29 @@
+// DIST
+// Labels each vertex with the distance between itself and the vertex Ans
+
+abs(real(Ans->X
+|E99:prgmthetaGTSET
+[i]imag(|LV(X->|LV(X
+V->dim(|LthetaGT3
+Repeat X=Z or min(|LthetaGT3
+  X:prgmthetaGTES:Ans->thetaGT1
+  If dim(Ans:Then
+    abs(real(Ans:iPart(Ans)+|E3fPart(Ans)-Z->thetaGT2
+  End
+  For(theta,1,dim(Ans
+    |thetaGT2(theta->Y
+    If not(|LthetaGT3(Ans:Then
+      not(W)+Wimag(|LthetaGT1(theta
+      min(Ans+real(|LV(Z)),real(|LV(Y
+      Ans+[i]imag(|LV(Y->|LV(Y
+    End
+  End
+  1->|LthetaGT3(Z:|E99->Y
+  For(theta,1,V
+    real(|LV(theta
+    If Ans<Y and not(|LthetaGT3(theta:Then
+      Ans->Y:theta->X
+    End
+  End
+End
+DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3 
