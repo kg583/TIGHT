@@ -1,5 +1,5 @@
 // SET
 // Sets all vertex labels to Ans, preserving existing vertex data
 
-Ans->theta:V->dim(|LV:[i]imag(|LV
-Fill(theta,|LV:|LV+Ans->|LV
+Ans->Z:V->dim(|LV:[i]imag(|LV
+Fill(Z,|LV:|LV+Ans->|LV

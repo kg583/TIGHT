@@ -3,7 +3,7 @@
 
 {V,V->dim([D]
 Fill(0,[D]
-For(theta,1,V
-  theta:prgmGTthetaDEG
-  Ans->[D](theta,theta
+For(Z,1,V
+  Z:prgmGTthetaDEG
+  Ans->[D](Z,Z
 End
