@@ -4,5 +4,4 @@
 
 prgmthetaGTES
 If dim(Ans:Then
-  abs(real(Ans
-  iPart(Ans)+|E3fPart(Ans)-Z
+  abs(real(Ans:iPart(Ans)+|E3fPart(Ans)-Z

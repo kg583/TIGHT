@@ -2,7 +2,7 @@
 // Creates the induced subgraph on the vertices in Ans
 // Returns the edges of the subgraph (may be none)
 
-abs(real(Ans->|LthetaGT
+abs(real(Ans->thetaGT
 0->dim(|LthetaGT1
 For(Y,1,E
   abs(real(|LE(Y

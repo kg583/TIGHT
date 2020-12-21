@@ -6,7 +6,7 @@
 0->dim(|LthetaGT1:1->theta
 cumSum(binomcdf(V-1,0
 If dim(|LV:Ans+[i]imag(|LV
-Ans->|LV
+Ans->V
 While theta<=E and 1<max(|LV
   abs(real(|LE(theta->Z
   |LV(iPart(Ans->X

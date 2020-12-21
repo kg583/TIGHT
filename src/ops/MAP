@@ -3,7 +3,7 @@
 // May preserve duplicate edges for non-injective mappings
 // Returns V
 
-abs(iPart(real(Ans->|LthetaGT
+abs(iPart(real(Ans->thetaGT
 For(theta,1,E
   |LE(theta->Z
   |LthetaGT(abs(iPart(real(Ans->X
