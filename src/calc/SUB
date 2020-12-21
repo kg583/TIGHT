@@ -1,6 +1,6 @@
 // SUB
 // Creates the induced subgraph on the vertices in Ans
-// Returns the edges of the subgraph (may be none)
+// Returns the edges of the subgraph (may be none) in O(E)
 
 abs(real(Ans->thetaGT
 0->dim(|LthetaGT1

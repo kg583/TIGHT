@@ -1,5 +1,6 @@
 // DIST
 // Labels each vertex with the distance between itself and the vertex Ans
+// Returns in O(V * (E + V))
 
 abs(real(Ans->X
 |E99:prgmthetaGTSET
@@ -26,4 +27,4 @@ Repeat X=Z or min(|LthetaGT3
     End
   End
 End
-DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3 
+DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3

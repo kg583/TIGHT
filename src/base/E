@@ -1,5 +1,5 @@
 // E
 // Computes the edge that would connect vertices X and Y given the directedness of the graph
-// Returns the desired edge
+// Returns the desired edge in O(1)
 
 -X-Y|E~3:If D>0:min(X,Y)+|E~3max(X,Y

@@ -1,6 +1,6 @@
 // W
 // Computes the weightedness of the graph in W
-// Returns W
+// Returns W in O(E)
 
 0:If E:0!=max(abs(imag(|LE
 Ans->W

@@ -1,7 +1,7 @@
 // SPAN
 // Computes a spanning forest of the graph based on the current edge ordering
 // Labels the vertices in |LV based on their tree within the forest
-// Returns the edges of the spanning forest
+// Returns the edges of the spanning forest in O(V * E)
 
 0->dim(|LthetaGT1:1->theta
 cumSum(binomcdf(V-1,0

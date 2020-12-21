@@ -1,5 +1,6 @@
 // ADJM
 // Computes the adjacency matrix of the graph in [A]
+// Returns in O(V * V * E)
 
 {V,V->dim([A]
 For(X,1,V

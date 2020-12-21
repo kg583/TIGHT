@@ -1,6 +1,6 @@
 // DEL
 // Deletes the edge Ans from the graph if it exists
-// Returns V if the edge exists and zero otherwise
+// Returns V if the edge exists and zero otherwise in O(E)
 
 prgmthetaGTHAS
 If Ans:Then

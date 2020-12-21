@@ -1,7 +1,7 @@
 // DEG
 // Calculates the degree of the vertex Ans
 // Sets I to the in-degree and O to the out-degree; if the graph is undirected, these values are the same
-// Returns the out-degree if the graph is directed and the total degree otherwise
+// Returns the out-degree if the graph is directed and the total degree otherwise in O(E)
 
 Ans->Z
 sum(Ans=abs(|E3fPart(real(|LE->I

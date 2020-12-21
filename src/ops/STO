@@ -1,6 +1,6 @@
 // STO
 // Stores the edge list Ans into |LE and sets the graph characteristics
-// Returns V
+// Returns V in O(E)
 
 Ans->|LE:dim(Ans->E
 tanh(|E9real(|LE(1->D

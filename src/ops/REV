@@ -1,6 +1,7 @@
 // REV
 // Reverses all edges if any exist and the graph is directed
+// Returns in O(E)
 
 If ED<0:Then
   abs(real(|LE
-  ~|E3fPart(Ans)-|E~3iPart(Ans)-[i]imag(|LE->|LE
+  ~|E3fPart(Ans)-|E~3iPart(Ans)-[i]imag(|LE->E

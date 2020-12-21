@@ -1,5 +1,6 @@
 // DEGS
 // Sets the label of each vertex to its degree
+// Returns in O(V * E)
 
 For(Y,1,V
   Y:prgmthetaGTDEG

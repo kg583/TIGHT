@@ -1,7 +1,7 @@
 // ADD
 // Adds the edge `Ans` to the graph
 // Sets the weight of the edge to imag(Ans) if the edge already exists
-// Returns E
+// Returns E in O(E)
 
 If not(E:Then:{Ans->|LE
   tanh(|E9real(Ans(1->D

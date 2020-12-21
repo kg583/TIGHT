@@ -1,6 +1,6 @@
 // ES
 // Lists the edges adjacent to the vertex Ans ordered by the current edge ordering
-// Returns the adjacent edges (may be none)
+// Returns the adjacent edges (may be none) in O(E)
 
 abs(iPart(real(Ans->Z
 0->dim(|LthetaGT1

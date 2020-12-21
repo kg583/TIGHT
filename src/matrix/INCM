@@ -1,5 +1,6 @@
 // INCM
 // Computes the incidence matrix of the graph in [I] based on the current edge ordering
+// Returns in O(E)
 
 {V,E->dim([I]
 For(theta,1,E

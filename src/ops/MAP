@@ -1,7 +1,7 @@
 // MAP
 // Maps the vertices of the graph to the vertex ordering Ans
 // May preserve duplicate edges for non-injective mappings
-// Returns V
+// Returns V in O(E)
 
 abs(iPart(real(Ans->thetaGT
 For(theta,1,E
