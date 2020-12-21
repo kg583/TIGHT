@@ -1,6 +1,6 @@
 // LAPM
 // Computes the Laplacian matrix of the graph in [J]
-// Returns [J] in O(V * V * E)
+// Returns [J] in O(V * (E + V))
 
 prgmGTthetaADJM
 prgmGTthetaDEGM

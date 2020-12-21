@@ -1,10 +1,15 @@
 // ADJM
 // Computes the adjacency matrix of the graph in [A]
-// Returns in O(V * V * E)
+// Returns in O(V * V)
 
 {V,V->dim([A]
-For(X,1,V
-  For(Y,1+X(D>0),V
-    (1+(X=Y))max(D(X+Y|E~3)=real(|LE->[A](X,Y
+Fill(0,[A]
+For(theta,1,E
+  |LE(theta:prgmthetaGTXY
+  1:If W:imag(Z
+  Ans->[A](X,Y
+  If D>0:Then
+    Ans->[A](Y,X
+    If X=Y:2Ans->[A](X,X
   End
 End
