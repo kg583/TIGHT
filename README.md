@@ -27,12 +27,12 @@ The following real variables and lists are defined for the graph upon creation a
 ## Graph Lists
 *	`C`: Color palette
 	* Entries are BASIC colors (`BLUE` to `DARKGRAY`)
-	* Plotting functions indexes the palette as specified (see `plot.md`)
+	* Plotting functions index the palette as specified (see `plot.md`)
 * `E`: Edges
 	* Entries are `±(I + T|E~3) + W[i]`
 		* `I`: Initial vertex (`001` to `999`)
 		* `T`: Terminal vertex (`001` to `999`)
-		* `W`: Edge weight (any real number)
+		* `W`: Edge weight (any real number strictly between `~|E99` and `|E99`)
 	* Sign is negative if directed, positive if undirected
 		* All edges have the same sign (i.e. directed and undirected edges are not mixed)
 	* Contains no duplicate edges
