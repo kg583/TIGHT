@@ -36,8 +36,8 @@ To use `TIGHT` in your programs, simply call the desired subprogram, with the sp
 For example, here is a simple snippet that plots the uncolored [Petersen graph](https://en.wikipedia.org/wiki/Petersen_graph) on the graphscreen
 ```
 "PETER":prgmθGTLOAD		// Load the Petersen graph from the premade database (see graphs.md)
-"C5,5":prgmθGTLAY			// Layout the vertices in two concentric circles (see layout.md)
-{.9:prgmθGTPLOT				// Plot the graph at 90% scaling (see plot.md)
+"C5,5":prgmθGTLAY		// Layout the vertices in two concentric circles (see layout.md)
+{.9:prgmθGTPLOT			// Plot the graph at 90% scaling (see plot.md)
 ```
 which produces the following image:
 
