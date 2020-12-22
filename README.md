@@ -14,7 +14,7 @@ But enough philosophical flaunting. As to how `TIGHT` is actually _written_ as a
 * Emulate an object-oriented paradigm overall by treating graphs as objects with attributes
 	* There are only two real data structures in TI-BASIC: the list and the matrix
 	* In this vein, graphs are stored as their edge lists, with attributes maintained via global variables
-	* This requires the user to assume the global variables are not tampered with, but beyond that the object-oriented structure is quite useful
+	* This requires the user to assume the global variables are not tampered with, but beyond that the paradigm is quite useful
 * Encourage user design principles by example in each and every program
 	* Basically, practice what you preach, notably the importance of _modular_ program design
 	* Programs in `TIGHT` call each other regularly to avoid redundancy and allow for easy adjustments to algorithms and code flow
