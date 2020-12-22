@@ -5,7 +5,7 @@
 
 `TIGHT` is designed to be the closest TI-BASIC imitation possible of a library or package you might use with Java, Python, C++, or any other mainstream computer language to analyze discrete graphs. While severely limiting in its capabilities, TI-BASIC is an easy-to-learn and easy-to-use language that is often the first language younger students ever encounter. Many who discover TI-BASIC often use it write some very simple programs to trick their friends or solve some math problems and leave it at that, but a decent proportion develop a greater interest in the language and programming in general. An even smaller proportion stick with BASIC even after they've learned a proper computer language, perhaps enamored with its quirks or challenged by its inherent limits.
 
-At any rate, the community of BASIC users often push the limits of what is possible within the bounds of their language, even if the products are frankly unreasonable or flat-out useless. I am no different; `TIGHT` _cannot_ and _will not_ be used to accomplish academic research, analyze massive transport networks, or find a [non-5-colorable unit distance graph](https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem). But, hopefully, it _will_ be used by casual programmers, BASIC enthusiasts, and even budding mathematicians to learn more about graph theory first-hand. It doesn't take much to create graphs, analyze their basic properties, and write graph algorithms using TIGHT; with BASIC being a pretty simple language in its own right, and the TI-83+ series of calculators being a near necessity for every high school student in the United States and (portions of) Europe, `TIGHT` is arguably one of the most accessible graph theory libraries in existence.
+At any rate, the community of BASIC users often push the limits of what is possible within the bounds of their language, even if the products are frankly unreasonable or flat-out useless. I am no different; `TIGHT` _cannot_ and _will not_ be used to accomplish academic research, analyze massive transport networks, or find a [non-5-colorable unit distance graph](https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem). But, hopefully, it _will_ be used by casual programmers, TI-BASIC enthusiasts, and even budding mathematicians to learn more about graph theory first-hand. It doesn't take much to create graphs, analyze their basic properties, and write graph algorithms using `TIGHT`; with BASIC being a pretty simple language in its own right, and the TI-83+ series of calculators being a near necessity for every high school student in the United States and (portions of) Europe, `TIGHT` is arguably one of the most accessible graph theory libraries in existence.
 
 But enough philosophical flaunting. As to how `TIGHT` is actually _written_ as a package, there are a few core principles
 * Emulate a functional paradigm within programs by using `Ans` and other temporary variables
@@ -72,7 +72,7 @@ The following real variables and lists are defined for the graph upon creation a
 
 ## Graph Lists
 *	`C`: Color palette
-	* Entries are BASIC colors (`BLUE` to `DARKGRAY`)
+	* Entries are TI colors (`BLUE` to `DARKGRAY`)
 	* Plotting functions index the palette as specified (see `plot.md`)
 * `E`: Edges
 	* Entries are `±(I + T|E~3) + W[i]`
