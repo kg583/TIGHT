@@ -39,8 +39,9 @@ For example, here is a simple snippet that plots the uncolored [Petersen graph](
 "C5,5":prgmθGTLAY			// Layout the vertices in two concentric circles (see layout.md)
 {.9:prgmθGTPLOT				// Plot the graph at 90% scaling (see plot.md)
 ```
-which produces the following image
-![The Petersen Graph](https://cdn.discordapp.com/attachments/519366929065050130/783408005168234526/unknown.png).
+which produces the following image:
+
+![The Petersen Graph](https://cdn.discordapp.com/attachments/519366929065050130/783408005168234526/unknown.png)
 
 ## Installation
 
