@@ -31,6 +31,6 @@ While Ans
   {Ans:If dim(|LthetaGT1:augment(Ans,|LthetaGT1:Ans->thetaGT1
   X->Y:imag(|LthetaGT4(Ans->X
 End
-If Y!=|LthetaGT1:0->dim(|LthetaGT1
+If Y!=|LthetaGT1:ClrList |LthetaGT1
 |LthetaGT1
 DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3DelVar|LthetaGT4
