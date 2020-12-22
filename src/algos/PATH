@@ -1,0 +1,36 @@
+// PATH
+// Calculates the shortest path between the vertices Ans(1) and Ans(2)
+// Returns the sequence of edges in the path (may be empty) in O(V * (V + E))
+
+abs(real(Ans->thetaGT:Ans(1->X
+V->dim(|LthetaGT3
+Ans->dim(|LthetaGT4
+Repeat min(|LthetaGT3)+max(X={Z,|LthetaGT(2
+  X:prgmthetaGTES:Ans->thetaGT1
+  If dim(Ans:Then
+    abs(real(Ans:iPart(Ans)-Z+|E3fPart(Ans->thetaGT2
+  End
+  For(theta,1,dim(Ans
+    |thetaGT2(theta->Y
+    If not(|LthetaGT3(Ans:Then
+      [i]Z+min(Ans+real(|LthetaGT4(Z)),real(|LthetaGT4(Y->|LthetaGT4(Y
+    End
+  End
+  1->|LthetaGT3(Z:|E99->Y
+  For(theta,1,V
+    real(|LthetaGT4(theta
+    If Ans<Y and not(|LthetaGT3(theta:Then
+      Ans->Y:theta->X
+    End
+  End
+End
+0->dim(|LthetaGT1:|LthetaGT(2->Y
+imag(|LthetaGT4(Ans->X
+While Ans
+  prgmthetaGTE
+  {Ans:If dim(|LthetaGT1:augment(Ans,|LthetaGT1:Ans->thetaGT1
+  X->Y:imag(|LthetaGT4(Ans->X
+End
+If Y!=|LthetaGT1:0->dim(|LthetaGT1
+|LthetaGT1
+DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3DelVar|LthetaGT4
