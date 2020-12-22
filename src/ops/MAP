@@ -1,14 +1,15 @@
 // MAP
 // Maps the vertices of the graph to the vertex ordering Ans
-// May preserve duplicate edges for non-injective mappings
-// Returns V in O(E)
+// Removes duplicate edges based on the current edge ordering for non-injective mappings
+// Returns V in O(E * E)
 
 abs(iPart(real(Ans->thetaGT
+|LE->thetaGT1:ClrList |LE
 For(theta,1,E
-  |LE(theta->Z
-  |LthetaGT(abs(iPart(real(Ans->X
-  |LthetaGT(abs(|E3fPart(real(Z->Y
+  |LthetaGT1(theta:prgmthetaGTZ
+  |LthetaGT(X->X:|LthetaGT(Y->Y
   prgmthetaGTE
-  Ans+[i]imag(Z->|LE(theta
+  If dim(|LE:If min(Ans!=real(|LE:Ans+[i]imag(Z->|LE(theta
 End
+DelVar |LthetaGT1prgmthetaGTW
 prgmthetaGTV
