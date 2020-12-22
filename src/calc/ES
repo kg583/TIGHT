@@ -3,7 +3,6 @@
 // Returns the adjacent edges (may be none) in O(E)
 
 abs(iPart(real(Ans->Z
-0->dim(|LthetaGT1
 For(theta,1,E
   abs(real(|LE(theta
   If Z=iPart(Ans) or Z=D|E3fPart(Ans:|LE(theta->|LthetaGT1(1+dim(|LthetaGT1

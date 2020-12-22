@@ -3,11 +3,10 @@
 // Labels the vertices in |LV based on their tree within the forest
 // Returns the edges of the spanning forest in O(V * E)
 
-0->dim(|LthetaGT1:1->theta
 cumSum(binomcdf(V-1,0
 If dim(|LV:Ans+[i]imag(|LV
-Ans->V
-While theta<=E and 1<max(|LV
+Ans->V:1->theta
+While Ans<=E and 1<max(|LV
   abs(real(|LE(theta->Z
   |LV(iPart(Ans->X
   |LV(|E3fPart(Z->Y
