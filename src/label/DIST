@@ -9,7 +9,7 @@ V->dim(|LthetaGT3
 Repeat X=Z or min(|LthetaGT3
   X:prgmthetaGTES:Ans->thetaGT1
   If dim(Ans:Then
-    abs(real(Ans:iPart(Ans)+|E3fPart(Ans)-Z->thetaGT2
+    abs(real(Ans:iPart(Ans)-Z+|E3fPart(Ans->thetaGT2
   End
   For(theta,1,dim(Ans
     |thetaGT2(theta->Y
