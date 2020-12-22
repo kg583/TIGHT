@@ -2,7 +2,8 @@
 // Sets the label of each vertex to its degree
 // Returns in O(V * E)
 
-For(Y,1,V
-  Y:prgmthetaGTDEG
-  Ans+[i]imag(|LV(Y->|LV(Y
+For(Z,1,V
+  Z:prgmthetaGTDEG
+  If Z<=dim(|LV:Ans+[i]imag(|LV(Z
+  Ans->|LV(Z
 End
