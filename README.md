@@ -1,9 +1,52 @@
 # TIGHT Package v1.0
-TIGHT, or TI GrapH Theory, is a package of lists and programs designed for analyzing and plotting discrete graphs on the TI-83+ series of calculators. These programs are intended to be used as subprograms for larger projects, and are implemented to minimize variable use and overall memory footprint. TIGHT can support both directed and undirected graphs with up to 999 edges and 999 vertices, with a diverse array of graph algorithms and plotting options at your disposal.
+`TIGHT`, or TI GrapH Theory, is a package of lists and programs designed for analyzing and plotting discrete graphs on the TI-83+ series of calculators. These programs are intended to be used as subprograms for larger projects, and are implemented to minimize variable use and overall memory footprint. TIGHT can support both directed and undirected graphs with up to 999 edges and 999 vertices, with a diverse array of graph algorithms and plotting options at your disposal.
+
+## Design Philosophy
+
+`TIGHT` is designed to be the closest TI-BASIC imitation possible of a library or package you might use with Java, Python, C++, or any other mainstream computer language to analyze discrete graphs. While severely limiting in its capabilities, TI-BASIC is an easy-to-learn and easy-to-use language that is often the first language younger students ever encounter. Many who discover TI-BASIC often use it write some very simple programs to trick their friends or solve some math problems and leave it at that, but a decent proportion develop a greater interest in the language and programming in general. An even smaller proportion stick with BASIC even after they've learned a proper computer language, perhaps enamored with its quirks or challenged by its inherent limits.
+
+At any rate, the community of BASIC users often push the limits of what is possible within the bounds of their language, even if the products are frankly unreasonable or flat-out useless. I am no different; `TIGHT` _cannot_ and _will not_ be used to accomplish academic research, analyze massive transport networks, or find a [non-5-colorable unit distance graph](https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem). But, hopefully, it _will_ be used by casual programmers, BASIC enthusiasts, and even budding mathematicians to learn more about graph theory first-hand. It doesn't take much to create graphs, analyze their basic properties, and write graph algorithms using TIGHT; with BASIC being a pretty simple language in its own right, and the TI-83+ series of calculators being a near necessity for every high school student in the United States and (portions of) Europe, `TIGHT` is arguably one of the most accessible graph theory libraries in existence.
+
+But enough philosophical flaunting. As to how `TIGHT` is actually _written_ as a package, there are a few core principles
+* Emulate a functional paradigm within programs by using `Ans` and other temporary variables
+	* TI-BASIC does _not_ support return values nor function parameters (or really functions at all), so `Ans` has to make do
+	* It isn't too challenging to write code that _behaves_ like functions, and provides a nice imperative structure for the user
+* Emulate an object-oriented paradigm overall by treating graphs as objects with attributes
+	* There are only two real data structures in TI-BASIC: the list and the matrix
+	* In this vein, graphs are stored as their edge lists, with attributes maintained via global variables
+	* This requires the user to assume the global variables are not tampered with, but beyond that the object-oriented structure is quite useful
+* Encourage user design principles by example in each and every program
+	* Basically, practice what you preach, notably the importance of _modular_ program design
+	* Programs in `TIGHT` call each other regularly to avoid redundancy and allow for easy large-scale adjustments to algorithms and code flow
+as well as some general guidelines for producing useful code
+* Preserve as many global variables as possible within a given program
+	* There are only 27 real vars to go around, so don't hog them all!
+* Avoid variable shuffling whenever possible
+	* Saves times, saves bytes, and saves mental struggles to trace the code
+* Hold program speed and size at near-equal importance
+	* `TIGHT` has three fundamental limits: the size of the graph, the size of RAM, and the speed of TI-BASIC; none of these are very great
+which all serve to create a simple, efficient, and easy-to-use TI-BASIC package. So, if you want to contribute to `TIGHT`, keep these principles in mind when writing your code. As far as I can tell, they're for the better.
 
 # How to Use
 
-To install, simply download and open the group `TIGHT`, or you may download/copy individual programs directly. All TIGHT programs are denoted by `θGT` followed by 2 or more characters. The current graph's edges are stored in `|LE`; most programs require this list to exist (even if it is empty) to function properly. Plotting and layout functions additionally require `|LX` and `|LY` to exist; `|LV` is required for graph search algorithms and plotting. All of these basic lists are included with the `TIGHT` group, initially empty.
+To use `TIGHT` in your programs, simply call the desired subprogram, with the specified input preceding it by a single `:`. Multiple subprograms can be chained together, often not requiring any user-made code to properly pipe inputs and outputs from one another. The user can, of course, manipulate these inputs and outputs however they wish for their task.
+
+For example, here is a simple snippet that plots the uncolored [Petersen graph](https://en.wikipedia.org/wiki/Petersen_graph) on the graphscreen
+```
+"PETER":prgmθGTLOAD		// Load the Petersen graph from the premade database (see graphs.md)
+"C5,5":prgmθGTLAY			// Layout the vertices in two concentric circles (see layout.md)
+{.9:prgmθGTPLOT				// Plot the graph at 90% scaling (see plot.md)
+```
+which produces the following image
+![The Petersen Graph](https://cdn.discordapp.com/attachments/519366929065050130/783408005168234526/unknown.png).
+
+## Installation
+
+To install, simply download and open the group `TIGHT`, or you may download/copy individual programs directly. All TIGHT programs are denoted by `θGT` followed by 2 or more characters. The current graph's edges are stored in `|LE`; most programs require this list to exist (even if it is empty) to function properly. Plotting and layout functions additionally require `|LC`, `|LX`, and `|LY` to exist; `|LV` is required for graph search algorithms and plotting. All of these basic lists are included with the `TIGHT` group, initially empty.
+
+## Wiki
+
+A wiki for this repository is coming soon.
 
 # Vars
 The following real variables and lists are defined for the graph upon creation and change as components of the graph are added and removed via the specified subprograms. Thus, they generally should _not_ be changed directly by the user during normal use, though modifying them in the course of user-designed algorithms may prove more efficient if done properly.
