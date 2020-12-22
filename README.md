@@ -17,7 +17,7 @@ But enough philosophical flaunting. As to how `TIGHT` is actually _written_ as a
 	* This requires the user to assume the global variables are not tampered with, but beyond that the object-oriented structure is quite useful
 * Encourage user design principles by example in each and every program
 	* Basically, practice what you preach, notably the importance of _modular_ program design
-	* Programs in `TIGHT` call each other regularly to avoid redundancy and allow for easy large-scale adjustments to algorithms and code flow
+	* Programs in `TIGHT` call each other regularly to avoid redundancy and allow for easy adjustments to algorithms and code flow
 	
 as well as some general guidelines for producing useful code
 * Preserve as many global variables as possible within a given program
@@ -25,7 +25,7 @@ as well as some general guidelines for producing useful code
 * Avoid variable shuffling whenever possible
 	* Saves times, saves bytes, and saves mental struggles to trace the code
 * Hold program speed and size at near-equal importance
-	* `TIGHT` has three fundamental limits: the size of the graph, the size of RAM, and the speed of TI-BASIC; none of these are very great
+	* `TIGHT` has three limits: the size of graphs, the size of RAM, and the speed of TI-BASIC; none of these are very great
 	
 which all serve to create a simple, efficient, and easy-to-use TI-BASIC package. So, if you want to contribute to `TIGHT`, keep these principles in mind when writing your code. As far as I can tell, they're for the better.
 
