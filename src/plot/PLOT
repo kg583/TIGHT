@@ -2,7 +2,7 @@
 // Plots the graph using the |LX and |LY vertex coordinate lists if they are non-empty
 // Options are specified in Ans as detailed in plot.md
 
-real(Ans->|LthetaGT
+real(Ans->thetaGT
 If 2>dim(Ans:2->|LthetaGT(2
 If 3>dim(|LthetaGT:0->|LthetaGT(3
 If 4>dim(|LthetaGT:2->|LthetaGT(4
@@ -29,11 +29,10 @@ If Ans and V<=dim(|LX) and V<=dim(|LY:Then
   abs(iPart(|LthetaGT(4->|LthetaGT(4
   If Ans:Then
     For(theta,1,E
-      abs(iPart(real(|LE(theta->X
-      abs(|E3fPart(real(|LE(theta->Y
+      |LE(theta:prgmthetaGTZ
       abs(iPart(|LthetaGT(5
       If not(Ans:Then:BLACK
-      Else:If Ans=1:Then:abs(iPart(imag(|LE(theta
+      Else:If Ans=1:Then:abs(iPart(imag(Z
       Else:If Ans=2:Then:X
       Else:If Ans=3:Then:Y
       Else:If Ans=4:Then:|LV(X

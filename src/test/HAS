@@ -3,6 +3,5 @@
 // Returns the index of the edge if it exists and zero otherwise in O(E)
 
 If E:Then
-  prmgthetaGTXY
-  prgmthetaGTTO
+  prmgthetaGTZ:prgmthetaGTTO
 Else:0

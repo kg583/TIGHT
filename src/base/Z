@@ -1,4 +1,4 @@
-// XY
+// Z
 // Sets X and Y to the initial and terminal vertices of the edge Ans respectively
 // Returns in O(1)
 

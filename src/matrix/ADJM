@@ -5,7 +5,7 @@
 {V,V->dim([A]
 Fill(0,[A]
 For(theta,1,E
-  |LE(theta:prgmthetaGTXY
+  |LE(theta:prgmthetaGTZ
   1:If W:imag(Z
   Ans->[A](X,Y
   If D>0:Then

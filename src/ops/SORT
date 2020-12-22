@@ -17,7 +17,7 @@ If E:Then:Ans->Z
   Else:If 5=abs(Ans:Then
     abs(|E3fPart(real(|LE:seq(real(|LV(Ans(Y))),Y,1,E
   End:End:End:End:End
-  Ans->|LthetaGT1
+  Ans->thetaGT1
   If Z>=0:Then
     SortA(|LthetaGT1,|LE
   Else

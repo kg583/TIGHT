@@ -3,12 +3,12 @@
 // Returns V in O(E)
 
 abs(iPart(real(Ans->Z
-0->dim(|LthetaGT1
+|LE->thetaGT1:ClrList |LE
 For(theta,1,E
-  abs(real(|LE(theta
+  abs(real(|LthetaGT1(theta
   {iPart(Ans),|E3fPart(Ans
-  If min(Ans!=Z:|LE(theta->|LthetaGT1(1+dim(|LthetaGT1
+  If min(Ans!=Z:|LthetaGT1(theta->|LE(1+dim(|LE
 End:|LthetaGT1->E
 cumSum(binomcdf(V-2,0
 augment(Ans,{Z
-DelVar |LthetaGT1prgmthetaGTMAP
+prgmthetaGTMAP

@@ -6,8 +6,7 @@
 If not(E:Then:{Ans->|LE
   tanh(|E9real(Ans(1->D
 Else
-  prgmthetaGTXY
-  prgmthetaGTE
+  prgmthetaGTZ:prgmthetaGTE
   Ans+[i]imag(Z->|LE(1+sum(not(cumSum(Ans=real(|LE
 End:dim(|LE->E:real(|LE
 prgmthetaGTW
