@@ -1,5 +1,5 @@
 # TIGHT Package v1.0
-`TIGHT`, or TI GrapH Theory, is a package of lists and programs designed for analyzing and plotting discrete graphs on the TI-83+ series of calculators. These programs are intended to be used as subprograms for larger projects, and are implemented to minimize variable use and overall memory footprint. TIGHT can support both directed and undirected graphs with up to 999 edges and 999 vertices, with a diverse array of graph algorithms and plotting options at your disposal.
+`TIGHT`, or TI GrapH Theory, is a package of lists and programs designed for analyzing and plotting discrete graphs on the TI-83+ series of calculators. These programs are intended to be used as subprograms for larger projects, and are implemented to minimize variable use and overall memory footprint. `TIGHT` can support both directed and undirected graphs with up to 999 edges and 999 vertices, with a diverse array of graph algorithms and plotting options at your disposal.
 
 ## Design Philosophy
 
@@ -18,6 +18,7 @@ But enough philosophical flaunting. As to how `TIGHT` is actually _written_ as a
 * Encourage user design principles by example in each and every program
 	* Basically, practice what you preach, notably the importance of _modular_ program design
 	* Programs in `TIGHT` call each other regularly to avoid redundancy and allow for easy large-scale adjustments to algorithms and code flow
+	
 as well as some general guidelines for producing useful code
 * Preserve as many global variables as possible within a given program
 	* There are only 27 real vars to go around, so don't hog them all!
@@ -25,6 +26,7 @@ as well as some general guidelines for producing useful code
 	* Saves times, saves bytes, and saves mental struggles to trace the code
 * Hold program speed and size at near-equal importance
 	* `TIGHT` has three fundamental limits: the size of the graph, the size of RAM, and the speed of TI-BASIC; none of these are very great
+	
 which all serve to create a simple, efficient, and easy-to-use TI-BASIC package. So, if you want to contribute to `TIGHT`, keep these principles in mind when writing your code. As far as I can tell, they're for the better.
 
 # How to Use
