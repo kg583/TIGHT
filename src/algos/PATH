@@ -13,6 +13,7 @@ Repeat min(|LthetaGT3)+max(X={Z,|LthetaGT(2
   For(theta,1,dim(Ans
     |thetaGT2(theta->Y
     If not(|LthetaGT3(Ans:Then
+      1:If W:imag(|LthetaGT1(theta
       [i]Z+min(Ans+real(|LthetaGT4(Z)),real(|LthetaGT4(Y->|LthetaGT4(Y
     End
   End
