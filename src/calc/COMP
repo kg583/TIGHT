@@ -2,6 +2,7 @@
 // Computes the complement of the graph
 // Returns the complement edges in O(V * V * E)
 
+0->dim(|LthetaGT1
 For(X,1,V
   For(Y,1+X(D>0),V
     D(X+Y|E~3
