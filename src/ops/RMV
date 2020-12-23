@@ -9,6 +9,6 @@ For(theta,1,E
   {iPart(Ans),|E3fPart(Ans
   If min(Ans!=Z:|LthetaGT1(theta->|LE(1+dim(|LE
 End:|LthetaGT1->E
-cumSum(binomcdf(V-2,0
+1+cumSum(not(binompdf(V-2,0
 augment(Ans,{Z
 prgmthetaGTMAP

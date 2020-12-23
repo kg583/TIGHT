@@ -4,23 +4,24 @@
 prgmthetaGTARG:|LthetaGT(1
 If Ans=3:Then:1->D
   |LthetaGT(2->V:Ans->E
-  cumSum(binomcdf(Ans-2,0
+  1+cumSum(not(binompdf(Ans-2,0
   augment(1.001Ans+|E~3,{1+V|E~3->|LE
 Else:If Ans=4:Then:~1->D
   |LthetaGT(2->V:Ans->E
-  cumSum(binomcdf(Ans-2,0
+  1+cumSum(not(binompdf(Ans-2,0
   augment(-1.001Ans-|E~3,{-V-|E~3->|LE
 Else:If Ans=6:Then
   1->D:1+2|LthetaGT(2->V
-  1+|E~3(1+cumSum(binomcdf(Ans-2,0->|LE
+  1+|E~3(2+cumSum(not(binompdf(Ans-2,0->|LE
   For(theta,2,V,2
     1.001theta+|E~3->|LE(1+dim(|LE
   End:dim(|LE->E
 Else:If Ans=11:Then
   ~Ans+sum(|LthetaGT->V
+  ~1+|LthetaGT(2->|LthetaGT(2
   deltaList(cumSum(|LthetaGT
-  If 1=dim(Ans:binomcdf(V-1,0
-  cumSum(Ans->|LthetaGT
+  If 1=dim(Ans:not(binompdf(V-1,0
+  1+cumSum(Ans->|LthetaGT
   DelVar EClrList |LE:1->D
   For(X,1,V
     For(Y,X+1,V
@@ -33,11 +34,11 @@ Else:If Ans=11:Then
 Else:If Ans=19:Then
   tanh(|E9|LthetaGT(2->D
   abs(|LthetaGT(2->E
-  1+|E~3(1+cumSum(binomcdf(Ans-1,0:DAns->|LE:E+1->V
+  1+|E~3(2+cumSum(not(binompdf(Ans-1,0:DAns->|LE:E+1->V
 Else:If Ans=23:Then
   If 2=dim(|LthetaGT:Then
     |LthetaGT(2->V
-    1+cumSum(binomcdf(Ans-2,0
+    2+cumSum(not(binompdf(Ans-2,0
     augment(1+Ans|E~3,1.001Ans+|E~3->|LE:2V-2->E
     2+V|E~3->|LE(Ans
   Else

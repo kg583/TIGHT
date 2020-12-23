@@ -4,6 +4,6 @@
 
 prgmthetaGTHAS
 If Ans:Then
-  cumSum(binomcdf(V-2,0
+  1+cumSum(not(binompdf(V-2,0
   augment(Ans,{X->thetaGT
   Y->|LthetaGT(X:|LthetaGT:prgmthetaGTMAP

@@ -4,7 +4,7 @@
 // Returns the edges of the spanning forest in O(V * E)
 
 0->dim(|LthetaGT1
-cumSum(binomcdf(V-1,0
+1+cumSum(not(binompdf(V-1,0
 If dim(|LV:Ans+[i]imag(|LV
 Ans->V:1->theta
 While Ans<=E and 1<max(|LV
