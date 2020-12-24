@@ -5,7 +5,7 @@
 prgmthetaGTHAS
 If Ans:Then
   If E>1:Then
-    seq(|LE(Y+(Y>=Ans)),Y,1,E-1->|LE:E-1->E
+    seq(real(|LE(Y+(Y>=Ans))),Y,1,E-1)+[i]seq(imag(|LE(Y+(Y>=Ans))),Y,1,E-1->|LE:E-1->E
   Else:DelVar EClrList |LE
   End:real(|LE
   prgmthetaGTW
