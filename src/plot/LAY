@@ -43,7 +43,7 @@ Else:If Ans=20:Then:{0->X
   For(Y,1,theta-2
     1-2^Y+2cumSum(not(binompdf(2^Y-1,0
     augment(|LX,Ans/2^Y->|LX
-    1-2theta^^-1(Y+1:augment(|LY,AnscumSum(binompdf(2^Y-1,0->|LY
+    1-2theta^^-1(Y+1:augment(|LY,AnscumSum(not(binompdf(2^Y-1,0->|LY
   End:|LYZ/X->|LY
   X->dim(|LX:Ans->dim(|LY
 Else
