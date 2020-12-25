@@ -1,6 +1,6 @@
 # Layout Guide
 
-Use `LAY` to assign xy-coordinates to each vertex in the graph so that it can be plotted (see `plot.md`). Layout options are specified in `Ans`, and are of the form `"[char][args]"`, where `char` is a single character (`A` to `Z`, `θ`, or `π`) and `args` is a string of _n_ numeric arguments separated by commas. Several layout options are available for plotting graphs, roughly divided into two categories: static and dynamic.
+Use `LAY` to assign xy-coordinates to each vertex in the graph so that it can be plotted (see `plot.md`). Layout options are specified in `Ans`, and are of the form `"[char][args]"`, where `char` is a single character (`A` to `Z`, `θ`, `pi`, `~`, or `0` to `9`) and `args` is a string of _n_ numeric arguments separated by commas. Several layout options are available for plotting graphs, roughly divided into two categories: static and dynamic.
 
 The generated layouts always fall into the window `[~1,1] x [~1,1]`; subprograms such as `PLOT` then adjust the coordinates to the current graphing window dimensions.
 
@@ -40,4 +40,4 @@ The argument for a binary tree layout is parsed as `±iPart`:
 * `iPart`: Number of vertices in the entire tree
 * `sign`: Direction of the tree
   * If `sign = 1`, vertex depth increases downward
-  * If `sign = ~1`, vertex depth increases upward 
+  * If `sign = ~1`, vertex depth increases upward

@@ -1,6 +1,6 @@
 # Generation Guide
 
-Use `GEN` to generate instances of certain graph families based on input parameters. Generations options are specified in `Ans`, and are of the form `"[char][args]"`, where `char` is a single character (`A` to `Z`, `θ`, or `π`) and `args` is a string of numeric arguments separated by commas. Many different families are available, with varying degrees of complexity; the instances of graph families are limited only by the 999 vertex and edge limit imposed by TI-BASIC lists.
+Use `GEN` to generate instances of certain graph families based on input parameters. Generations options are specified in `Ans`, and are of the form `"[char][args]"`, where `char` is a single character (`A` to `Z`, `θ`, `pi`, `~`, or `0` to `9`) and `args` is a string of numeric arguments separated by commas. Many different families are available, with varying degrees of complexity; the instances of graph families are limited only by the 999 vertex and edge limit imposed by TI-BASIC lists.
 
 The vertex ordering used for generation are implemented with some convenient plotting layout or graph traversal method in mind, which can be investigated more closely be examining the generated output. Each family described below contains a short description and justification of the chosen vertex ordering. If the generated ordering is undesirable for a given application, it can be reordered using `MAP`.
 
