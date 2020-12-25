@@ -1,11 +1,11 @@
 // SUB
-// Creates the induced subgraph on the vertices in Ans
-// Returns the edges of the subgraph (may be none) in O(E * E)
+// Determines the induced subgraph on the vertices in Ans
+// Returns the indices of the edges of the subgraph (may be none) in O(E * E)
 
 abs(real(Ans->thetaGT
 0->dim(|LthetaGT1
 For(Y,1,E
   abs(real(|LE(Y
-  If max(|LthetaGT=iPart(Ans))max(|LthetaGT=|E3fPart(Ans:|LE(Y->|LthetaGT1(1+dim(|LthetaGT1
+  If max(|LthetaGT=iPart(Ans))max(|LthetaGT=|E3fPart(Ans:Y->|LthetaGT1(1+dim(|LthetaGT1
 End:|LthetaGT1
 DelVar |LthetaGT1
