@@ -3,28 +3,26 @@
 // Returns in O(V * (E + V))
 
 abs(real(Ans->X
-|E99:prgmthetaGTSET
+|E99:prgmthetaGTSETL
 [i]imag(|LV(X->|LV(X
-V->dim(|LthetaGT3
-Repeat X=Z or min(|LthetaGT3
-  X:prgmthetaGTES:Ans->thetaGT1
-  If dim(Ans:Then
-    abs(real(Ans:iPart(Ans)-Z+|E3fPart(Ans->thetaGT2
-  End
+V->dim(|LthetaGT2
+Repeat X=Z or min(|LthetaGT2
+  X:prgmthetaGTIS:Ans->thetaGT1
   For(theta,1,dim(Ans
-    |thetaGT2(theta->Y
-    If not(|LthetaGT3(Ans:Then
+    |LE(|thetaGT1(theta
+    iPart(Ans)-Z+|E3fPart(Ans->Y
+    If not(|LthetaGT2(Ans:Then
       1:If W:imag(|LthetaGT1(theta
       min(Ans+real(|LV(Z)),real(|LV(Y
       Ans+[i]imag(|LV(Y->|LV(Y
     End
   End
-  1->|LthetaGT3(Z:|E99->Y
+  1->|LthetaGT2(Z:|E99->Y
   For(theta,1,V
     real(|LV(theta
-    If Ans<Y and not(|LthetaGT3(theta:Then
+    If Ans<Y and not(|LthetaGT2(theta:Then
       Ans->Y:theta->X
     End
   End
 End
-DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3
+DelVar |LthetaGT1DelVar |LthetaGT2
