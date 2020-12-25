@@ -1,0 +1,6 @@
+// S
+// Converts the list of indices Ans into the corresponding list of edges
+// All indices are assumed to be valid
+// Returns the edge list in O(E)
+
+If dim(Ans:seq(|LE(theta),theta,1,dim(Ans

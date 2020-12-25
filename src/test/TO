@@ -1,7 +1,0 @@
-// TO
-// Checks if the vertices X and Y are adjacent
-// Returns the index of the connecting edge if it exists and zero otherwise in O(E)
-
-abs(real(|LE
-1+sum(not(X+Y|E~3=Ans or Y+X|E~3=DAns
-If Ans>E:0

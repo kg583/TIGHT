@@ -1,11 +1,10 @@
 // DEL
-// Deletes the edge Ans from the graph if it exists
-// Returns V if the edge exists and zero otherwise in O(E)
+// Deletes the edge at index Ans from the graph
+// Returns V if the index is valid and the index otherwise in O(E)
 
-prgmthetaGTHAS
-If Ans:Then
+If Ans(Ans<=E:Then
   If E>1:Then
-    seq(real(|LE(Y+(Y>=Ans))),Y,1,E-1)+[i]seq(imag(|LE(Y+(Y>=Ans))),Y,1,E-1->|LE:E-1->E
+    seq(real(|LE(Y+(Y>=Ans))),Y,1,E-1)+[i]seq(imag(|LE(Y+(Y>=Ans))),Y,1,E-1->E:E-1->E
   Else:DelVar EClrList |LE
   End:real(|LE
   prgmthetaGTW

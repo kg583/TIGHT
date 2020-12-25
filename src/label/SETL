@@ -1,4 +1,4 @@
-// SET
+// SETL
 // Sets all vertex labels to Ans, preserving existing vertex data
 // Returns in O(V)
 

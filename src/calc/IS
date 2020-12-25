@@ -1,0 +1,11 @@
+// IS
+// Lists the indices of the edges adjacent to the vertex Ans ordered by the current edge ordering
+// Returns the adjacent edge indicdes (may be none) in O(E)
+
+abs(iPart(real(Ans->Z
+0->dim(|LthetaGT1
+For(theta,1,E
+  abs(real(|LE(theta
+  If Z=iPart(Ans) or Z=D|E3fPart(Ans:theta->|LthetaGT1(1+dim(|LthetaGT1
+End:|LthetaGT1
+DelVar |LthetaGT1
