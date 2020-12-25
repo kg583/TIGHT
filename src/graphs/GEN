@@ -35,6 +35,19 @@ Else:If Ans=19:Then
   tanh(|E9|LthetaGT(2->D
   abs(|LthetaGT(2->E
   1+|E~3(2+cumSum(not(binompdf(Ans-1,0:DAns->|LE:E+1->V
+Else:If Ans=20:Then
+  |LthetaGT(1->X:|LthetaGT(2->Y
+  XY^^-1->Z:{int(.5+Ans
+  For(theta,2,Y
+    If theta<=iPart(YfPart(Z:Then
+      augment(Ans,{int(.5+Z
+    Else
+      augment(Ans,{int(Z
+    End
+  End
+  toString(Ans
+  "K"+sub(Ans,2,length(Ans)-2
+  prgmthetaGTGEN
 Else:If Ans=23:Then
   If 2=dim(|LthetaGT:Then
     |LthetaGT(2->V

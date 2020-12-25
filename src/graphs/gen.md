@@ -36,6 +36,10 @@ The vertex ordering is such that the first vertex is adjacent to all others; thi
 A _multipartite graph_ is a graph which can be partitioned into sets of size _n1,n2,..._ such that no vertices in the same set are adjacent (these are called _independent sets_ or _anticliques_).
 The vertex ordering is such that the first _n1_ vertices are independent, then the next _n2_, and so on; this ordering befits a linear layout where each layer corresponds to an independent set (in particular avoiding overlapping edges since no layer contains adjacent vertices).
 
+## `T[n,r]`: Turán Graphs
+A _Turán graph_ is a multipartite graph formed by diving a set of _n_ vertices into _r_ subsets that are as close in size as possible. Such a graph is specifically `K[n/r,...,n/r]`, where the ceiling is taken for the first `n%r` arguments and the floor is taken for the remaining arguments.
+The vertex ordering is identical to that generated for general multipartite graphs.
+
 ## `W[n,k]`: Windmill Graphs
 A _windmill graph_ is a graph in which _n_ copies of the complete graph on _k_ vertices are connected with a universal vertex in common.
 The vertex ordering is such that the first vertex is the universal vertex; the vertices then proceed in groups of size _k-1_ corresponding to each of the connected complete graphs. This ordering befits a modified circular layout largely dependent on the choice of _n_ and _k_.
