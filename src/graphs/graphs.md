@@ -10,7 +10,3 @@ The following graphs are saved in the group `TIGHTGDB`. Extract the graph by nam
 * `HWOOD`: The Heawood graph
 * `MOSER`: The Moser spindle
 * `PETER`: The Petersen graph
-
-## Skeletons of Solids
-* `CUBE`: The skeleton of the cube
-* `OCTA`: The skeleton of the octahedron

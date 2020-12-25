@@ -1,6 +1,6 @@
 // SUB
 // Determines the induced subgraph on the vertices in Ans
-// Returns the indices of the edges of the subgraph (may be none) in O(E * E)
+// Returns the indices of the edges of the subgraph (may be none) in O(N * E)
 
 abs(real(Ans->thetaGT
 0->dim(|LthetaGT1
