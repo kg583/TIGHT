@@ -18,7 +18,11 @@ But enough philosophical flaunting. As to how `TIGHT` is actually _written_ as a
 * Encourage user design principles by example in each and every program
 	* Basically, practice what you preach, notably the importance of _modular_ program design
 	* Programs in `TIGHT` call each other regularly to avoid redundancy and allow for easy adjustments to algorithms and code flow
-	
+	* Check out the `callgraph` to see how the programs interact
+* Provide as many different tools for effective problem-solving as possible
+	* Being a package, `TIGHT` contains mostly low-level subprograms that the user can chain together (with some exceptions)
+	* You can't include every algorithm known to man, so `TIGHT` provides a variety of methods for the user to make what they need
+
 as well as some general guidelines for producing useful code
 * Preserve as many global variables as possible within a given program
 	* There are only 27 real vars to go around, so don't hog them all!
@@ -26,7 +30,7 @@ as well as some general guidelines for producing useful code
 	* Saves times, saves bytes, and saves mental struggles to trace the code
 * Hold program speed and size at near-equal importance
 	* `TIGHT` has three limits: the size of graphs, the size of RAM, and the speed of TI-BASIC; none of these are very great
-	
+
 which all serve to create a simple, efficient, and easy-to-use TI-BASIC package. So, if you want to contribute to `TIGHT`, keep these principles in mind when writing your code. As far as I can tell, they're for the better.
 
 # How to Use
