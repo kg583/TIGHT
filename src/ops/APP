@@ -1,0 +1,13 @@
+// APP
+// Appends the edge list Ans to |LE and sets the graph characteristics
+// Does not replace the weights of already existing edges
+// Preserves the directedness of the graph
+// Returns V in O(N * E)
+
+Ans->|LthetaGT
+For(theta,1,dim(Ans
+  |LthetaGT(Ans
+  prgmthetaGTZ:prgmthetaGTE
+  If max(Ans!=real(|LE:Ans->|LE(1+dim(|LE
+End
+prgmthetaGTV
