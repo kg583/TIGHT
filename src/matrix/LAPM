@@ -1,7 +1,10 @@
 // LAPM
-// Computes the Laplacian matrix of the graph in [J]
+// Computes the Laplacian matrix of the graph in [J] deformed by Ans
+// Additionally calculates the adjacency and degree matrices of the graph in [A] and [D] respectively
 // Returns [J] in O(V * (E + V))
 
-prgmGTthetaADJM
-prgmGTthetaDEGM
-[D]-[A]->[J]
+Ans->Z
+prgmthetaGTADJM
+prgmthetaGTDEGM
+dim([A]:identity(max(Ans
+Ans-Z[A]+Z^2([D]-Ans->[J]
