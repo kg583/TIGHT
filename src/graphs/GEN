@@ -1,7 +1,7 @@
 // GEN
 // Generates the graph family member named in Ans as listed in gen.md
 
-prgmthetaGTARG:|LthetaGT(1
+prgmthetaGTA:|LthetaGT(1
 If Ans=3:Then:1->D
   |LthetaGT(2->V:Ans->E
   1+cumSum(not(binompdf(Ans-2,0

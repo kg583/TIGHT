@@ -111,7 +111,7 @@ Programs are divided into the following subdirectories, grouped according to gen
 * `algos`: Graph algorithms that modify the graph, search for some desired vertex or edge, or compute some challenging characteristic
 	* Ex: `KRUS`, which performs [Kruskal's algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm) on the graph
 * `base`: Programs that are rarely executed by themselves, being mostly used instead as succinct subprograms
-	* Ex: `ARG`, which parses the string `Ans` into a list of arguments
+	* Ex: `A`, which parses the string `Ans` into a list of arguments
 * `calc`: Programs which calculate relatively simple graph characteristics, metrics, or outputs
 	* Ex: `COMP`, which returns the complement of the graph if it is directed
 * `graphs`: Programs involved with generating or importing existing graphs
