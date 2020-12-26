@@ -3,5 +3,4 @@
 // Returns the adjacent vertices (may be none) in O(E)
 
 prgmthetaGTIS:prgmthetaGTS
-If dim(Ans:Then
-  abs(real(Ans:iPart(Ans)-Z+|E3fPart(Ans
+If dim(Ans:prgmthetaGTO

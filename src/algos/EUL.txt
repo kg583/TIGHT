@@ -13,6 +13,7 @@ Repeat E=dim(|LthetaGT2
   End
   Ans(Y->|LthetaGT2(1+dim(|LthetaGT2
   Ans->X:1->|LthetaGT3(Ans
-  |LE(X:iPart(Ans)-Z+|E3fPart(Ans->Z
+  |LE(X
+  prgmthetaGTO:Ans->Z
 End:|LthetaGT2
 DelVar |LthetaGT2DelVar |LthetaGT3

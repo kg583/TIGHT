@@ -9,8 +9,8 @@ Fill(|E99,|LthetaGT3
 Repeat min(|LthetaGT2)+max(X={Z,|LthetaGT(2
   X:prgmthetaGTIS:Ans->thetaGT1
   For(theta,1,dim(Ans
-    real(|LE(|thetaGT1(theta
-    iPart(Ans)-Z+|E3fPart(Ans->Y
+    |LE(|thetaGT1(theta
+    prgmthetaGTO:Ans->Y
     If not(|LthetaGT3(Ans:Then
       1:If W:imag(|LthetaGT1(theta
       [i]Z+min(Ans+real(|LthetaGT3(Z)),real(|LthetaGT3(Y->|LthetaGT3(Y
