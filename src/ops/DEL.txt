@@ -6,6 +6,6 @@ If Ans(Ans<=E:Then
   If E>1:Then
     seq(real(|LE(Y+(Y>=Ans))),Y,1,E-1)+[i]seq(imag(|LE(Y+(Y>=Ans))),Y,1,E-1->E:E-1->E
   Else:DelVar EClrList |LE
-  End:real(|LE
+  End
   prgmthetaGTW
   prgmthetaGTV
