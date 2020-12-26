@@ -1,6 +1,7 @@
 // KRUS
-// Performs Kruskal's algorithm on the graph
-// Modifies the current edge ordering to ascending weight order
+// Performs Kruskal's algorithm on the graph, returning a minimum spanning forest
+// Labels each vertex based on their tree within the forest
+// Modifies the current edge ordering to ascending weight orders
 // Returns the indices of the edges of the minimum spanning forest
 
 1:prgmthetaGTSORT

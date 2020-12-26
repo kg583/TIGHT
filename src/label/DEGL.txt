@@ -1,9 +1,15 @@
-// DEGS
-// Sets the label of each vertex to its degree
+// DEGL
+// Sets the label of each vertex to its in- or out-degree based on the multiplier Ans
+// If Ans < 0, the in-degree is chosen as the base label
+// If Ans > 0, the out-degree is chosen as the base label
+// Labels are scaled by abs(Ans)
 // Returns in O(V * E)
 
+real(Ans->theta
 For(Z,1,V
   Z:prgmthetaGTDEG
+  If theta<0:I
+  Ansabs(theta
   If Z<=dim(|LV:Ans+[i]imag(|LV(Z
   Ans->|LV(Z
 End
