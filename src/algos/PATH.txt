@@ -1,6 +1,6 @@
 // PATH
 // Calculates the shortest path between the vertices Ans(1) and Ans(2)
-// Returns the sequence of edges in the path (may be empty) in O(V * (V + E))
+// Returns the sequence of edge indices in the path (may be empty) in O(V * (V + E))
 
 abs(real(Ans->thetaGT:Ans(1->X
 V->dim(|LthetaGT2
