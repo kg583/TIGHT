@@ -1,5 +1,5 @@
 // I
-// Computes the index of the edge that would connect vertices X and Y given the directedness of the graph
+// Computes the index of the edge that would connect X to Y given the directedness of the graph
 // Returns the index of the connecting edge if it exists and zero otherwise in O(E)
 
 prgmthetaGTE
