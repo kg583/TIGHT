@@ -1,5 +1,5 @@
 // ARG
 // Parses the string Ans into separate arguments in |LthetaGT
-// Returns |LthetaGT
+// Returns |LthetaGT in O(1)
 
 real(augment({inString("ABCDEFGHIJKLMNOPQRSTUVWXYZthetapi~0123456789",sub(Ans,1,1)},expr("{"+sub(Ans,2,length(Ans)-1->thetaGT

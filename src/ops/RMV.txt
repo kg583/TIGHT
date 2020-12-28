@@ -1,6 +1,6 @@
 // RMV
 // Removes the vertex Ans and all connected edges, then identifies this vertex with the largest vertex
-// Returns V in O(E)
+// Returns V in O(E^2)
 
 abs(iPart(real(Ans->Z
 |LE->thetaGT1:ClrList |LE

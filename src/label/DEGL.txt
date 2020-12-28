@@ -3,7 +3,7 @@
 // If Ans < 0, the in-degree is chosen as the base label
 // If Ans > 0, the out-degree is chosen as the base label
 // Labels are scaled by abs(Ans)
-// Returns in O(V * E)
+// Returns in O(VE)
 
 real(Ans->theta
 For(Z,1,V

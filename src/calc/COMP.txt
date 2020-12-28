@@ -1,6 +1,6 @@
 // COMP
 // Computes the complement of the graph
-// Returns the complement edges in O(V * V * E)
+// Returns the complement edges in O(V^2E)
 
 0->dim(|LthetaGT1
 For(X,1,V

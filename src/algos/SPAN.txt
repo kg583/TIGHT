@@ -1,7 +1,7 @@
 // SPAN
 // Computes a spanning forest of the graph based on the current edge ordering
 // Labels each vertex based on their tree within the forest
-// Returns the indices of the edges of the spanning forest in O(V * E)
+// Returns the indices of the edges of the spanning forest in O(VE)
 
 0->dim(|LthetaGT1
 1+cumSum(not(binompdf(V-1,0

@@ -1,7 +1,7 @@
 // TOPO
 // Topologically sorts the vertices of the graph based on the current edge ordering, starting at the vertex Ans
 // Assumes the graph is acyclic
-// Returns the vertex ordering in O(V * E)
+// Returns the vertex ordering in O(VE)
 
 {abs(iPart(real(Ans->thetaGT
 V->dim(|LthetaGT2:0->dim(|LthetaGT3

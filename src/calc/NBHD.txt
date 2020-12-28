@@ -1,6 +1,6 @@
 // NBHD
 // Determines the neighborhood of the vertex Ans
-// Returns the indices of the edges of the neighborhood (may be none) in O(E * E)
+// Returns the indices of the edges of the neighborhood (may be none) in O(E^2)
 
 prgmthetaGTVS
 If dim(Ans:augment(Ans,{Z

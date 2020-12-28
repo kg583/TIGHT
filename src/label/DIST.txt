@@ -1,6 +1,6 @@
 // DIST
 // Labels each vertex with the distance between itself and the vertex Ans
-// Returns in O(V * (E + V))
+// Returns in O(V^2 + VE)
 
 abs(real(Ans->X
 |E99:prgmthetaGTSETL

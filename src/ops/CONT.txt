@@ -1,6 +1,6 @@
 // CONT
 // Contracts the edge Ans in the graph if the edge exists
-// Returns V if the edge exists and zero otherwise in O(E * E)
+// Returns V if the edge exists and zero otherwise in O(E ^ 2)
 
 prgmthetaGTHAS
 If Ans:Then

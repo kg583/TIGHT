@@ -1,7 +1,7 @@
 // SORT
 // Sorts the edges of the graph
 // Options are specified in Ans as detailed in sort.md
-// Returns in O(E * E)
+// Returns in O(E ^ 2)
 
 If E:Then:Ans->Z
   If not(Ans:Then

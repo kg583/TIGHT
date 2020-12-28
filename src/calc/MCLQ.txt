@@ -1,7 +1,7 @@
 // MCLQ
 // Computes the maximal clique containing the vertex Ans
 // Finds an oriented clique if the graph is directed
-// Returns the vertices of the clique in O(V * V)
+// Returns the vertices of the clique in O(V^2)
 
 {abs(iPart(real(Ans->thetaGT
 For(Y,1,V

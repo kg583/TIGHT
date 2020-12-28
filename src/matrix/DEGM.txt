@@ -1,6 +1,6 @@
 // DEGM
 // Computes the degree matrix of the graph in [D]
-// Returns in O(V * (E + V))
+// Returns in O(V^2 + VE)
 
 {V,V->dim([D]
 Fill(0,[D]
