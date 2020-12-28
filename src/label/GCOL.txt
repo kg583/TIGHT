@@ -1,0 +1,17 @@
+// GCOL
+// Greedily colors the graph by labeling its vertices via the vertex ordering Ans
+// Returns the number of colors used in O(V^2 + VE)
+
+abs(iPart(real(Ans->thetaGT
+V->dim(|LV:[i]imag(|LV->V
+For(Y,1,dim(|LthetaGT
+  V->dim(|LthetaGT2
+  |LthetaGT(Y:prgmthetaGTVS:Ans->thetaGT1
+  For(theta,1,dim(Ans
+    |LV(theta
+    If Ans:1->|LthetaGT2(Ans
+  End
+  1+sum(not(cumSum(not(|LthetaGT2
+  Ans+[i]imag(|LV(Z->|LV(Z
+  ClrList |LthetaGT2
+End:max(real(|LV
