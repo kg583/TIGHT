@@ -10,4 +10,5 @@ For(theta,1,dim(Ans
   prgmthetaGTZ:prgmthetaGTE
   If max(Ans!=real(|LE:Ans->|LE(1+dim(|LE
 End
+prgmthetaGTW
 prgmthetaGTV
