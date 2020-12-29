@@ -1,11 +1,11 @@
 // DEL
 // Deletes the edge at index Ans from the graph
-// Returns V if the index is valid and the index otherwise in O(E)
+// If the index is less than 1 or greater than E, the edge at index 1 or E is removed respectively
+// Returns V in O(E)
 
-If Ans(Ans<=E:Then
-  If E>1:Then
-    seq(real(|LE(Y+(Y>=Ans))),Y,1,E-1)+[i]seq(imag(|LE(Y+(Y>=Ans))),Y,1,E-1->E:E-1->E
-  Else:DelVar EClrList |LE
-  End
-  prgmthetaGTW
-  prgmthetaGTV
+If E>1:Then
+  seq(real(|LE(Y+(Y>=Ans))),Y,1,E-1)+[i]seq(imag(|LE(Y+(Y>=Ans))),Y,1,E-1->E:E-1->E
+Else:DelVar EClrList |LE
+End
+prgmthetaGTW
+prgmthetaGTV

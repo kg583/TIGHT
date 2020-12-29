@@ -3,36 +3,35 @@
 // Utilizes Dijkstra's algorithm, and thus fails on graphs with negative edge weights
 // Returns the sequence of edge indices in the path (may be empty) in O(V^2 + VE)
 
-If E:Then
-  abs(real(Ans->thetaGT:Ans(1->X
-  V->dim(|LthetaGT2
-  Ans->dim(|LthetaGT3
-  Fill(|E99,|LthetaGT3
-  Repeat min(|LthetaGT2)+max(X={Z,|LthetaGT(2
-    X:prgmthetaGTIS:Ans->thetaGT1
-    For(theta,1,dim(Ans
-      |LE(|thetaGT1(theta
-      prgmthetaGTO:Ans->Y
-      If not(|LthetaGT3(Ans:Then
-        1:If W:imag(|LthetaGT1(theta
-        [i]Z+min(Ans+real(|LthetaGT3(Z)),real(|LthetaGT3(Y->|LthetaGT3(Y
-      End
-    End
-    1->|LthetaGT2(Z:|E99->Y
-    For(theta,1,V
-      real(|LthetaGT4(theta
-      If Ans<Y and not(|LthetaGT2(theta:Then
-        Ans->Y:theta->X
-      End
+abs(real(Ans->thetaGT:Ans(1->X
+V->dim(|LthetaGT2
+Ans->dim(|LthetaGT3
+Fill(|E99,|LthetaGT3
+Repeat min(|LthetaGT2)+max(X={Z,|LthetaGT(2
+  X:prgmthetaGTIS:Ans->thetaGT1
+  For(theta,1,dim(Ans
+    |LE(|thetaGT1(theta
+    prgmthetaGTO:Ans->Y
+    If not(|LthetaGT3(Ans:Then
+      1:If W:imag(|LthetaGT1(theta
+      [i]Z+min(Ans+real(|LthetaGT3(Z)),real(|LthetaGT3(Y->|LthetaGT3(Y
     End
   End
-  0->dim(|LthetaGT1:|LthetaGT(2->Y
-  imag(|LthetaGT3(Ans->X
-  While Ans
-    prgmthetaGTE
-    {Ans:If dim(|LthetaGT1:augment(Ans,|LthetaGT1:Ans->thetaGT1
-    X->Y:imag(|LthetaGT3(Ans->X
+  1->|LthetaGT2(Z:|E99->Y
+  For(theta,1,V
+    real(|LthetaGT4(theta
+    If Ans<Y and not(|LthetaGT2(theta:Then
+      Ans->Y:theta->X
+    End
   End
-  If Y!=|LthetaGT(1:ClrList |LthetaGT1
-  |LthetaGT1
-  DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3
+End
+0->dim(|LthetaGT1:|LthetaGT(2->Y
+imag(|LthetaGT3(Ans->X
+While Ans
+  prgmthetaGTE
+  {Ans:If dim(|LthetaGT1:augment(Ans,|LthetaGT1:Ans->thetaGT1
+  X->Y:imag(|LthetaGT3(Ans->X
+End
+If Y!=|LthetaGT(1:ClrList |LthetaGT1
+|LthetaGT1
+DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3

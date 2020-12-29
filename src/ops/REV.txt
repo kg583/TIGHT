@@ -1,7 +1,7 @@
 // REV
-// Reverses all edges if any exist and the graph is directed
-// Returns in O(E)
+// Reverses all edges, including any bidirected edges
+// Returns in O(E), does nothing if the graph is undirected
 
-If ED<0:Then
+If D<0:Then
   abs(real(|LE
   ~|E3fPart(Ans)-|E~3iPart(Ans)-[i]imag(|LE->E
