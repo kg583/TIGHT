@@ -117,7 +117,7 @@ Programs are divided into the following subdirectories, grouped according to gen
 * `graphs`: Programs involved with generating or importing existing graphs
 	* Ex: `LOAD`, which loads an existing graph by name in `Ans`
 * `label`: Graph algorithms which label the edges or vertices in some manner, most often as a coloring
-	* Ex: `DEGS`, which labels each vertex based on its degree
+	* Ex: `DEGL`, which labels each vertex based on its degree
 * `matrix`: Programs which operate on or return matrices related to the graph
 	* Ex: `ADJM`, which computes the adjacency matrix of the graph
 * `ops`: Operations which modify the graph in-place
