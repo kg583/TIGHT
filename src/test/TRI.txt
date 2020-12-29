@@ -1,0 +1,8 @@
+// TRI
+// Checks if the graph contains a triangle
+// Computes the adjacency matrix in [A]
+// Returns 1 if the graph is the graph contains a triangle and 0 otherwise in O(V^3), does nothing if the graph contains more than 20 vertices
+
+If V<=20:Then
+  prgmthetaGTADJM:[A]^^3
+  0!=sum(seq(Z,Z),Z,1,V
