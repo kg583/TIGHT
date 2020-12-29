@@ -1,9 +1,9 @@
 // LAPM
 // Computes the Laplacian matrix of the graph in [J] deformed by Ans
 // Additionally calculates the adjacency and degree matrices of the graph in [A] and [D] respectively
-// Returns [J] in O(V^2 + VE), does nothing if the graph contains more than 99 vertices
+// Returns [J] in O(V^2 + VE), does nothing if the graph contains more than 20 vertices
 
-If V<=99:Then
+If V<=20:Then
   Ans->Z
   prgmthetaGTADJM
   prgmthetaGTDEGM
