@@ -1,10 +1,11 @@
 // DEGM
 // Computes the degree matrix of the graph in [D]
-// Returns in O(V^2 + VE)
+// Returns in O(V^2 + VE), does nothing if the graph contains more than 99 vertices
 
-{V,V->dim([D]
-Fill(0,[D]
-For(Z,1,V
-  Z:prgmGTthetaDEG
-  Ans->[D](Z,Z
-End
+If V<=99:THen
+  {V,V->dim([D]
+  Fill(0,[D]
+  For(Z,1,V
+    Z:prgmthetaGTDEG
+    Ans->[D](Z,Z
+  End

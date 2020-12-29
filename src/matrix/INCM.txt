@@ -1,11 +1,12 @@
 // INCM
 // Computes the incidence matrix of the graph in [I] based on the current edge ordering
-// Returns in O(E)
+// Returns in O(E), does nothing if the graph contains more than 99 vertices or edges
 
-{V,E->dim([I]
-For(theta,1,E
-  abs(iPart(real(|LE(theta
-  D->[A](Ans,theta
-  abs(|E3fPart(real(|LE(theta
-  1->[A](Ans,theta
-End
+If 99<=max(V,E:Then
+  {V,E->dim([I]
+  For(theta,1,E
+    abs(iPart(real(|LE(theta
+    D->[A](Ans,theta
+    abs(|E3fPart(real(|LE(theta
+    1->[A](Ans,theta
+  End
