@@ -1,28 +1,21 @@
 // DIST
 // Labels each vertex with the distance between itself and the vertex Ans
-// Returns in O(V^2 + VE)
+// Utilizes the Bellman-Ford algorithm
+// Returns ~1 if the graph contains a negative weight cycle and 0 otherwise in O(VE)
 
-abs(real(Ans->X
-|E99:prgmthetaGTSETL
-[i]imag(|LV(X->|LV(X
-V->dim(|LthetaGT2
-Repeat X=Z or min(|LthetaGT2
-  X:prgmthetaGTIS:Ans->thetaGT1
-  For(theta,1,dim(Ans
-    |LE(|thetaGT1(theta
-    prgmthetaGTO:Ans->Y
-    If not(|LthetaGT2(Ans:Then
-      1:If W:imag(|LthetaGT1(theta
-      min(Ans+real(|LV(Z)),real(|LV(Y
+If E:Then
+  abs(real(Ans->X
+  |E99:prgmthetaGTSETL
+  [i]imag(|LV(X->|LV(X
+  For(|LE(1),2,V
+    For(theta,1,E
+      |LE(theta:prgmthetaGTZ
+      1:If W:imag(Z
+      min(Ans+real(|LV(X)),real(|LV(Y
       Ans+[i]imag(|LV(Y->|LV(Y
     End
   End
-  1->|LthetaGT2(Z:|E99->Y
-  For(theta,1,V
-    real(|LV(theta
-    If Ans<Y and not(|LthetaGT2(theta:Then
-      Ans->Y:theta->X
-    End
-  End
-End
-DelVar |LthetaGT1DelVar |LthetaGT2
+  For(theta,1,E
+    |LE(theta:prgmthetaGTZ
+    ~1:If imag(Z)+real(|LV(X))<real(|LV(Y:Return
+  End:0
