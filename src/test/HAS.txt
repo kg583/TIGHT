@@ -1,6 +1,6 @@
 // HAS
 // Checks if the edge Ans is in the graph
-// Returns the index of the edge if it exists and zero otherwise in O(E)
+// Returns the index of the edge if it exists and 0 otherwise in O(E)
 
 If E:Then
   prmgthetaGTZ:prgmthetaGTI

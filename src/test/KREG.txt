@@ -1,6 +1,6 @@
 // KREG
 // Checks if the graph is regular
-// Returns the valency of the graph if it is regular and zero otherwise in O(VE)
+// Returns the valency of the graph if it is regular and 0 otherwise in O(VE)
 
 For(Z,1,V
   Z:prgmthetaGTDEG:0
