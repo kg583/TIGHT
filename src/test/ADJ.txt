@@ -1,5 +1,5 @@
 // ADJ
-// Checks if the vertices Ans(1) and Ans(2) are adjacent
+// Checks if the vertex Ans(1) is adjacent to the vertex Ans(2)
 // Returns the index of the connecting edge if it exists and 0 otherwise in O(E)
 
 abs(iPart(real(Ans->thetaGT

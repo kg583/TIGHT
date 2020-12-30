@@ -1,5 +1,5 @@
 // COMP
-// Computes the complement of the graph
+// Computes the complement of the graph, removing any self-loops
 // Returns the complement edges in O(V^2E)
 
 0->dim(|LthetaGT1
