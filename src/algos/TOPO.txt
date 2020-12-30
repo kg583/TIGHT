@@ -7,13 +7,16 @@
 V->dim(|LthetaGT2:0->dim(|LthetaGT3
 While dim(|LthetaGT
   |LthetaGT(dim(|LthetaGT->Z
-  prgmthetaGTIS:Ans->thetaGT1
-  1->|LthetaGT2(Z
-  For(theta,dim(|LthetaGT1),1,~1)
-    If |LthetaGT2(|LthetaGT1(theta:theta-1->dim(|LthetaGT1
+  prgmthetaGTIS
+  If dim(Ans:Then
+    Ans->thetaGT1
+    1->|LthetaGT2(Z
+    For(theta,dim(|LthetaGT1),1,~1)
+      If |LthetaGT2(|LthetaGT1(theta:theta-1->dim(|LthetaGT1
+    End:|LthetaGT1
   End
-  If dim(|LthetaGT1:Then
-    |LthetaGT1(1->|LthetaGT(1+dim(|LthetaGT
+  If dim(Ans:Then
+    Ans(1->|LthetaGT(1+dim(|LthetaGT
   Else
     Z->|LthetaGT3(1+dim(|LthetaGT3
     dim(|LthetaGT)-1->dim(|LthetaGT

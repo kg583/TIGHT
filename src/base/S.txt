@@ -1,6 +1,6 @@
 // S
 // Converts the list of indices Ans into the corresponding list of edges
 // All indices are assumed to be valid
-// Returns the edge list in O(E)
+// Returns the edge list in O(E), does nothing if the input list is empty
 
 If dim(Ans:seq(|LE(Ans(Z)),Z,1,dim(Ans
