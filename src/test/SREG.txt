@@ -1,0 +1,32 @@
+// SREG
+// Determines if a graph is strongly regular and, if so, its parameters
+// The graph must have at least two vertices
+// Returns the four defining parameters of the graph if it is strongly regular and an empty list otherwise in O(V^3E + VE)
+
+0->dim(|LthetaGT3
+prgmthetaGTKREG
+If Ans:Then
+  {V,Ans,~1,~1->thetaGT3
+  {1,2
+  Repeat V<max(Ans
+    Ans->thetaGT
+    prgmthetaGTCOMN
+    dim(Ans->Z:|LthetaGT
+    prgmthetaGTADJ
+    3+not(Ans->theta
+    |LthetaGT3(Ans
+    If 0<=Ans and Z!=Ans:Then
+      0->dim(|LthetaGT3
+      Goto 0
+    Else
+      Z->|LthetaGT3(theta
+    End:|LthetaGT
+    Repeat sum(deltaList(Ans
+      Ans+{0,1
+    End
+    Ans+{1,(D>0)(Ans(1)+1)-V}(V<max(Ans
+  End
+  max(|LthetaGT3,0->thetaGT3
+End
+Lbl 0:|LthetaGT3
+DelVar |LthetaGT3
