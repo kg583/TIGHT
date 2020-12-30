@@ -2,7 +2,7 @@
 // Appends the edge list Ans to |LE and sets the graph characteristics
 // Does not replace the weights of already existing edges
 // Preserves the directedness of the graph
-// Returns V in O(kE)
+// Returns V in O(NE)
 
 Ans->|LthetaGT
 For(theta,1,dim(Ans
