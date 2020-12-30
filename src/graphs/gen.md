@@ -15,7 +15,7 @@ The _directed cycle graph_ on _n_ vertices is (up to isomorphism) the directed g
 The vertex ordering is the natural one: sequential vertices arranged to be best plotted with a single-layer circular layout.
 
 ## `F[n]`: Friendship Graphs
-The _friendship graph_ on _n_ vertices is the graph (up to isomorphism) such that every two vertices have exactly one neighbor in common.
+The _friendship graph_ on _n_ vertices is (up to isomorphism) the graph such that every two vertices have exactly one neighbor in common.
 The vertex ordering is such that the first vertex is adjacent to every other; this ordering befits a double-layer circular layout with the first vertex at the origin and the remaining vertices placed on the outer circle.
 
 ## `K[n]`: Complete Graphs
@@ -32,6 +32,10 @@ The vertex ordering is such that the first vertex is adjacent to all others; thi
 
 # Complex Families
 
+## `G[n,k]`: Generalized Petersen Graphs
+A _generalized Petersen graph_ is a graph formed by connecting the vertices of a regular _n_-gon to the corresponding vertices of a regular star _n_-gon with density _k_. The usual Petersen graph is `G[5,2]`.
+The vertex ordering is such that the first _n_ vertices form an inner regular star _n_-gon, and the remaining _n_ vertices form an outer regular _n_-gon. This ordering befits a double-layer circular layout with each _n_-gon placed on its own circle.
+
 ## `K[n1,n2,...]`: Multipartite Graphs
 A _multipartite graph_ is a graph which can be partitioned into sets of size _n1,n2,..._ such that no vertices in the same set are adjacent (these are called _independent sets_ or _anticliques_).
 The vertex ordering is such that the first _n1_ vertices are independent, then the next _n2_, and so on; this ordering befits a linear layout where each layer corresponds to an independent set (in particular avoiding overlapping edges since no layer contains adjacent vertices).
@@ -43,3 +47,7 @@ The vertex ordering is identical to that generated for general multipartite grap
 ## `W[n,k]`: Windmill Graphs
 A _windmill graph_ is a graph in which _n_ copies of the complete graph on _k_ vertices are connected with a universal vertex in common.
 The vertex ordering is such that the first vertex is the universal vertex; the vertices then proceed in groups of size _k-1_ corresponding to each of the connected complete graphs. This ordering befits a modified circular layout largely dependent on the choice of _n_ and _k_.
+
+# Warning
+
+Due to a recently-discovered bug involving the `binompdf(` command, it is possible that generating large graphs (>257 edges) will unexpectedly crash or return erroneous or glitched edge values. The related `binomcdf(` has a much greater rate of failure for such purposes, and thus `binompdf(` is utilized in its place wherever possible; regardless, take caution when generating such graphs.

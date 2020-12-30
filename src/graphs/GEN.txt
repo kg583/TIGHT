@@ -5,23 +5,29 @@ prgmthetaGTA:|LthetaGT(1
 If Ans=3:Then:1->D
   |LthetaGT(2->V:Ans->E
   1+cumSum(not(binompdf(Ans-2,0
-  augment(1.001Ans+|E~3,{1+V|E~3->|LE
+  augment(1.001Ans+|E~3,{1+V|E~3->E
 Else:If Ans=4:Then:~1->D
   |LthetaGT(2->V:Ans->E
   1+cumSum(not(binompdf(Ans-2,0
-  augment(-1.001Ans-|E~3,{-V-|E~3->|LE
+  augment(~1.001Ans-|E~3,{~V-|E~3->E
 Else:If Ans=6:Then
   1->D:1+2|LthetaGT(2->V
-  1+|E~3(2+cumSum(not(binompdf(Ans-2,0->|LE
-  For(theta,2,V,2
-    1.001theta+|E~3->|LE(1+dim(|LE
-  End:dim(|LE->E
+  1.002+|E~3cumSum(not(binompdf(Ans-2,0
+  augment(Ans,2.003+2.002cumSum(not(binompdf(int(.5V)-1,0->E
+  dim(Ans->E
+Else:If Ans=6:Then:1->D
+  |LthetaGT(2->V
+  1+cumSum(not(binompdf(Ans-1,0->E
+  Ans+|LthetaGT(3:Ans-V(Ans>V
+  min(Ans,|LE)+|E~3max(Ans,|LE
+  augment(Ans,augment(1.001|LE+V|E~3,1.001|LE+|E~3->E
+  dim(Ans->E:2V->V
 Else:If Ans=11:Then
   ~Ans+sum(|LthetaGT->V
   ~1+|LthetaGT(2->|LthetaGT(2
   deltaList(cumSum(|LthetaGT
   If 1=dim(Ans:not(binompdf(V-1,0
-  1+cumSum(Ans->|LthetaGT
+  1+cumSum(Ans->thetaGT
   DelVar EClrList |LE:1->D
   For(X,1,V
     For(Y,X+1,V
@@ -38,8 +44,8 @@ Else:If Ans=19:Then
 Else:If Ans=20:Then
   |LthetaGT(1->X:|LthetaGT(2->Y
   XY^^-1->Z:{int(.5+Ans
-  For(theta,2,Y
-    If theta<=iPart(YfPart(Z:Then
+  For(Z,2,Y
+    If Z<=iPart(YfPart(Z:Then
       augment(Ans,{int(.5+Z
     Else
       augment(Ans,{int(Z
@@ -52,12 +58,12 @@ Else:If Ans=23:Then
   If 2=dim(|LthetaGT:Then
     |LthetaGT(2->V
     2+cumSum(not(binompdf(Ans-2,0
-    augment(1+Ans|E~3,1.001Ans+|E~3->|LE:2V-2->E
+    augment(1+Ans|E~3,1.001Ans+|E~3->E:2V-2->E
     2+V|E~3->|LE(Ans
   Else
-    ~1+|LthetaGT(2->Z:ClrList |LE
+    ~1+|LthetaGT(2->theta:ClrList |LE
     1+Z|LthetaGT(3->V
-    For(theta,0,~1+|LthetaGT(3
+    For(Z,0,~1+|LthetaGT(3
       For(X,2,Z+1
         1+|E~3(X+thetaZ->|LE(1+dim(|LE
         For(Y,X+1,Z+1
