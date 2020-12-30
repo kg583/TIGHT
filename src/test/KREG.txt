@@ -4,6 +4,6 @@
 
 For(Z,1,V
   Z:prgmthetaGTDEG:0
-  If Z>1 and (O!=K or O!=I and D<0:Return
-  O->K
-End:1
+  If Z>1 and (O!=theta or O!=I and D<0:Return
+  O->theta
+End
