@@ -5,4 +5,4 @@
 
 If V<=20:Then
   prgmthetaGTADJM:[A]^^3
-  0!=sum(seq(Z,Z),Z,1,V
+  0!=sum(seq(Ans(Z,Z),Z,1,V
