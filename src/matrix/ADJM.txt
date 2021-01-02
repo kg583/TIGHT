@@ -3,8 +3,7 @@
 // Returns in O(V^2), does nothing if the graph contains more than 20 vertices
 
 If V<=20:Then
-  {V,V->dim([A]
-  Fill(0,[A]
+  0identity(V->[A]
   For(theta,1,E
     |LE(theta:prgmthetaGTZ
     1:If W:imag(Z
