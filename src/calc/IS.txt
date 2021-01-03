@@ -1,11 +1,16 @@
 // IS
-// Lists the indices of the edges adjacent to the vertex Ans ordered by the current edge ordering
+// Lists the indices of the edges adjacent to the vertex abs(Ans) ordered by the current edge ordering
+// If the graph is directed and Ans > 0, the listed edge indices correspond to the outgoing edges
+// If the graph is directed and Ans < 0, the listed edge indices correspond to the incoming edges
 // Returns the adjacent edge indices (may be none) in O(E)
 
-abs(iPart(real(Ans->Z
+iPart(real(Ans->Z
 0->dim(|LthetaGT1
 For(theta,1,E
   abs(real(|LE(theta
-  If Z=iPart(Ans) or Z=D|E3fPart(Ans:theta->|LthetaGT1(1+dim(|LthetaGT1
-End:|LthetaGT1
+  {iPart(Ans),D|E3fPart(Ans
+  If Z<0:Ans{D,D
+  If max(Z=Ans:theta->|LthetaGT1(1+dim(|LthetaGT1
+End:abs(Z->Z
+|LthetaGT1
 DelVar |LthetaGT1

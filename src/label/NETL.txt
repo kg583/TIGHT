@@ -1,0 +1,13 @@
+// NETL
+// Labels each vertex with its net weight (incoming weights minus outgoing weights) if the graph is directed
+// If the graph is undirected, the labels are the sum of adjacent weights
+// Labels are scaled by Ans
+// Returns in O(VE)
+
+real(Ans->theta
+For(Z,1,V
+  Z:prgmthetaGTNET
+  Anstheta
+  If Z<=dim(|LV:Ans+[i]imag(|LV(Z
+  Ans->|LV(Z
+End

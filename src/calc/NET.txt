@@ -1,0 +1,9 @@
+// NET
+// Calculates the net weight of the vertex Ans (incoming weights minus outgoing weights)
+// If the graph is unweighted, each weight is assumed to equal one
+// If the graph is undirected, the sum of adjacent weights is calculated
+// Returns in O(E)
+
+abs(iPart(real(Ans->Z
+imag(|LE:If not(W:1+0Ans
+sum((Z=abs(iPart(real(|LE))))Ans+Dsum(Ans*(Z=abs(|E3fPart(real(|LE
