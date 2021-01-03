@@ -82,7 +82,7 @@ The following real variables and lists are defined for the graph upon creation a
 	* Entries are `±(I + T|E~3) + W[i]`
 		* `I`: Initial vertex (`001` to `999`)
 		* `T`: Terminal vertex (`001` to `999`)
-		* `W`: Edge weight (any real number strictly between `~|E99` and `|E99`)
+		* `W`: Edge weight (any real number strictly between `~|E48` and `|E48`)
 	* Sign is negative if directed, positive if undirected
 		* All edges have the same sign (i.e. directed and undirected edges are not mixed)
 	* Contains no duplicate edges
