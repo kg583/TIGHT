@@ -1,0 +1,13 @@
+// RAD
+// Calculates the radius of the graph; that is, the minimum eccentricity of any vertex
+// If the graph contains a negative cycle, the radius is taken to be negative infinity
+// Returns the radius in O(V^2E)
+
+|E99->Y
+For(X,1,V
+  X:prgmthetaGTDIST
+  If not(dim(Ans:Then
+    ~|E99:Return
+  End
+  min(Y,max(Ans->Y
+End
