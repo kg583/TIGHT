@@ -6,7 +6,7 @@
 {abs(iPart(real(Ans->thetaGT
 V->dim(|LthetaGT2:0->dim(|LthetaGT3
 While dim(|LthetaGT
-  |LthetaGT(dim(|LthetaGT->Z
+  |LthetaGT(dim(|LthetaGT
   prgmthetaGTIS
   If dim(Ans:Then
     Ans->thetaGT1
