@@ -1,21 +1,12 @@
-// DIST
-// Labels each vertex with the distance between itself and the vertex Ans
-// Utilizes the Bellman-Ford algorithm
-// Returns ~1 if the graph contains a negative weight cycle and 0 otherwise in O(VE)
+// DISL
+// Labels each vertex with the shortest distance between itself and the vertex Ans
+// Utilizes the Bellman-Ford algorithm, which supports negative edge weights
+// Returns ~1, performing no labeling, if the graph contains a negative weight cycle and 0 otherwise in O(VE)
 
 If E:Then
-  abs(real(Ans->X
-  |E99:prgmthetaGTSETL
-  [i]imag(|LV(X->|LV(X
-  For(|LE(1),2,V
-    For(theta,1,E
-      |LE(theta:prgmthetaGTZ
-      1:If W:imag(Z
-      min(Ans+real(|LV(X)),real(|LV(Y
-      Ans+[i]imag(|LV(Y->|LV(Y
-    End
+  V->dim(|LV
+  prgmthetaGTDIST
+  If dim(Ans:Then
+    Ans+[i]imag(|LV->V:0
+  Else:~1
   End
-  For(theta,1,E
-    |LE(theta:prgmthetaGTZ
-    ~1:If imag(Z)+real(|LV(X))<real(|LV(Y:Return
-  End:0

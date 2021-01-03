@@ -6,10 +6,9 @@
 // Returns in O(VE)
 
 real(Ans->theta
+V->dim(|LV
 For(Z,1,V
   Z:prgmthetaGTDEG
   If theta<0:I
-  Ansabs(theta
-  If Z<=dim(|LV:Ans+[i]imag(|LV(Z
-  Ans->|LV(Z
+  Ansabs(theta)+[i]imag(|LV(Z->|LV(Z
 End

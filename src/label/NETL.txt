@@ -5,9 +5,8 @@
 // Returns in O(VE)
 
 real(Ans->theta
+V->dim(|LV
 For(Z,1,V
   Z:prgmthetaGTNET
-  Anstheta
-  If Z<=dim(|LV:Ans+[i]imag(|LV(Z
-  Ans->|LV(Z
+  Anstheta+[i]imag(|LV(Z->|LV(Z
 End

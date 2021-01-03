@@ -1,0 +1,24 @@
+// DIST
+// Calculates the shortest distance between the vertex Ans and all other vertices
+// Utilizes the Bellman-Ford algorithm, which supports negative edge weights
+// Returns the an empty list if the graph contains a negative cycle and the list of distances otherwise in O(VE)
+
+If E:Then
+  abs(real(Ans->X
+  V->dim(|LthetaGT1
+  Fill(|E99,|LthetaGT1
+  0->|LthetaGT1(X
+  For(|LE(1),2,V
+    For(theta,1,E
+      |LE(theta:prgmthetaGTZ
+      1:If W:imag(Z
+      min(Ans+real(|LthetaGT1(X)),real(|LthetaGT1(Y->|LthetaGT1(Y
+    End
+  End
+  For(theta,1,E
+    |LE(theta:prgmthetaGTZ
+    If imag(Z)+real(|LthetaGT1(X))<real(|LthetaGT1(Y:Then
+      0->dim(|LthetaGT1:E->theta
+    End
+  End:|LthetaGT1
+  DelVar |LthetaGT1
