@@ -8,7 +8,6 @@
 real(Ans->theta
 V->dim(|LV
 For(Z,1,V
-  Z:prgmthetaGTDEG
-  If theta<0:I
+  Ztanh(|E9theta:prgmthetaGTDEG
   Ansabs(theta)+[i]imag(|LV(Z->|LV(Z
 End
