@@ -1,0 +1,11 @@
+// LINE
+// Constructs the line graph for the current graph based on the current edge ordering
+// Returns the edges of the line graph in O(E^2)
+
+0->dim(|LthetaGT1
+For(X,1,E
+  For(Y,1+X(D>0),E
+    {|LE(X),|LE(Y:prgmthetaGTINC
+    If Ans:D(X+Y|E~3->|LthetaGT1(1+dim(|LthetaGT1
+  End
+End
