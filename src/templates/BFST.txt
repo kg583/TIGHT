@@ -1,0 +1,27 @@
+// BFST
+// Template code for a breadth-first search algorithm beginning at the vertex Ans
+// Tracks the predecessor of each vertex
+// Returns [insert return here] in O(VE + V * [insert condition complexity here]))
+
+{abs(iPart(real(Ans->thetaGT
+V->dim(|LthetaGT2
+~1->|LthetaGT2(|LthetaGT(1
+// Establish additional structures here
+While dim(|LthetaGT
+  |LthetaGT(dim(|LthetaGT
+  prgmthetaGTVS
+  If dim(Ans:Then
+    Ans->thetaGT1
+    For(theta,1,dim(|LthetaGT1
+      |LthetaGT1(theta
+      If not(|LthetaGT2(Ans:Then
+        augment({Ans},|LthetaGT->thetaGT
+        Z->|LthetaGT2(Ans(1
+      End
+    End
+  End
+  dim(|LthetaGT)-1->dim(|LthetaGT
+  // Visit the vertex (Z) here
+End
+// Insert return here
+DelVar |LthetaGT1DelVar |LthetaGT2

@@ -1,0 +1,30 @@
+// DFST
+// Template code for a depth-first search algorithm beginning at the vertex Ans
+// Tracks the predecessor of each vertex
+// Returns [insert return here] in O(VE + V * [insert condition complexity here]))
+
+{abs(iPart(real(Ans->thetaGT
+V->dim(|LthetaGT2
+// Establish additional structures here
+While dim(|LthetaGT
+  |LthetaGT(dim(|LthetaGT
+  prgmthetaGTVS
+  If dim(Ans:Then
+    Ans->thetaGT1
+    Z->|LthetaGT2(Z:1->theta
+    While theta<=dim(|LthetaGT1
+      |LthetaGT1(theta
+      If not(|LthetaGT2(Ans:Then
+        Ans->|LthetaGT(1+dim(|LthetaGT
+        0->dim(|LthetaGT1
+      End
+      theta+1->theta
+    End:|LthetaGT1
+  End
+  If not(dim(Ans:Then
+    dim(|LthetaGT)-1->dim(|LthetaGT
+    // Visit the vertex (Z) here
+  End
+End
+// Insert return here
+DelVar |LthetaGT1DelVar |LthetaGT2
