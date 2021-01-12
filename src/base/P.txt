@@ -1,0 +1,14 @@
+// P
+// Constructs the path arriving at vertex Z given the list Ans of edge indices leading from each vertex of the graph
+// The path is assumed to end once a predecessor edge index is non-positive
+// Returns the path of edge indices in O(E)
+
+Ans->thetaGT
+0->dim(|LthetaGT1
+|LthetaGT(Z
+While Ans>0
+  {Ans:If dim(|LthetaGT1:augment(Ans,|LthetaGT1:Ans->thetaGT1
+  |LE(Ans(1:prgmthetaGTO
+  Ans->Z:|LthetaGT(Ans
+End:|LthetaGT1
+DelVar |LthetaGT1

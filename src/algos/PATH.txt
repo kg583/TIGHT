@@ -3,11 +3,11 @@
 // Utilizes Dijkstra's algorithm, and thus fails on graphs with negative edge weights
 // Returns the sequence of edge indices in the path (may be empty) in O(V^2 + VE)
 
-abs(real(Ans->thetaGT:Ans(1->X
+abs(iPart(real(Ans->thetaGT:Ans(1->X
 V->dim(|LthetaGT2
 Ans->dim(|LthetaGT3
 Fill(|E99,|LthetaGT3
-Repeat min(|LthetaGT2)+max(X={Z,|LthetaGT(2
+Repeat min(|LthetaGT2) or max(X={Z,|LthetaGT(2
   X:prgmthetaGTIS
   If dim(Ans:Then
     Ans->thetaGT1
@@ -16,7 +16,7 @@ Repeat min(|LthetaGT2)+max(X={Z,|LthetaGT(2
       prgmthetaGTO:Ans->Y
       If not(|LthetaGT3(Ans:Then
         1:If W:imag(|LthetaGT1(theta
-        [i]Z+min(Ans+real(|LthetaGT3(Z)),real(|LthetaGT3(Y->|LthetaGT3(Y
+        [i]theta+min(Ans+real(|LthetaGT3(Z)),real(|LthetaGT3(Y->|LthetaGT3(Y
       End
     End
   End
@@ -28,13 +28,7 @@ Repeat min(|LthetaGT2)+max(X={Z,|LthetaGT(2
     End
   End
 End
-0->dim(|LthetaGT1:|LthetaGT(2->Y
-imag(|LthetaGT3(Ans->X
-While Ans
-  prgmthetaGTE
-  {Ans:If dim(|LthetaGT1:augment(Ans,|LthetaGT1:Ans->thetaGT1
-  X->Y:imag(|LthetaGT3(Ans->X
-End
-If Y!=|LthetaGT(1:ClrList |LthetaGT1
-|LthetaGT1
+|LthetaGT(2->Z:imag(|LthetaGT3(Ans
+prgmthetaGTP:Ans->thetaGT1
+If Z!=X:ClrList |LthetaGT1
 DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3
