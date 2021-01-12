@@ -1,0 +1,49 @@
+// MAXF
+// Computes the maximum flow in the graph, with edge weights taken as capacities, given a source vertex Ans(1) and sink vertex Ans(2)
+// Utilizes the Edmonds-Karp algorithm (a BFS implementation of Ford-Fulkerson)
+// Returns the maximum flow in O(VE^2)
+
+{abs(iPart(real(Ans->thetaGT
+DelVar XE->dim(|LthetaGT4
+Repeat not(Ans
+  {|LthetaGT(1->thetaGT3
+  V->dim(|LthetaGT2
+  ~1->|LthetaGT2(|LthetaGT(1
+  While dim(|LthetaGT3
+    |LthetaGT3(dim(|LthetaGT3
+    prgmthetaGTIS
+    If dim(Ans:Then
+      Ans->thetaGT1
+      For(theta,1,dim(|LthetaGT1
+        |LthetaGT1(theta->Y
+        |LE(Ans:prgmthetaGTO
+        If Ans!=|LthetaGT(1) and not(|LthetaGT2(Ans)) and |LthetaGT4(Y)<max(1,imag(|LE(Y:Then
+          augment({Ans},|LthetaGT3->thetaGT3
+          Y->|LthetaGT2(Ans(1
+        End
+        If Z!=|LthetaGT(1) and not(|LthetaGT2(Z)) and ~|LthetaGT4(Y)<max(1,imag(|LE(Y:Then
+          augment({Z},|LthetaGT3->thetaGT3
+          Y->|LthetaGT2(Ans(1
+        End
+      End
+    End
+    dim(|LthetaGT3)-1->dim(|LthetaGT3
+  End
+  |LthetaGT(1->theta:|LthetaGT(2->Z
+  |LthetaGT2(Ans
+  If Ans:Then
+    |E99->Y:|LthetaGT2
+    prgmthetaGTP:Ans->thetaGT1
+    {theta->thetaGT
+    For(theta,1,dim(|LthetaGT1
+      |LthetaGT1(theta
+      min(Y,imag(|LE(Ans))-|LthetaGT4(Ans->Y
+    End
+    For(theta,1,dim(|LthetaGT1
+      |LthetaGT1(theta
+      Y+|LthetaGT4(Ans->|LthetaGT4(Ans
+    End
+    X+Y->X:1
+  End
+End:X
+DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3DelVar |LthetaGT4
