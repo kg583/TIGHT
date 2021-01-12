@@ -50,9 +50,6 @@ Extract the graph by name via `LOAD` to load its edge list and set its graph cha
 * `BLAN2`: The second Blanuša snark
   * Layout: `C[2.9,3.5,2.9,4,2.9,3.5,2.9]`
   * The close successor to the first Blanuša snark, having the same number of vertices and edges
-* `TIETZ`: Tietze's graph
-  * Layout: `C[3,9]`
-  * The fourth snark discovered, though often removed from the family due to its low girth
 
 ## Strongly Regular Graphs
 * `CLEBS`: The Clebsch graph
