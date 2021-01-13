@@ -59,8 +59,6 @@ Extract the graph by name via `LOAD` to load its edge list and set its graph cha
   * Layout: `C[8,8]`
   * A sextic graph that describes the Whitney triangulation of the torus
 
-
-
 ## Polyhedral Graphs
 * `BIDIA`: The Bidiakis cube
   * Layout: `C[12]`

@@ -12,16 +12,17 @@ If Ans=3:Then
       YX^^-1[i]e^(2pi[i]/AnscumSum(not(binompdf(Ans-1,0
     End
     Ans*(1-abs(fPart(Z
-    If Y=1:Then:Ans->|LX
+    If Y=1:Then
+      Ans->X
     Else
       If Z>0:Then
-        augment(|LX,Ans->|LX
+        augment(|LX,Ans->X
       Else
-        augment(Ans,|LX->|LX
+        augment(Ans,|LX->X
       End
     End
   End
-  imag(|LX->|LY:real(|LX->|LX
+  imag(|LX->Y:real(|LX->X
 Else:If Ans=12:Then
   ClrList |LX,|LY
   ~2+dim(|LthetaGT->theta
@@ -36,14 +37,16 @@ Else:If Ans=12:Then
       1-2Y/theta->|LY(1+dim(|LY
     End
   End
+Else:If Ans=15:Then
+  Orbital goes here
 Else:If Ans=20:Then:{0->X
   iPart(|LthetaGT(2->Z:abs(Ans->X
   2+iPart(logBASE(Ans,2->theta
   {1-2/Ans->Y
   For(Y,1,theta-2
     1-2^Y+2cumSum(not(binompdf(2^Y-1,0
-    augment(|LX,Ans/2^Y->|LX
-    1-2theta^^-1(Y+1:augment(|LY,AnscumSum(not(binompdf(2^Y-1,0->|LY
-  End:|LYZ/X->|LY
+    augment(|LX,Ans/2^Y->X
+    1-2theta^^-1(Y+1:augment(|LY,AnscumSum(not(binompdf(2^Y-1,0->Y
+  End:Z|LY/X->Y
   X->dim(|LX:Ans->dim(|LY
 Else
