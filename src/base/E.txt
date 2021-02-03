@@ -2,4 +2,4 @@
 // Computes the edge that would connect X to Y given the directedness of the graph
 // Returns the desired edge in O(1)
 
--X-Y|E~3:If D>0:min(X,Y)+|E~3max(X,Y
+-X-Yᴇ⁻3:If D>0:min(X,Y)+ᴇ⁻3max(X,Y

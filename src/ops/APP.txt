@@ -4,11 +4,11 @@
 // Preserves the directedness of the graph
 // Returns V in O(NE)
 
-Ans->|LthetaGT
-For(theta,1,dim(Ans
-  |LthetaGT(Ans
-  prgmthetaGTZ:prgmthetaGTE
-  If max(Ans!=real(|LE:Ans->|LE(1+dim(|LE
+Ans→ʟθGT
+For(θ,1,dim(Ans
+  ʟθGT(Ans
+  prgmθGTZ:prgmθGTE
+  If max(Ans≠real(ʟE:Ans→ʟE(1+dim(ʟE
 End
-prgmthetaGTW
-prgmthetaGTV
+prgmθGTW
+prgmθGTV

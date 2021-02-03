@@ -3,23 +3,23 @@
 // Options are specified in Ans as detailed in sort.md
 // Returns in O(E^2)
 
-Ans->Z
+Ans→Z
 If not(Ans:Then
   rand(E
 Else:If 1=abs(Ans:Then
-  imag(|LE
+  imag(ʟE
 Else:If 2=abs(Ans:Then
-  abs(real(|LE
+  abs(real(ʟE
 Else:If 3=abs(Ans:Then
-  abs(real(|LE:|E3fPart(Ans)+|E~3iPart(Ans
+  abs(real(ʟE:ᴇ3fPart(Ans)+ᴇ⁻3iPart(Ans
 Else:If 4=abs(Ans:Then
-  abs(iPart(real(|LE:seq(real(|LV(Ans(Y))),Y,1,E
+  abs(iPart(real(ʟE:seq(real(ʟV(Ans(Y))),Y,1,E
 Else:If 5=abs(Ans:Then
-  abs(|E3fPart(real(|LE:seq(real(|LV(Ans(Y))),Y,1,E
+  abs(ᴇ3fPart(real(ʟE:seq(real(ʟV(Ans(Y))),Y,1,E
 End:End:End:End:End
-Ans->thetaGT1
-If Z>=0:Then
-  SortA(|LthetaGT1,|LE
+Ans→θGT1
+If Z≥0:Then
+  SortA(ʟθGT1,ʟE
 Else
-  SortD(|LthetaGT1,|LE
-End:DelVar |LthetaGT1
+  SortD(ʟθGT1,ʟE
+End:DelVar ʟθGT1

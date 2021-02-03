@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TokensProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="TIGHT" baseDirectory="D:\GitHub\TIGHT\src" outDirectory="D:\GitHub\TIGHT\bin" xmlns="http://merthsoft.com/TokensProject">
+  <RAM>
+    <Programs>
+      <File path="algos\DIST.txt" />
+      <File path="algos\KRUS.txt" />
+      <File path="algos\MAXF.txt" />
+      <File path="algos\PATH.txt" />
+      <File path="algos\SPAN.txt" />
+      <File path="algos\TOPO.txt" />
+  	  <File path="base\A.txt" />
+  	  <File path="base\E.txt" />
+  	  <File path="base\I.txt" />
+  	  <File path="base\O.txt" />
+  	  <File path="base\P.txt" />
+  	  <File path="base\S.txt" />
+  	  <File path="base\V.txt" />
+  	  <File path="base\W.txt" />
+  	  <File path="base\Z.txt" />
+  	  <File path="calc\COMN.txt" />
+  	  <File path="calc\COMP.txt" />
+  	  <File path="calc\DEG.txt" />
+  	  <File path="calc\DENS.txt" />
+  	  <File path="calc\DIAM.txt" />
+  	  <File path="calc\IS.txt" />
+  	  <File path="calc\LINE.txt" />
+  	  <File path="calc\MCLQ.txt" />
+  	  <File path="calc\NBHD.txt" />
+  	  <File path="calc\NET.txt" />
+  	  <File path="calc\RAD.txt" />
+  	  <File path="calc\SUB.txt" />
+  	  <File path="calc\VS.txt" />
+  	  <File path="graphs\GEN.txt" />
+  	  <File path="graphs\GENC.txt" />
+  	  <File path="graphs\GENP.txt" />
+  	  <File path="graphs\LOAD.txt" />
+  	  <File path="graphs\STO.txt" />
+  	  <File path="label\DEGL.txt" />
+  	  <File path="label\DISL.txt" />
+  	  <File path="label\GCOL.txt" />
+  	  <File path="label\NETL.txt" />
+  	  <File path="label\SETL.txt" />
+  	  <File path="matrix\ADJM.txt" />
+  	  <File path="matrix\DEGM.txt" />
+  	  <File path="matrix\DISM.txt" />
+  	  <File path="matrix\INCM.txt" />
+  	  <File path="matrix\LAPM.txt" />
+  	  <File path="ops\ADD.txt" />
+  	  <File path="ops\APP.txt" />
+  	  <File path="ops\CLR.txt" />
+  	  <File path="ops\CLRW.txt" />
+  	  <File path="ops\CONT.txt" />
+  	  <File path="ops\DEL.txt" />
+  	  <File path="ops\DELE.txt" />
+  	  <File path="ops\MAP.txt" />
+  	  <File path="ops\REV.txt" />
+  	  <File path="ops\RMV.txt" />
+  	  <File path="ops\SORT.txt" />
+  	  <File path="ops\UND.txt" />
+  	  <File path="plot\LAY.txt" />
+  	  <File path="plot\PLOT.txt" />
+  	  <File path="plot\ROT.txt" />
+  	  <File path="templates\BFST.txt" />
+  	  <File path="templates\DFST.txt" />
+  	  <File path="test\ADJ.txt" />
+  	  <File path="test\HAS.txt" />
+  	  <File path="test\INC.txt" />
+  	  <File path="test\KREG.txt" />
+  	  <File path="test\SREG.txt" />
+  	  <File path="test\TREE.txt" />
+  	  <File path="test\TRI.txt" />
+    </Programs>
+    <AppVars />
+  </RAM>
+  <Archive>
+    <Programs />
+    <AppVars />
+  </Archive>
+</TokensProject>

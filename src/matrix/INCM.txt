@@ -2,11 +2,11 @@
 // Computes the incidence matrix of the graph in [I] based on the current edge ordering
 // Returns in O(E), does nothing if the graph the product VE exceeds 400
 
-If VE<=400:Then
-  {V,E->dim([I]
-  For(theta,1,E
-    abs(iPart(real(|LE(theta
-    D->[A](Ans,theta
-    abs(|E3fPart(real(|LE(theta
-    1->[A](Ans,theta
+If VE≤400:Then
+  {V,E→dim([I]
+  For(θ,1,E
+    abs(iPart(real(ʟE(θ
+    D→[A](Ans,θ
+    abs(ᴇ3fPart(real(ʟE(θ
+    1→[A](Ans,θ
   End

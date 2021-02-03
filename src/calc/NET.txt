@@ -4,6 +4,6 @@
 // If the graph is undirected, the sum of adjacent weights is calculated
 // Returns in O(E)
 
-abs(iPart(real(Ans->Z
-imag(|LE:If not(W:1+0Ans
-sum((Z=abs(iPart(real(|LE))))Ans+Dsum(Ans*(Z=abs(|E3fPart(real(|LE
+abs(iPart(real(Ans→Z
+imag(ʟE:If not(W:1+0Ans
+sum((Z=abs(iPart(real(ʟE))))Ans+Dsum(Ans*(Z=abs(ᴇ3fPart(real(ʟE

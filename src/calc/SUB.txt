@@ -2,10 +2,10 @@
 // Determines the induced subgraph on the N vertices in Ans
 // Returns the indices of the edges of the subgraph (may be none) in O(NE)
 
-abs(real(Ans->thetaGT
-0->dim(|LthetaGT1
+abs(real(Ans→θGT
+0→dim(ʟθGT1
 For(Y,1,E
-  abs(real(|LE(Y
-  If max(|LthetaGT=iPart(Ans))max(|LthetaGT=|E3fPart(Ans:Y->|LthetaGT1(1+dim(|LthetaGT1
-End:|LthetaGT1
-DelVar |LthetaGT1
+  abs(real(ʟE(Y
+  If max(ʟθGT=iPart(Ans))max(ʟθGT=ᴇ3fPart(Ans:Y→ʟθGT1(1+dim(ʟθGT1
+End:ʟθGT1
+DelVar ʟθGT1

@@ -3,11 +3,11 @@
 // Sets the weight of the edge to imag(Ans) if the edge already exists
 // Returns V in O(E)
 
-If not(E:Then:{Ans->|LE
-  tanh(|E9real(Ans(1->D
+If not(E:Then:{Ans→ʟE
+  tanh(ᴇ9real(Ans(1→D
 Else
-  prgmthetaGTZ:prgmthetaGTE
-  Ans+[i]imag(Z->|LE(1+sum(not(cumSum(Ans=real(|LE
-End:dim(|LE->E:real(|LE
-prgmthetaGTW
-prgmthetaGTV
+  prgmθGTZ:prgmθGTE
+  Ans+[i]imag(Z→ʟE(1+sum(not(cumSum(Ans=real(ʟE
+End:dim(ʟE→E:real(ʟE
+prgmθGTW
+prgmθGTV

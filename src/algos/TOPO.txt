@@ -3,26 +3,26 @@
 // Assumes the graph is acyclic
 // Returns the vertex ordering in O(VE)
 
-{abs(iPart(real(Ans->thetaGT
-V->dim(|LthetaGT2:0->dim(|LthetaGT3
-While dim(|LthetaGT
-  |LthetaGT(dim(|LthetaGT
-  prgmthetaGTVS
+{abs(iPart(real(Ans→θGT
+V→dim(ʟθGT2:0→dim(ʟθGT3
+While dim(ʟθGT
+  ʟθGT(dim(ʟθGT
+  prgmθGTVS
   If dim(Ans:Then
-    Ans->thetaGT1
-    1->|LthetaGT2(Z:1->theta
-    While theta<=dim(|LthetaGT1
-      |LthetaGT1(theta
-      If not(|LthetaGT2(Ans:Then
-        Ans->|LthetaGT(1+dim(|LthetaGT
-        0->dim(|LthetaGT1
+    Ans→θGT1
+    1→ʟθGT2(Z:1→θ
+    While θ≤dim(ʟθGT1
+      ʟθGT1(θ
+      If not(ʟθGT2(Ans:Then
+        Ans→ʟθGT(1+dim(ʟθGT
+        0→dim(ʟθGT1
       End
-      theta+1->theta
-    End:|LthetaGT1
+      θ+1→θ
+    End:ʟθGT1
   End
   If not(dim(Ans:Then
-    dim(|LthetaGT)-1->dim(|LthetaGT
-    Z->|LthetaGT3(1+dim(|LthetaGT3
+    dim(ʟθGT)-1→dim(ʟθGT
+    Z→ʟθGT3(1+dim(ʟθGT3
   End
-End:|LthetaGT3
-DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3
+End:ʟθGT3
+DelVar ʟθGT1DelVar ʟθGT2DelVar ʟθGT3

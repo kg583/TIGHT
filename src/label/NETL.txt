@@ -4,9 +4,9 @@
 // Labels are scaled by Ans
 // Returns in O(VE)
 
-real(Ans->theta
-V->dim(|LV
+real(Ans→θ
+V→dim(ʟV
 For(Z,1,V
-  Z:prgmthetaGTNET
-  Anstheta+[i]imag(|LV(Z->|LV(Z
+  Z:prgmθGTNET
+  Ansθ+[i]imag(ʟV(Z→ʟV(Z
 End

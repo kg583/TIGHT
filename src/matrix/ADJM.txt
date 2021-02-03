@@ -2,14 +2,14 @@
 // Computes the adjacency matrix of the graph in [A]
 // Returns in O(V^2), does nothing if the graph contains more than 20 vertices
 
-If V<=20:Then
-  0identity(V->[A]
-  For(theta,1,E
-    |LE(theta:prgmthetaGTZ
+If V≤20:Then
+  0identity(V→[A]
+  For(θ,1,E
+    ʟE(θ:prgmθGTZ
     1:If W:imag(Z
-    Ans->[A](X,Y
+    Ans→[A](X,Y
     If D>0:Then
-      Ans->[A](Y,X
-      If X=Y:2Ans->[A](X,X
+      Ans→[A](Y,X
+      If X=Y:2Ans→[A](X,X
     End
   End

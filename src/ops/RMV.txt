@@ -2,13 +2,13 @@
 // Removes the vertex Ans and all connected edges, then identifies this vertex with the largest vertex
 // Returns V in O(E^2)
 
-abs(iPart(real(Ans->Z
-|LE->thetaGT1:ClrList |LE
-For(theta,1,E
-  abs(real(|LthetaGT1(theta
-  {iPart(Ans),|E3fPart(Ans
-  If min(Ans!=Z:|LthetaGT1(theta->|LE(1+dim(|LE
-End:|LthetaGT1->E
+abs(iPart(real(Ans→Z
+ʟE→θGT1:ClrList ʟE
+For(θ,1,E
+  abs(real(ʟθGT1(θ
+  {iPart(Ans),ᴇ3fPart(Ans
+  If min(Ans≠Z:ʟθGT1(θ→ʟE(1+dim(ʟE
+End:ʟθGT1→E
 1+cumSum(not(binompdf(V-2,0
 augment(Ans,{Z
-prgmthetaGTMAP
+prgmθGTMAP

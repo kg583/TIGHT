@@ -2,6 +2,6 @@
 // Make the current graph undirected, preserving current edge weights
 // Returns in O(E)
 
-abs(|LE:min(iPart(Ans),|E3fPart(Ans
-Ans+|E~3max(abs(iPart(|LE)),abs(|E3fPart(|LE
-Ans+[i]imag(|LE->E:1->D
+abs(ʟE:min(iPart(Ans),ᴇ3fPart(Ans
+Ans+ᴇ⁻3max(abs(iPart(ʟE)),abs(ᴇ3fPart(ʟE
+Ans+[i]imag(ʟE→E:1→D

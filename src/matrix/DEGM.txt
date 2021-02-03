@@ -4,10 +4,10 @@
 // If the graph is directed and Ans < 0, the in-degree of each vertex is used
 // Returns in O(V^2 + VE), does nothing if the graph contains more than 20 vertices
 
-If V<=20:Then
-  real(Ans->theta
-  0identity(V->[D]
+If V≤20:Then
+  real(Ans→θ
+  0identity(V→[D]
   For(Z,1,V
-    Ztanh(|E9theta:prgmthetaGTDEG
-    Ans->[D](Z,Z
+    Ztanh(ᴇ9θ:prgmθGTDEG
+    Ans→[D](Z,Z
   End

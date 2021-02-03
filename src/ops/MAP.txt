@@ -3,13 +3,13 @@
 // Removes duplicate edges based on the current edge ordering for non-injective mappings
 // Returns V in O(E^2)
 
-abs(iPart(real(Ans->thetaGT
-|LE->thetaGT1:ClrList |LE
-For(theta,1,E
-  |LthetaGT1(theta:prgmthetaGTZ
-  |LthetaGT(X->X:|LthetaGT(Y->Y
-  prgmthetaGTE
-  If dim(|LE:If min(Ans!=real(|LE:Ans+[i]imag(Z->|LE(theta
+abs(iPart(real(Ans→θGT
+ʟE→θGT1:ClrList ʟE
+For(θ,1,E
+  ʟθGT1(θ:prgmθGTZ
+  ʟθGT(X→X:ʟθGT(Y→Y
+  prgmθGTE
+  If dim(ʟE:If min(Ans≠real(ʟE:Ans+[i]imag(Z→ʟE(θ
 End
-DelVar |LthetaGT1prgmthetaGTW
-prgmthetaGTV
+DelVar ʟθGT1prgmθGTW
+prgmθGTV

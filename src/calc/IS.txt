@@ -4,13 +4,13 @@
 // If the graph is directed and Ans < 0, the listed edge indices correspond to the incoming edges
 // Returns the adjacent edge indices (may be none) in O(E)
 
-iPart(real(Ans->Z
-0->dim(|LthetaGT1
-For(theta,1,E
-  abs(real(|LE(theta
-  {iPart(Ans),D|E3fPart(Ans
+iPart(real(Ans→Z
+0→dim(ʟθGT1
+For(θ,1,E
+  abs(real(ʟE(θ
+  {iPart(Ans),Dᴇ3fPart(Ans
   If Z<0:Ans{D,D
-  If max(Z=Ans:theta->|LthetaGT1(1+dim(|LthetaGT1
-End:abs(Z->Z
-|LthetaGT1
-DelVar |LthetaGT1
+  If max(Z=Ans:θ→ʟθGT1(1+dim(ʟθGT1
+End:abs(Z→Z
+ʟθGT1
+DelVar ʟθGT1

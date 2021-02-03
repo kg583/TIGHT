@@ -3,17 +3,17 @@
 // Labels each vertex based on their tree within the forest
 // Returns the indices of the edges of the spanning forest in O(VE)
 
-0->dim(|LthetaGT1
+0→dim(ʟθGT1
 1+cumSum(not(binompdf(V-1,0
-If dim(|LV:Ans+[i]imag(|LV
-Ans->V:1->theta
-While Ans<=E and 1<max(|LV
-  abs(real(|LE(theta->Z
-  |LV(iPart(Ans->X
-  |LV(|E3fPart(Z->Y
-  If X!=Ans:Then:max(X,Ans
-    |LV+(|LV=Ans)(min(X,Y)-Ans->|LV
-    theta->|LthetaGT1(1+dim(|LthetaGT1
-  End:theta+1->theta
-End:|LthetaGT1
-DelVar |LthetaGT1
+If dim(ʟV:Ans+[i]imag(ʟV
+Ans→V:1→θ
+While Ans≤E and 1<max(ʟV
+  abs(real(ʟE(θ→Z
+  ʟV(iPart(Ans→X
+  ʟV(ᴇ3fPart(Z→Y
+  If X≠Ans:Then:max(X,Ans
+    ʟV+(ʟV=Ans)(min(X,Y)-Ans→ʟV
+    θ→ʟθGT1(1+dim(ʟθGT1
+  End:θ+1→θ
+End:ʟθGT1
+DelVar ʟθGT1

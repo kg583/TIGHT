@@ -3,32 +3,32 @@
 // Utilizes Dijkstra's algorithm, and thus fails on graphs with negative edge weights
 // Returns the sequence of edge indices in the path (may be empty) in O(V^2 + VE)
 
-abs(iPart(real(Ans->thetaGT:Ans(1->X
-V->dim(|LthetaGT2
-Ans->dim(|LthetaGT3
-Fill(|E99,|LthetaGT3
-Repeat min(|LthetaGT2) or max(X={Z,|LthetaGT(2
-  X:prgmthetaGTIS
+abs(iPart(real(Ans→θGT:Ans(1→X
+V→dim(ʟθGT2
+Ans→dim(ʟθGT3
+Fill(ᴇ99,ʟθGT3
+Repeat min(ʟθGT2) or max(X={Z,ʟθGT(2
+  X:prgmθGTIS
   If dim(Ans:Then
-    Ans->thetaGT1
-    For(theta,1,dim(Ans
-      |LE(|thetaGT1(theta
-      prgmthetaGTO:Ans->Y
-      If not(|LthetaGT3(Ans:Then
-        1:If W:imag(|LthetaGT1(theta
-        [i]theta+min(Ans+real(|LthetaGT3(Z)),real(|LthetaGT3(Y->|LthetaGT3(Y
+    Ans→θGT1
+    For(θ,1,dim(Ans
+      ʟE(|θGT1(θ
+      prgmθGTO:Ans→Y
+      If not(ʟθGT3(Ans:Then
+        1:If W:imag(ʟθGT1(θ
+        [i]θ+min(Ans+real(ʟθGT3(Z)),real(ʟθGT3(Y→ʟθGT3(Y
       End
     End
   End
-  1->|LthetaGT2(Z:|E99->Y
-  For(theta,1,V
-    real(|LthetaGT4(theta
-    If Ans<Y and not(|LthetaGT2(theta:Then
-      Ans->Y:theta->X
+  1→ʟθGT2(Z:ᴇ99→Y
+  For(θ,1,V
+    real(ʟθGT4(θ
+    If Ans<Y and not(ʟθGT2(θ:Then
+      Ans→Y:θ→X
     End
   End
 End
-|LthetaGT(2->Z:imag(|LthetaGT3(Ans
-prgmthetaGTP:Ans->thetaGT1
-If Z!=X:ClrList |LthetaGT1
-DelVar |LthetaGT1DelVar |LthetaGT2DelVar |LthetaGT3
+ʟθGT(2→Z:imag(ʟθGT3(Ans
+prgmθGTP:Ans→θGT1
+If Z≠X:ClrList ʟθGT1
+DelVar ʟθGT1DelVar ʟθGT2DelVar ʟθGT3

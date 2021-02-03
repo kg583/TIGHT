@@ -4,9 +4,9 @@
 // Returns ~1, performing no labeling, if the graph contains a negative weight cycle and 0 otherwise in O(VE)
 
 If E:Then
-  V->dim(|LV
-  prgmthetaGTDIST
+  V→dim(ʟV
+  prgmθGTDIST
   If dim(Ans:Then
-    Ans+[i]imag(|LV->V:0
-  Else:~1
+    Ans+[i]imag(ʟV→V:0
+  Else:⁻1
   End

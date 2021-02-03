@@ -2,6 +2,6 @@
 // Computes the index of the edge that would connect X to Y given the directedness of the graph
 // Returns the index of the connecting edge if it exists and 0 otherwise in O(E)
 
-prgmthetaGTE
-1+sum(not(cumSum(Ans=real(|LE
+prgmθGTE
+1+sum(not(cumSum(Ans=real(ʟE
 If Ans>E:0

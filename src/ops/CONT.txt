@@ -2,8 +2,8 @@
 // Contracts the edge Ans in the graph if the edge exists
 // Returns V if the edge exists and 0 otherwise in O(E ^ 2)
 
-prgmthetaGTHAS
+prgmθGTHAS
 If Ans:Then
   1+cumSum(not(binompdf(V-2,0
-  augment(Ans,{X->thetaGT
-  Y->|LthetaGT(X:|LthetaGT:prgmthetaGTMAP
+  augment(Ans,{X→θGT
+  Y→ʟθGT(X:ʟθGT:prgmθGTMAP

@@ -3,9 +3,9 @@
 // Additionally calculates the adjacency and degree matrices of the graph in [A] and [D] respectively
 // Returns [J] in O(V^2 + VE), does nothing if the graph contains more than 20 vertices
 
-If V<=20:Then
-  Ans->Z
-  prgmthetaGTADJM
-  prgmthetaGTDEGM
+If V≤20:Then
+  Ans→Z
+  prgmθGTADJM
+  prgmθGTDEGM
   dim([A]:identity(max(Ans
-  Ans-Z[A]+Z^2([D]-Ans->[J]
+  Ans-Z[A]+Z^2([D]-Ans→[J]

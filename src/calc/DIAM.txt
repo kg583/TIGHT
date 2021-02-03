@@ -4,9 +4,9 @@
 // If every vertex is connected to a negative cycle, the diameter is taken to be negative infinity
 // Returns the diameter in O(V^2E)
 
-~|E99->Y
+⁻ᴇ99→Y
 For(X,1,V
-  X:prgmthetaGTDIST
-  If not(dim(Ans:{~|E99
-  max(Y,max(Ans->Y
+  X:prgmθGTDIST
+  If not(dim(Ans:{⁻ᴇ99
+  max(Y,max(Ans→Y
 End

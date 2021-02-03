@@ -2,16 +2,16 @@
 // Greedily colors the graph by labeling its vertices via the vertex ordering Ans
 // Returns the number of colors used in O(V^2 + VE)
 
-abs(iPart(real(Ans->thetaGT
-V->dim(|LV:[i]imag(|LV->V
-For(Y,1,dim(|LthetaGT
-  V->dim(|LthetaGT2
-  |LthetaGT(Y:prgmthetaGTVS:Ans->thetaGT1
-  For(theta,1,dim(Ans
-    |LV(theta
-    If Ans:1->|LthetaGT2(Ans
+abs(iPart(real(Ans→θGT
+V→dim(ʟV:[i]imag(ʟV→V
+For(Y,1,dim(ʟθGT
+  V→dim(ʟθGT2
+  ʟθGT(Y:prgmθGTVS:Ans→θGT1
+  For(θ,1,dim(Ans
+    ʟV(θ
+    If Ans:1→ʟθGT2(Ans
   End
-  1+sum(not(cumSum(not(|LthetaGT2
-  Ans+[i]imag(|LV(Z->|LV(Z
-  ClrList |LthetaGT2
-End:max(real(|LV
+  1+sum(not(cumSum(not(ʟθGT2
+  Ans+[i]imag(ʟV(Z→ʟV(Z
+  ClrList ʟθGT2
+End:max(real(ʟV

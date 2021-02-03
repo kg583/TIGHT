@@ -3,5 +3,5 @@
 // Sets the weightedness of the graph to 0
 // Returns in O(V + E)
 
-If E:DelVar Wreal(|LE->|LE
-If dim(|LV:real(|LV->|LV
+If E:DelVar Wreal(ʟE→ʟE
+If dim(ʟV:real(ʟV→ʟV

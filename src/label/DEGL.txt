@@ -5,9 +5,9 @@
 // Labels are scaled by abs(Ans)
 // Returns in O(VE)
 
-real(Ans->theta
-V->dim(|LV
+real(Ans→θ
+V→dim(ʟV
 For(Z,1,V
-  Ztanh(|E9theta:prgmthetaGTDEG
-  Ansabs(theta)+[i]imag(|LV(Z->|LV(Z
+  Ztanh(ᴇ9θ:prgmθGTDEG
+  Ansabs(θ)+[i]imag(ʟV(Z→ʟV(Z
 End

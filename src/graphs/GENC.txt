@@ -3,6 +3,6 @@
 // If Ans < 0, the cycle is directed, starting at the first vertex
 // Returns the cycle in O(V)
 
-Ans->Z:prgmthetaGTGENP
-If Z<0:augment(Ans,{~Z-|E~3
-If Z>0:augment(Ans,{1+Z|E~3
+Ans→Z:prgmθGTGENP
+If Z<0:augment(Ans,{⁻Z-ᴇ⁻3
+If Z>0:augment(Ans,{1+Zᴇ⁻3

@@ -3,10 +3,9 @@
 // If the graph is directed, incidence holds if one edge is incoming to and the other outgoing from the common vertex
 // Returns the common vertex if it exists and zero otherwise in O(1)
 
-real(Ans:augment(iPart(Ans),|E3fPart(Ans
+real(Ans:augment(iPart(Ans),ᴇ3fPart(Ans
 If max(Ans(1)={Ans(4),DAns(2:Then
   abs(Ans(1
 Else:If max(Ans(3)={Ans(2),DAns(4:Then
   abs(Ans(3
-Else
-  0
+Else:0

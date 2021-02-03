@@ -3,11 +3,11 @@
 // If the graph contains a negative cycle, the radius is taken to be negative infinity
 // Returns the radius in O(V^2E)
 
-|E99->Y
+ᴇ99→Y
 For(X,1,V
-  X:prgmthetaGTDIST
+  X:prgmθGTDIST
   If not(dim(Ans:Then
-    ~|E99:Return
+    ⁻ᴇ99:Return
   End
-  min(Y,max(Ans->Y
+  min(Y,max(Ans→Y
 End

@@ -2,5 +2,5 @@
 // Computes the weightedness of the graph in W
 // Returns W in O(E)
 
-0:If E:0!=max(abs(imag(|LE
-Ans->W
+0:If E:0≠max(abs(imag(ʟE
+Ans→W

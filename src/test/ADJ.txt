@@ -2,7 +2,7 @@
 // Checks if the vertex Ans(1) is adjacent to the vertex Ans(2)
 // Returns the index of the connecting edge if it exists and 0 otherwise in O(E)
 
-abs(iPart(real(Ans->thetaGT
-abs(real(|LE
-1+sum(not(cumSum(Ans=sum(|LthetaGT{1,|E~3}) or DAns=sum(|LthetaGT{|E~3,1
+abs(iPart(real(Ans→θGT
+abs(real(ʟE
+1+sum(not(cumSum(Ans=sum(ʟθGT{1,ᴇ⁻3}) or DAns=sum(ʟθGT{ᴇ⁻3,1
 If Ans>E:0

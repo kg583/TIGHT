@@ -3,21 +3,21 @@
 // Utilizes the Bellman-Ford algorithm, which supports negative edge weights
 // Returns the an empty list if the graph contains a negative cycle and the list of distances otherwise in O(VE)
 
-abs(real(Ans->X
-V->dim(|LthetaGT1
-Fill(|E99,|LthetaGT1
-0->|LthetaGT1(X
-For(|LE(1),2,V
-  For(theta,1,E
-    |LE(theta:prgmthetaGTZ
+abs(real(Ans→X
+V→dim(ʟθGT1
+Fill(ᴇ99,ʟθGT1
+0→ʟθGT1(X
+For(ʟE(1),2,V
+  For(θ,1,E
+    ʟE(θ:prgmθGTZ
     1:If W:imag(Z
-    min(Ans+real(|LthetaGT1(X)),real(|LthetaGT1(Y->|LthetaGT1(Y
+    min(Ans+real(ʟθGT1(X)),real(ʟθGT1(Y→ʟθGT1(Y
   End
 End
-For(theta,1,E
-  |LE(theta:prgmthetaGTZ
-  If imag(Z)+real(|LthetaGT1(X))<real(|LthetaGT1(Y:Then
-    0->dim(|LthetaGT1:E->theta
+For(θ,1,E
+  ʟE(θ:prgmθGTZ
+  If imag(Z)+real(ʟθGT1(X))<real(ʟθGT1(Y:Then
+    0→dim(ʟθGT1:E→θ
   End
-End:|LthetaGT1
-DelVar |LthetaGT1
+End:ʟθGT1
+DelVar ʟθGT1

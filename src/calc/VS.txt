@@ -2,5 +2,5 @@
 // Lists the vertices adjacent to the vertex Ans ordered by the current edge ordering
 // Returns the adjacent vertices (may be none) in O(E)
 
-prgmthetaGTIS:prgmthetaGTS
-If dim(Ans:prgmthetaGTO
+prgmθGTIS:prgmθGTS
+If dim(Ans:prgmθGTO

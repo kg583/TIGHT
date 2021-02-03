@@ -2,6 +2,6 @@
 // Sets X and Y to the initial and terminal vertices of the edge Ans respectively
 // Returns in O(1)
 
-Ans->Z
-abs(iPart(real(Ans->X
-abs(|E3fPart(real(Z->Y
+Ans→Z
+abs(iPart(real(Ans→X
+abs(ᴇ3fPart(real(Z→Y
