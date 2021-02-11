@@ -1,6 +1,7 @@
 // REV
 // Reverses all edges, including any bidirected edges
-// Returns in O(E), does nothing if the graph is undirected
+// Alternatively, sets the graph to its transpose
+// Returns the reversed edges in O(E), does nothing if the graph is undirected
 
 If D<0:Then
   abs(real(ʟE

@@ -2,12 +2,13 @@
 <TokensProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="TIGHT" baseDirectory="D:\GitHub\TIGHT\src" outDirectory="D:\GitHub\TIGHT\bin" xmlns="http://merthsoft.com/TokensProject">
   <RAM>
     <Programs>
-      <File path="algos\DIST.txt" />
-      <File path="algos\KRUS.txt" />
-      <File path="algos\MAXF.txt" />
-      <File path="algos\PATH.txt" />
-      <File path="algos\SPAN.txt" />
-      <File path="algos\TOPO.txt" />
+	  <File path="algos\DIST.txt" />
+	  <File path="algos\KRUS.txt" />
+	  <File path="algos\MAXF.txt" />
+	  <File path="algos\PATH.txt" />
+	  <File path="algos\SCC.txt" />
+	  <File path="algos\SPAN.txt" />
+	  <File path="algos\TOPO.txt" />
   	  <File path="base\A.txt" />
   	  <File path="base\E.txt" />
   	  <File path="base\I.txt" />
