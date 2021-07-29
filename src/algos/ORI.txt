@@ -1,0 +1,33 @@
+// ORI
+// Assign a direction for each edge in the (undirected) graph, called an orientation
+// If the graph is bridgeless, the orientation will be strong
+//
+
+V→dim(ʟθGT2
+For(Y,1,V
+  If not(|LthetaGT2(Y:Then
+    {Y→θGT:~1->X
+    While dim(ʟθGT
+      ʟθGT(dim(ʟθGT→Z
+      X+1→ʟθGT2(Ans
+      Ans->X:Z
+      prgmθGTVS
+      If dim(Ans:Then
+        Ans→θGT1:1→θ
+        While θ≤dim(ʟθGT1
+          ʟθGT1(θ
+          If not(ʟθGT2(Ans:Then
+            Ans→ʟθGT(1+dim(ʟθGT
+            ClrList ʟθGT1
+          End
+          θ+1→θ
+        End:ʟθGT1
+      End
+      If not(dim(Ans:Then
+        dim(ʟθGT)-1→dim(ʟθGT
+        // Visit the vertex (Z) here
+      End
+    End
+  End
+End
+DelVar ʟθGT1DelVar ʟθGT2

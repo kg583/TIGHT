@@ -34,7 +34,7 @@ Repeat not(Ans
   If Ans:Then
     ᴇ99→Y:ʟθGT2
     prgmθGTP:Ans→θGT1
-    {θ→θGT
+    {θ,Z→θGT
     For(θ,1,dim(ʟθGT1
       ʟθGT1(θ
       min(Y,imag(ʟE(Ans))-ʟθGT4(Ans→Y

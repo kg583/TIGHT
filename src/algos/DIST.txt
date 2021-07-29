@@ -17,7 +17,7 @@ End
 For(θ,1,E
   ʟE(θ:prgmθGTZ
   If imag(Z)+real(ʟθGT1(X))<real(ʟθGT1(Y:Then
-    0→dim(ʟθGT1:E→θ
+    ClrList ʟθGT1:E→θ
   End
 End:ʟθGT1
 DelVar ʟθGT1

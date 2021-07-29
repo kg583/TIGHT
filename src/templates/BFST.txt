@@ -5,7 +5,7 @@
 
 {abs(iPart(real(Ans→θGT
 V→dim(ʟθGT2
-⁻1→ʟθGT2(ʟθGT(1
+0→ʟθGT2(ʟθGT(1
 // Establish additional structures here
 While dim(ʟθGT
   ʟθGT(dim(ʟθGT

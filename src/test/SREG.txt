@@ -16,7 +16,7 @@ If Ans:Then
     3+not(Ans→θ
     ʟθGT3(Ans
     If 0≤Ans and Z≠Ans:Then
-      0→dim(ʟθGT3
+      ClrList ʟθGT3
       Goto 0
     Else
       Z→ʟθGT3(θ

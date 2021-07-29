@@ -4,19 +4,19 @@
 // Returns [insert return here] in O(VE + V * [insert visit complexity here]))
 
 {abs(iPart(real(Ans→θGT
-V→dim(ʟθGT2:⁻1→Z
+DelVar XV→dim(ʟθGT2
 // Establish additional structures here
 While dim(ʟθGT
-  ʟθGT(dim(ʟθGT→Y
-  Z→ʟθGT2(Ans:Y
+  ʟθGT(dim(ʟθGT->Z
+  imag(Ans→ʟθGT2(real(Ans:Z
   prgmθGTVS
   If dim(Ans:Then
     Ans→θGT1:1→θ
     While θ≤dim(ʟθGT1
       ʟθGT1(θ
       If not(ʟθGT2(Ans:Then
-        Ans→ʟθGT(1+dim(ʟθGT
-        0→dim(ʟθGT1
+        Ans+Z[i]→ʟθGT(1+dim(ʟθGT
+        ClrList ʟθGT1
       End
       θ+1→θ
     End:ʟθGT1

@@ -1,6 +1,5 @@
 // REV
-// Reverses all edges, including any bidirected edges
-// Alternatively, sets the graph to its transpose
+// Reverses all edges, including any bidirected edges, to create the graph transpose
 // Returns the reversed edges in O(E), does nothing if the graph is undirected
 
 If D<0:Then

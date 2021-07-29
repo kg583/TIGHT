@@ -17,7 +17,7 @@ For(Y,1,V
           ʟθGT1(θ
           If not(ʟθGT2(Ans:Then
             Ans→ʟθGT(1+dim(ʟθGT
-            0→dim(ʟθGT1
+            ClrList ʟθGT1
           End
           θ+1→θ
         End:ʟθGT1
@@ -45,7 +45,7 @@ For(Y,1,V
           ʟθGT1(θ
           If not(ʟθGT2(Ans:Then
             Ans→ʟθGT(1+dim(ʟθGT
-            0→dim(ʟθGT1
+            ClrList ʟθGT1
           End
           θ+1→θ
         End:ʟθGT1
