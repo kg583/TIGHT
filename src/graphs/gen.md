@@ -55,7 +55,3 @@ The vertex ordering is identical to that generated for general multipartite grap
 ## `W[n,k]`: Windmill Graphs
 A _windmill graph_ is a graph in which _n_ copies of the complete graph on _k_ vertices are connected with a universal vertex in common.
 The vertex ordering is such that the first vertex is the universal vertex; the vertices then proceed in groups of size _k-1_ corresponding to each of the connected complete graphs. This ordering befits a modified circular layout largely dependent on the choice of _n_ and _k_.
-
-# Warning
-
-Due to a recently-discovered bug involving the `binompdf(` command, it is possible that generating large graphs (>257 edges) will unexpectedly crash or return erroneous or glitched edge values. The related `binomcdf(` has a slightly greater rate of failure for such purposes, and thus `binompdf(` is utilized in its place wherever possible; regardless, take caution when generating such graphs.
