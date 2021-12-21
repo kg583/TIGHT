@@ -4,7 +4,7 @@
 // Returns V in O(E)
 
 If E>1:Then
-  seq(real(ʟE(Z+(Z≥Ans))),Z,1,E-1)+[i]seq(imag(ʟE(Z+(Z≥Ans))),Z,1,E-1→E:E-1→E
+  seq(real(ʟE(Y+(Z≥Ans))),Y,1,E-1)+[i]seq(imag(ʟE(Y+(Y≥Ans))),Y,1,E-1→E:E-1→E
 Else:DelVar EClrList ʟE
 End
 prgmθGTW
