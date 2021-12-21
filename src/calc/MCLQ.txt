@@ -8,7 +8,7 @@ For(Y,1,V
   For(θ,1,dim(θGT
     θGT(θ→X
     prgmθGTI
-    If not(Ans:ᴇ4→θ
+    If not(Ans:ᴇ3→θ
   End
-  If θ<ᴇ4:Y→ʟθGT(1+dim(ʟθGT
+  If θ<ᴇ3:Y→ʟθGT(1+dim(ʟθGT
 End:ʟθGT

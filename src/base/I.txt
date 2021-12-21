@@ -4,4 +4,4 @@
 
 prgmθGTE
 1+sum(not(cumSum(Ans=real(ʟE
-If Ans>E:0
+Ans(Ans≤E

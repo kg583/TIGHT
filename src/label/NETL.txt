@@ -2,7 +2,7 @@
 // Labels each vertex with its net weight (incoming weights minus outgoing weights) if the graph is directed
 // If the graph is undirected, the labels are the sum of adjacent weights
 // Labels are scaled by Ans
-// Returns in O(VE)
+// Returns the final vertex entry in O(VE)
 
 real(Ans→θ
 V→dim(ʟV

@@ -1,6 +1,6 @@
 // ADJM
 // Computes the adjacency matrix of the graph in [A]
-// Returns in O(V^2), does nothing if the graph contains more than 20 vertices
+// Returns the final matrix entry in O(V^2), does nothing if the graph contains more than 20 vertices
 
 If V≤20:Then
   0identity(V→[A]

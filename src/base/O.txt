@@ -1,6 +1,6 @@
 // O
-// Determine the vertex on the edge Ans opposite to Z, independent of directness
-// If Ans is a list of edges containing Z, then the return is the list of opposite vertices
+// Determine the vertex on the edge Ans opposite to Z, independent of directedness
+// If Ans is a list of edges each containing Z, then the return is the list of opposite vertices
 // Returns the opposite vertex/vertices in O(1)
 
 abs(real(Ans

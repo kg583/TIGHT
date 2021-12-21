@@ -5,4 +5,4 @@
 abs(iPart(real(Ans→θGT
 abs(real(ʟE
 1+sum(not(cumSum(Ans=sum(ʟθGT{1,ᴇ⁻3}) or DAns=sum(ʟθGT{ᴇ⁻3,1
-If Ans>E:0
+Ans(Ans≤E

@@ -5,5 +5,5 @@
 // Returns in O(E)
 
 abs(iPart(real(Ans→Z
-imag(ʟE:If not(W:1+0Ans
+not(W)+Wimag(ʟE
 sum((Z=abs(iPart(real(ʟE))))Ans+Dsum(Ans*(Z=abs(ᴇ3fPart(real(ʟE

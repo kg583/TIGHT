@@ -11,7 +11,7 @@ While dim(ʟθGT
   If dim(Ans:Then
     Ans→θGT1
     1→ʟθGT2(Z:1→θ
-    While θ≤dim(ʟθGT1
+    While Ans≤dim(ʟθGT1
       ʟθGT1(θ
       If not(ʟθGT2(Ans:Then
         Ans→ʟθGT(1+dim(ʟθGT

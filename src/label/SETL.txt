@@ -1,6 +1,6 @@
 // SETL
 // Sets all vertex labels to Ans, preserving existing vertex data
-// Returns in O(V)
+// Returns the vertex labels in O(V)
 
 Ans→Z:V→dim(ʟV:[i]imag(ʟV
 Fill(Z,ʟV:ʟV+Ans→V

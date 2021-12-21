@@ -2,4 +2,5 @@
 // Deletes the edge Ans from the graph if it exists
 // Returns V if the edge exists and 0 otherwise in O(E)
 
-prgmθGTHAS:prmgθGTDEL
+prgmθGTHAS
+If Ans:prgmθGTDEL

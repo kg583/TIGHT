@@ -3,12 +3,12 @@
 // Returns V in O(E^2)
 
 abs(iPart(real(Ans→Z
-ʟE→θGT1:ClrList ʟE
+ʟE→θGT:ClrList ʟE
 For(θ,1,E
-  abs(real(ʟθGT1(θ
+  abs(real(ʟθGT(θ
   {iPart(Ans),ᴇ3fPart(Ans
-  If min(Ans≠Z:ʟθGT1(θ→ʟE(1+dim(ʟE
-End:ʟθGT1→E
+  If min(Ans≠Z:ʟθGT(θ→ʟE(1+dim(ʟE
+End
 1+cumSum(not(binompdf(V-2,0
 augment(Ans,{Z
 prgmθGTMAP

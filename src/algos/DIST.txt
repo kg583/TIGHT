@@ -10,7 +10,7 @@ Fill(ᴇ99,ʟθGT1
 For(ʟE(1),2,V
   For(θ,1,E
     ʟE(θ:prgmθGTZ
-    1:If W:imag(Z
+    not(W)+Wimag(Z
     min(Ans+real(ʟθGT1(X)),real(ʟθGT1(Y→ʟθGT1(Y
   End
 End

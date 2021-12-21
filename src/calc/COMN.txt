@@ -12,8 +12,9 @@ While dim(Ans
     If min(ʟθGT≠Ans(Y:Then
       seq(Ans(Z+(Z≥Y)),Z,1,dim(Ans)-1
     Else
-      IS>(Y,0:
+      IS>(Y,V
     End
   End
-  IS>(X,dim(ʟθGT:End
+  IS>(X,dim(ʟθGT
+End
 DelVar ʟθGT2

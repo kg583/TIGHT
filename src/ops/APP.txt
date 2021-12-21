@@ -4,7 +4,7 @@
 // Preserves the directedness of the graph
 // Returns V in O(NE)
 
-Ans→ʟθGT
+Ans→θGT
 For(θ,1,dim(Ans
   ʟθGT(Ans
   prgmθGTZ:prgmθGTE

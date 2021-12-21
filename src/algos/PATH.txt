@@ -12,10 +12,10 @@ Repeat min(ʟθGT2) or max(X={Z,ʟθGT(2
   If dim(Ans:Then
     Ans→θGT1
     For(θ,1,dim(Ans
-      ʟE(|θGT1(θ
+      ʟE(ʟθGT1(θ
       prgmθGTO:Ans→Y
       If not(ʟθGT3(Ans:Then
-        1:If W:imag(ʟθGT1(θ
+        not(W)+Wimag(ʟθGT1(θ
         [i]θ+min(Ans+real(ʟθGT3(Z)),real(ʟθGT3(Y→ʟθGT3(Y
       End
     End
@@ -31,4 +31,5 @@ End
 ʟθGT(2→Z:imag(ʟθGT3(Ans
 prgmθGTP:Ans→θGT1
 If Z≠X:ClrList ʟθGT1
+ʟθGT1
 DelVar ʟθGT1DelVar ʟθGT2DelVar ʟθGT3

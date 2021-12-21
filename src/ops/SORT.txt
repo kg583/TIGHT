@@ -17,9 +17,9 @@ Else:If 4=abs(Ans:Then
 Else:If 5=abs(Ans:Then
   abs(ᴇ3fPart(real(ʟE:seq(real(ʟV(Ans(Y))),Y,1,E
 End:End:End:End:End
-Ans→θGT1
+Ans→θGT
 If Z≥0:Then
-  SortA(ʟθGT1,ʟE
+  SortA(ʟθGT,ʟE
 Else
-  SortD(ʟθGT1,ʟE
-End:DelVar ʟθGT1
+  SortD(ʟθGT,ʟE
+End

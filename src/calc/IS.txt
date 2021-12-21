@@ -11,6 +11,5 @@ For(θ,1,E
   {iPart(Ans),Dᴇ3fPart(Ans
   If Z<0:Ans{D,D
   If max(Z=Ans:θ→ʟθGT1(1+dim(ʟθGT1
-End:abs(Z→Z
-ʟθGT1
+End:abs(Z→Z:ʟθGT1
 DelVar ʟθGT1

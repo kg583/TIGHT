@@ -2,4 +2,4 @@
 // Clears the graph
 // Returns in O(1)
 
-DelVar DDelVar EDelVar VClrList ʟE,ʟV,ʟX,ʟY
+DelVar DDelVar EDelVar VDelVar WClrList ʟE,ʟV,ʟX,ʟY

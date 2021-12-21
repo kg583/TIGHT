@@ -2,7 +2,7 @@
 // Stores the edge list Ans into |LE and sets the graph characteristics
 // Returns V in O(E)
 
-Ans→ʟE:dim(Ans→E
+Ans→E:dim(Ans→E
 tanh(ᴇ9real(ʟE(1→D
 prgmθGTW
 prgmθGTV
