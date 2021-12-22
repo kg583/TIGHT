@@ -61,7 +61,6 @@ The following real variables and lists are defined for the graph upon creation a
 ## Graph Characteristics
 * `D`: Directedness
 	* `-1`: Graph is directed
-	* `0`: Graph is empty
 	* `1`: Graph is undirected
 * `E`: # of edges
 * `V`: # of vertices
@@ -124,8 +123,6 @@ Programs are divided into the following subdirectories, grouped according to gen
 	* Ex: `ADD`, which adds the edge `Ans` to the graph
 * `plot`: Programs involved with plotting the graph on the graphscreen
 	* Ex: `LAY`, which lays out the vertices of the graph for plotting
-* `templates`: Incomplete program templates for common tasks that admit many variations
-	* Ex: `BFST`, which performs a breadth-first traversal of the graph without any search criteria
 * `test`: Tests which determine if the graph satisfies some desired property
 	* Ex: `TREE`, which checks if the graph is a tree
 
@@ -133,4 +130,4 @@ Programs are divided into the following subdirectories, grouped according to gen
 Have any questions? Found a bug?
 Raise an issue on this repository or contact kg583 on TI-Basic Developer or Cemetech.
 
-Copyright © Kevin Gomez 2020. All rights reserved.
+Copyright © Kevin Gomez 2022. All rights reserved.
