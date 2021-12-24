@@ -1,4 +1,4 @@
-// GENP
+// GENC
 // Generates the edges of the cycle on abs(Ans) vertices
 // If Ans < 0, the cycle is directed, starting at the first vertex
 // Returns the cycle in O(V)
