@@ -5,4 +5,4 @@
 
 If V≤20:Then
   prgmθGTADJM:[A]³
-  0≠sum(seq(Ans(Z,Z),Z,1,V
+  0≠sum(seq(Ans(Y,Y),Y,1,V
