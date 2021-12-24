@@ -4,7 +4,7 @@
 // Returns the path of edge indices in O(E)
 
 Ans→θGT
-0→dim(ʟθGT1
+ClrList ʟθGT1
 ʟθGT(Z
 While Ans>0
   {Ans:If dim(ʟθGT1:augment(Ans,ʟθGT1:Ans→θGT1
