@@ -1,0 +1,5 @@
+// D
+// Computes the directedness of the graph in D
+// Returns D in O(1)
+1:If E:tanh(ᴇ9real(ʟE(1
+Ans→D
