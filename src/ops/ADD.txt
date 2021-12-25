@@ -4,7 +4,7 @@
 // Returns V in O(E)
 
 If not(E:Then:{Ans→ʟE
-  tanh(ᴇ9real(Ans(1→D
+  prgmθGTD
 Else
   prgmθGTZ:prgmθGTE
   Ans+[i]imag(Z→ʟE(1+sum(not(cumSum(Ans=real(ʟE
