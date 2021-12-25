@@ -3,6 +3,6 @@
 // Returns V in O(E)
 
 Ans→E:dim(Ans→E
-tanh(ᴇ9real(ʟE(1→D
+prgmθGTD
 prgmθGTW
 prgmθGTV
