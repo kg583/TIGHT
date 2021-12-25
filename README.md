@@ -70,7 +70,7 @@ The following real variables and lists are defined for the graph upon creation a
 
 ## Internal Vars
 * `X,Y,Z,θ`: Real vars
-* `L6: Argument list
+* `L6`: Argument list
 * `L1` - `L5`: Temporary lists
 
 ## Graph Lists
