@@ -3,7 +3,6 @@
 // Labels each vertex based on their tree within the forest
 // Returns the indices of the edges of the spanning forest in O(VE)
 
-0→dim(L₁
 1+cumSum(not(binompdf(V-1,0
 If dim(ʟV:Ans+[i]imag(ʟV
 Ans→V:1→θ
