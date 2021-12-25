@@ -1,26 +1,30 @@
 // SORT
 // Sorts the edges of the graph
 // Options are specified in Ans as detailed in sort.md
-// Returns in O(E^2)
+// Returns the sorting criterion in O(E^2), fails if an ivnalid option is specified
 
 Ans→Z
 If not(Ans:Then
   rand(E
 Else:If 1=abs(Ans:Then
   imag(ʟE
-Else:If 2=abs(Ans:Then
-  abs(real(ʟE
-Else:If 3=abs(Ans:Then
-  abs(real(ʟE:ᴇ3fPart(Ans)+ᴇ⁻3iPart(Ans
-Else:If 4=abs(Ans:Then
-  abs(iPart(real(ʟE:seq(real(ʟV(Ans(Y))),Y,1,E
-Else:If 5=abs(Ans:Then
-  abs(ᴇ3fPart(real(ʟE:seq(real(ʟV(Ans(Y))),Y,1,E
-End:End:End:End:End
+Else:abs(real(ʟE
+If 3=abs(Z:Then
+  ᴇ3fPart(Ans)+ᴇ⁻3iPart(Ans
+Else:If 4=abs(Z:Then
+  iPart(Ans:prgmθGTSV:imag(Ans
+Else:If 5=abs(Z:Then
+  ᴇ3fPart(Ans:prgmθGTSV:imag(Ans
+Else:If 6=abs(Z:Then
+  iPart(Ans
+Else:If 7=abs(Z:Then
+  ᴇ3fPart(Ans
+End:End
+prgmθGTSV:abs(iPart(real(Ans
+End:End:End:End
 Ans→L₁
 If Z≥0:Then
   SortA(L₁,ʟE
 Else
   SortD(L₁,ʟE
-End
-ClrList L₁
+End:ClrList L₁
