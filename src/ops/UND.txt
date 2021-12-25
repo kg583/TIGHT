@@ -1,7 +1,7 @@
 // UND
 // Make the current graph undirected, preserving current edge weights
-// Returns in O(E)
+// Returns the graph in O(E)
 
-abs(ʟE:min(iPart(Ans),ᴇ3fPart(Ans
-Ans+ᴇ⁻3max(abs(iPart(ʟE)),abs(ᴇ3fPart(ʟE
-Ans+[i]imag(ʟE→E:1→D
+1→D:abs(real(ʟE
+min(iPart(Ans),ᴇ3fPart(Ans))+ᴇ⁻3max(abs(iPart(Ans)),abs(ᴇ3fPart(Ans
+Ans+[i]imag(ʟE→E
