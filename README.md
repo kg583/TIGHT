@@ -89,7 +89,7 @@ The following real variables and lists are defined for the graph upon creation a
 * `V`: Vertices
 	* Entries are `L + D[i]`
 		* `L`: Vertex label (usually an integer)
-		* `D`: Vertex data (any real number)
+		* `D`: Vertex weight (any real number strictly between `~|E48` and `|E48`)
 	* Sign and fractional part of real part can be set arbitrarily by the user
 		* All subprograms ignore these components of vertex entries
 	* If a vertex contains no entry, it is assumed to be uncolored and have no associated data
