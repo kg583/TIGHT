@@ -1,0 +1,14 @@
+// ES
+// Lists the edges incident to the vertex abs(Ans) ordered by the current edge ordering
+// If the graph is directed and Ans > 0, the listed edges are outgoing
+// If the graph is directed and Ans < 0, the listed edges are incoming
+// Returns the incident edges (may be none) in O(E)
+
+iPart(real(Ans→Z
+abs(real(ʟE
+Z=iPart(Ans) or Z=Dᴇ3fPart(Ans
+DAnsʟE→θGT1
+SortD(ʟθGT1
+sum(0≠real(Ans→dim(ʟθGT1
+ʟθGT1:If dim(Ans:DAns
+DelVar ʟθGT1
