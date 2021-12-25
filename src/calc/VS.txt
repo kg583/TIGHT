@@ -1,6 +1,7 @@
 // VS
-// Lists the vertices adjacent to the vertex Ans ordered by the current edge ordering
+// Lists the vertices adjacent to the vertex abs(Ans) ordered by the current edge ordering
+// If the graph is directed and Ans > 0, the listed vertices are children of Ans
+// If the graph is directed and Ans < 0, the listed vertices are parents of Ans
 // Returns the adjacent vertices (may be none) in O(E)
 
-prgmθGTIS:prgmθGTS
-If dim(Ans:prgmθGTO
+prgmθGTES:If dim(Ans:prgmθGTO
