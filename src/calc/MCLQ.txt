@@ -3,12 +3,13 @@
 // Finds an oriented clique if the graph is directed
 // Returns the vertices of the clique in O(V^2)
 
-{abs(iPart(real(Ans→θGT
+{abs(iPart(real(Ans→L₆
 For(Y,1,V
-  For(θ,1,dim(θGT
-    θGT(θ→X
+  For(θ,1,dim(L₆
+    L₆(θ→X
     prgmθGTI
     If not(Ans:ᴇ3→θ
   End
-  If θ<ᴇ3:Y→ʟθGT(1+dim(ʟθGT
-End:ʟθGT
+  If θ<ᴇ3:Y→L₆(1+dim(L₆
+End:L₆
+ClrList L₆

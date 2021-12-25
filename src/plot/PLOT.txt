@@ -2,35 +2,35 @@
 // Plots the graph using the |LX and |LY vertex coordinate lists if they are non-empty
 // Options are specified in Ans as detailed in plot.md
 
-real(Ans→θGT
-If 2>dim(Ans:2→ʟθGT(2
-If 3>dim(ʟθGT:0→ʟθGT(3
-If 4>dim(ʟθGT:2→ʟθGT(4
-If 5>dim(ʟθGT:0→ʟθGT(5
-If 6>dim(ʟθGT:1→ʟθGT(6
-ʟθGT(1
+real(Ans→L₆
+If 2>dim(Ans:2→L₆(2
+If 3>dim(L₆:0→L₆(3
+If 4>dim(L₆:2→L₆(4
+If 5>dim(L₆:0→L₆(5
+If 6>dim(L₆:1→L₆(6
+L₆(1
 If Ans and V≤dim(ʟX) and V≤dim(ʟY:Then
   .5Ans(Ymax-Ymin→Z
-  AnsʟX+.5(Xmax+Xmin→ʟθGT1
-  ZʟY+.5(Ymax+Ymin→ʟθGT2
+  AnsʟX+.5(Xmax+Xmin→L₁
+  ZʟY+.5(Ymax+Ymin→L₂
   ʟθGT(2→Z
   ClrDraw
   If Ans:Then
     For(θ,1,V
-      ʟθGT(3
+      L₆(3
       If Ans:Then
         If Ans=1:ʟC(abs(iPart(real(ʟV(θ
         If Ans=2:ʟC(abs(iPart(imag(ʟV(θ
       Else:BLACK
       End
-      Pt-On(ʟθGT1(θ),ʟθGT2(θ),Ans,Z
+      Pt-On(L₁(θ),L₂(θ),Ans,Z
     End
   End
-  abs(iPart(ʟθGT(4→ʟθGT(4
+  abs(iPart(L₆(4→L₆(4
   If Ans:Then
     For(θ,1,E
       ʟE(θ:prgmθGTZ
-      abs(iPart(ʟθGT(5
+      abs(iPart(L₆(5
       If not(Ans:Then:BLACK
       Else:If Ans=1:Then:abs(iPart(imag(Z
       Else:If Ans=2:Then:X
@@ -39,14 +39,13 @@ If Ans and V≤dim(ʟX) and V≤dim(ʟY:Then
       Else:If Ans=5:Then:ʟV(Y
       End:End:End:End:ʟC(Ans
       End:Ans→Z
-      Line(ʟθGT1(X),ʟθGT2(X),ʟθGT1(Y),ʟθGT2(Y),1,ʟθGT(4),Ans
+      Line(L₁(X),L₂(X),L₁(Y),L₂(Y),1,L₆(4),Ans
       If D<0:Then
-        abs({ʟθGT1(X)-ʟθGT1(Y),ʟθGT2(X)-ʟθGT2(Y)→ʟθGT3
-        LθGT(1)abs(ʟθGT(6
-        ʟθGT3√(Ans)/R►Pr(ʟθGT3(1),ʟθGT3(2
-        Line(ʟθGT1(Y),ʟθGT2(Y),ʟθGT1(Y)+sum(Ans{√(3),⁻1}),ʟθGT2(Y)+sum(Ans{1,√(3)}),1,ʟθGT(4),Z
-        Line(ʟθGT1(Y),ʟθGT2(Y),ʟθGT1(Y)+sum(Ans{√(3),1}),ʟθGT2(Y)+sum(Ans{⁻1,√(3)}),1,ʟθGT(4),Z
+        abs({L₁(X)-L₁(Y),L₂(X)-L₂(Y
+        Ans√(L₆(1)abs(L₆(6)))/R►Pr(Ans(1),Ans(2
+        Line(L₁(Y),L₂(Y),L₁(Y)+sum(Ans{√(3),⁻1}),L₂(Y)+sum(Ans{1,√(3)}),1,L₆(4),Z
+        Line(L₁(Y),L₂(Y),L₁(Y)+sum(Ans{√(3),1}),L₂(Y)+sum(Ans{⁻1,√(3)}),1,L₆(4),Z
       End
     End
   End
-DelVar ʟθGT1DelVar ʟθGT2DelVar ʟθGT3
+  ClrList L₁,L₂,L₆

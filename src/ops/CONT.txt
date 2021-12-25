@@ -5,5 +5,5 @@
 prgmθGTHAS
 If Ans:Then
   1+cumSum(not(binompdf(V-2,0
-  augment(Ans,{X→θGT
-  Y→ʟθGT(X:ʟθGT:prgmθGTMAP
+  augment(Ans,{X→L₆
+  Y→L₆(X:L₆:prgmθGTMAP

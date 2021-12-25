@@ -2,19 +2,19 @@
 // Lists the vertices that are all adjacent to each vertex in Ans
 // Returns the list of common vertices (may be none) in O(NVE)
 
-abs(iPart(real(Ans→θGT
+abs(iPart(real(Ans→L₆
 1→X
-ʟθGT(1:prgmθGTVS
+L₆(1:prgmθGTVS
 While dim(Ans
-  Ans→θGT2:1→Y
-  ʟθGT(X:prgmθGTVS
+  Ans→L₂:1→Y
+  L₆(X:prgmθGTVS
   While Y≤dim(Ans
-    If min(ʟθGT≠Ans(Y:Then
+    If min(L₆≠Ans(Y:Then
       seq(Ans(Z+(Z≥Y)),Z,1,dim(Ans)-1
     Else
       IS>(Y,V
     End
   End
-  IS>(X,dim(ʟθGT
+  IS>(X,dim(L₆
 End
-DelVar ʟθGT2
+ClrList L₁,L₂,L₆

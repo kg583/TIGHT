@@ -2,9 +2,10 @@
 // Checks if the graph is regular
 // Returns the valency of the graph if it is regular and 0 otherwise in O(VE)
 
-0→dim(ʟθGT1
+ClrList L₁
 For(Z,1,V
-  Z:prgmθGTDEG:Ans→ʟθGT1(1+dim(ʟθGT1
-  ⁻Z:prgmθGTDEG:Ans→ʟθGT1(1+dim(ʟθGT1
-End:ʟθGT1
-DelVar ʟθGT1min(Ans)(min(Ans)=max(Ans
+  Z:prgmθGTDEG:Ans→L₁(1+dim(L₁
+  ⁻Z:prgmθGTDEG:Ans→L₁(1+dim(L₁
+End
+min(L₁)(min(L₁)=max(L₁
+ClrList L₁

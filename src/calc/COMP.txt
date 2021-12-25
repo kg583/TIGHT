@@ -2,11 +2,11 @@
 // Computes the complement of the graph, removing any self-loops
 // Returns the complement edges in O(V^2E)
 
-0→dim(ʟθGT1
+0→dim(L₁
 For(X,1,V
   For(Y,1+X(D>0),V
     D(X+Yᴇ⁻3
-    If min(Ans≠real(ʟE:Ans→ʟθGT1(1+dim(ʟθGT1
+    If min(Ans≠real(ʟE:Ans→L₁(1+dim(L₁
   End
-End:ʟθGT1
-DelVar ʟθGT1
+End:L₁
+ClrList L₁

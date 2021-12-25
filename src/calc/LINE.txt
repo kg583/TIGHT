@@ -2,10 +2,10 @@
 // Constructs the line graph for the current graph based on the current edge ordering
 // Returns the edges of the line graph in O(E^2)
 
-0→dim(ʟθGT1
+0→dim(L₁
 For(X,1,E
   For(Y,1+X(D>0),E
     {ʟE(X),ʟE(Y:prgmθGTINC
-    If Ans:D(X+Yᴇ⁻3→ʟθGT1(1+dim(ʟθGT1
+    If Ans:D(X+Yᴇ⁻3→L₁(1+dim(ʟθGT1
   End
 End

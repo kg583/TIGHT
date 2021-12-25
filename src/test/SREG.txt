@@ -3,30 +3,30 @@
 // The graph must have at least two vertices
 // Returns the four defining parameters of the graph if it is strongly regular and an empty list otherwise in O(V^3E + VE)
 
-0→dim(ʟθGT3
+ClrList L₃
 prgmθGTKREG
 If Ans:Then
   {V,Ans,⁻1,⁻1→θGT3
   {1,2
   Repeat V<max(Ans
-    Ans→θGT
+    Ans→L₆
     prgmθGTCOMN
-    dim(Ans→Z:ʟθGT
+    dim(Ans→Z:L₆
     prgmθGTADJ
     3+not(Ans→θ
-    ʟθGT3(Ans
+    L₃(Ans
     If 0≤Ans and Z≠Ans:Then
-      ClrList ʟθGT3
+      ClrList L₃
       Goto 0
     Else
-      Z→ʟθGT3(θ
-    End:ʟθGT
-    Repeat sum(δList(Ans
+      Z→L₃(θ
+    End:L₆
+    Repeat sum(DeltaList(Ans
       Ans+{0,1
     End
     Ans+{1,(D>0)(Ans(1)+1)-V}(V<max(Ans
   End
-  max(ʟθGT3,0→θGT3
+  max(L₃,0→L₃
 End
-Lbl 0:ʟθGT3
-DelVar ʟθGT3
+Lbl 0:L₃
+ClrList L₃,L₆

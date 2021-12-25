@@ -2,11 +2,11 @@
 // Sets the |LX and |LY vertex coordinate lists
 // Options are specified in Ans as detailed in layout.md
 
-prgmθGTA:ʟθGT(1
+prgmθGTA:L₆(1
 If Ans=3:Then
-  ⁻1+dim(ʟθGT→X
+  ⁻1+dim(L₆→X
   For(Y,1,Ans
-    ʟθGT(Y+1→Z:abs(iPart(Ans
+    L₆(Y+1→Z:abs(iPart(Ans
     If Ans=1:Then:{0
     Else
       YXˉ¹[i]e^(2π[i]/AnscumSum(not(binompdf(Ans-1,0
@@ -25,9 +25,9 @@ If Ans=3:Then
   imag(ʟX→Y:real(ʟX→X
 Else:If Ans=12:Then
   ClrList ʟX,ʟY
-  ⁻2+dim(ʟθGT→θ
+  ⁻2+dim(L₆→θ
   For(Y,0,Ans
-    ⁻1+abs(ʟθGT(Y+2→Z
+    ⁻1+abs(L₆(Y+2→Z
     For(X,0,iPart(Ans
       If iPart(Z:Then
         2X/iPart(Z)-1
@@ -38,9 +38,9 @@ Else:If Ans=12:Then
     End
   End
 Else:If Ans=15:Then
-  Orbital goes here
+  "Orbital goes here
 Else:If Ans=20:Then:{0→X
-  iPart(ʟθGT(2→Z:abs(Ans→X
+  iPart(L₆(2→Z:abs(Ans→X
   2+iPart(logBASE(Ans,2→θ
   {1-2/Ans→Y
   For(Y,1,θ-2

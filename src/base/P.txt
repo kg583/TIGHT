@@ -3,12 +3,10 @@
 // The path is assumed to end once a predecessor edge index is non-positive
 // Returns the path of edge indices in O(E)
 
-Ans→θGT
-ClrList ʟθGT1
-ʟθGT(Z
+Ans→L₆:Ans(Z
 While Ans>0
-  {Ans:If dim(ʟθGT1:augment(Ans,ʟθGT1:Ans→θGT1
+  {Ans:If dim(L₁:augment(Ans,L₁:Ans→L₁
   ʟE(Ans(1:prgmθGTO
-  Ans→Z:ʟθGT(Ans
-End:ʟθGT1
-DelVar ʟθGT1
+  Ans→Z:L₆(Ans
+End:L₁
+ClrList L₁,L₆

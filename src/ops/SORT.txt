@@ -17,9 +17,10 @@ Else:If 4=abs(Ans:Then
 Else:If 5=abs(Ans:Then
   abs(ᴇ3fPart(real(ʟE:seq(real(ʟV(Ans(Y))),Y,1,E
 End:End:End:End:End
-Ans→θGT
+Ans→L₆
 If Z≥0:Then
-  SortA(ʟθGT,ʟE
+  SortA(L₆,ʟE
 Else
-  SortD(ʟθGT,ʟE
+  SortD(L₆,ʟE
 End
+ClrList L₆

@@ -1,48 +1,48 @@
 // GEN
 // Generates the graph family member named in Ans as listed in gen.md
 
-prgmθGTA:ʟθGT(1
+prgmθGTA:L₆(1
 If Ans=3:Then
-  ʟθGT(2:prgmθGTGENC
+  L₆(2:prgmθGTGENC
   prgmθGTSTO
 Else:If Ans=4:Then
-  ⁻ʟθGT(2:prgmθGTGENC
+  ⁻L₆(2:prgmθGTGENC
   prgmθGTSTO
 Else:If Ans=6:Then
-  1→D:1+2ʟθGT(2→V
+  1→D:1+2L₆(2→V
   prgmθGTGENP:1.002+ᴇ⁻3Ans
   augment(Ans,2.003+2.002cumSum(not(binompdf(int(.5V)-1,0→E
   dim(Ans→E
 Else:If Ans=7:Then:1→D
-  ʟθGT(2→V
+  L₆(2→V
   1+cumSum(not(binompdf(Ans-1,0→E
-  Ans+ʟθGT(3:Ans-V(Ans>V
+  Ans+L₆(3:Ans-V(Ans>V
   min(Ans,ʟE)+ᴇ⁻3max(Ans,ʟE
   augment(Ans,augment(1.001ʟE+Vᴇ⁻3,1.001ʟE+ᴇ⁻3→E
   dim(Ans→E:V+1+2Vᴇ⁻3→ʟE(Ans
   2V→V
 Else:If Ans=11:Then
-  ⁻Ans+sum(ʟθGT→V
-  ⁻1+ʟθGT(2→ʟθGT(2
-  δList(cumSum(ʟθGT
+  ⁻Ans+sum(L₆→V
+  ⁻1+L₆(2→L₆(2
+  DeltaList(cumSum(ʟθGT
   If 1=dim(Ans:not(binompdf(V-1,0
-  1+cumSum(Ans→θGT
+  1+cumSum(Ans→L₆
   DelVar EClrList ʟE:1→D
   For(X,1,V
     For(Y,X+1,V
-      1+sum(not(cumSum(X≤ʟθGT
-      If Ans≠1+sum(not(cumSum(Y≤ʟθGT:Then
+      1+sum(not(cumSum(X≤L₆
+      If Ans≠1+sum(not(cumSum(Y≤L₆:Then
         E+1→E:X+Yᴇ⁻3→ʟE(Ans
       End
     End
   End
 Else:If Ans=13:Then
-  .5ʟθGT(2→V
+  .5L₆(2→V
   prgmθGTGENP:1.002+1.001Ans
   augment(Ans,augment(Ans+1.001V,{1.001V+ᴇ⁻3,1+2Vᴇ⁻3→E
   dim(Ans→E:2V→V
 Else:If Ans=17:Then
-  2^ʟθGT(2→V
+  2^L₆(2→V
   DelVar EClrList ʟE
   For(X,1,V
     For(Y,X+1,V)
@@ -52,11 +52,11 @@ Else:If Ans=17:Then
     End
   End
 Else:If Ans=19:Then
-  tanh(ᴇ9ʟθGT(2→D
-  abs(ʟθGT(2→E
+  tanh(ᴇ9L₆(2→D
+  abs(L₆(2→E
   1+ᴇ⁻3(2+cumSum(not(binompdf(Ans-1,0:DAns→E:E+1→V
 Else:If Ans=20:Then
-  ʟθGT(1→X:ʟθGT(2→Y
+  L₆(1→X:L₆(2→Y
   XYˉ¹→Z:{int(.5+Ans
   For(Z,2,Y
     If Z≤iPart(YfPart(Z:Then
@@ -69,15 +69,15 @@ Else:If Ans=20:Then
   "K"+sub(Ans,2,length(Ans)-2
   prgmθGTGEN
 Else:If Ans=23:Then
-  If 2=dim(ʟθGT:Then
-    ʟθGT(2→V
+  If 2=dim(L₆:Then
+    L₆(2→V
     prgmθGTGENP:2+Ans
     augment(1+Ansᴇ⁻3,1.001Ans+ᴇ⁻3→E:2V-2→E
     2+Vᴇ⁻3→ʟE(Ans
   Else
-    ⁻1+ʟθGT(2→θ:ClrList ʟE
-    1+ZʟθGT(3→V
-    For(Z,0,⁻1+ʟθGT(3
+    ⁻1+L₆(2→θ:ClrList ʟE
+    1+ZL₆(3→V
+    For(Z,0,⁻1+L₆(3
       For(X,2,Z+1
         1+ᴇ⁻3(X+θZ→ʟE(1+dim(ʟE
         For(Y,X+1,Z+1
