@@ -1,0 +1,13 @@
+// MOR
+// Converts the graph into its moral graph
+// The moral graph of a directed graph is the undirected counterpart with all vertices having a common child also connected
+// Returns the graph in O(E^2)
+
+For(θ,1,E
+ʟE(θ:prgmθGTZ
+For(Z,1,E
+abs(real(ʟE(Z
+If Y=ᴇ3fPart(Ans:Then
+X+ᴇ⁻3iPart(Ans→ʟE(1+dim(ʟE
+End:End
+dim(ʟE→E:prgmθGTUND
