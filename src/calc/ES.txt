@@ -7,8 +7,5 @@
 iPart(real(Ans→Z
 abs(real(ʟE
 Z=iPart(Ans) or Z=Dᴇ3fPart(Ans
-DAnsʟE→θGT1
-SortD(ʟθGT1
-sum(0≠real(Ans→dim(ʟθGT1
-ʟθGT1:If dim(Ans:DAns
-DelVar ʟθGT1
+DAnsʟE:prgmθGTF
+If dim(Ans:DAns
