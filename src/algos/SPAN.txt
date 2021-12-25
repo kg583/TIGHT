@@ -7,13 +7,14 @@
 1+cumSum(not(binompdf(V-1,0
 If dim(ʟV:Ans+[i]imag(ʟV
 Ans→V:1→θ
-While Ans≤E and 1<max(ʟV
+While 1<max(ʟV
   abs(real(ʟE(θ→Z
   ʟV(iPart(Ans→X
   ʟV(ᴇ3fPart(Z→Y
   If X≠Ans:Then:max(X,Ans
     ʟV+(ʟV=Ans)(min(X,Y)-Ans→V
     θ→L₁(1+dim(L₁
-  End:θ+1→θ
+  End
+  IS>(θ,E
 End:L₁
 ClrList L₁
