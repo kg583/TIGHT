@@ -1,59 +1,29 @@
 // SCC
 // Finds the strongly connected components of the graph
 // Labels each vertex based on the strongly connected component of which they are a member
-// Returns the number of components in O(VE)
+// Returns the number of components in O(V^2E)
 
-V→dim(ʟθGT2:0→dim(ʟθGT3
-For(Y,1,V
-  If not(ʟθGT2(Y:Then
-    {Y→θGT
-    While dim(ʟθGT
-      ʟθGT(dim(ʟθGT
-      prgmθGTVS
-      If dim(Ans:Then
-        Ans→θGT1
-        1→ʟθGT2(Z:1→θ
-        While θ≤dim(ʟθGT1
-          ʟθGT1(θ
-          If not(ʟθGT2(Ans:Then
-            Ans→ʟθGT(1+dim(ʟθGT
-            ClrList ʟθGT1
-          End
-          θ+1→θ
-        End:ʟθGT1
-      End
-      If not(dim(Ans:Then
-        dim(ʟθGT)-1→dim(ʟθGT
-        Z→ʟθGT3(1+dim(ʟθGT3
-      End
-    End
+prgmθGTDFS
+iPart(real(Ans→L₃
+For(θ,2,V
+  θ
+  If min(Ans≠L₃:Then
+    prgmθGTDFS
+    iPart(real(Ans
+    augment(Ans,L₃→L₃
   End
 End
-prgmθGTREV:V→dim(ʟV
-DelVar XFill(0,ʟθGT2
-For(Y,1,V
-  {ʟθGT3(Y→θGT
-  If not(ʟθGT2(Ans(1:Then
-    X+1→X
-    While dim(ʟθGT
-      ʟθGT(dim(ʟθGT
-      prgmθGTVS
-      If dim(Ans:Then
-        Ans→θGT1
-        1→ʟθGT2(Z:1→θ
-        While θ≤dim(ʟθGT1
-          ʟθGT1(θ
-          If not(ʟθGT2(Ans:Then
-            Ans→ʟθGT(1+dim(ʟθGT
-            ClrList ʟθGT1
-          End
-          θ+1→θ
-        End:ʟθGT1
-      End
-      If not(dim(Ans:Then
-        dim(ʟθGT)-1→dim(ʟθGT
-        [i]X+ʟV(Z→ʟV(Z
-      End
+prgmθGTREV
+DelVar XV→dim(ʟV
+Ans:prgmθGTM
+For(θ,1,V
+  L₃(θ
+  If not(ʟM(Ans:Then
+    prgmθGTDFS
+    IS>(X,V:Ans→L₁
+    For(Z,1,dim(Ans
+      L₁(Z
+      X+[i]imag(ʟV(Ans→ʟV(Ans
     End
   End
 End
