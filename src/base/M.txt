@@ -1,0 +1,5 @@
+// M
+// Sets the dimension of |LM to Ans and fill its with zeroes
+// Return Ans in O(1)
+
+Ans→dim(ʟM:Fill(0,ʟM

@@ -1,0 +1,19 @@
+// BFS
+// Traverses the graph starting at vertex Ans using breadth-first search
+// Returns a list of vertices and predecessors sorted by visit order in O(VE)
+
+{abs(iPart(real(Ans→L₆
+V:prgmθGTM:1
+While Ans
+  L₆(Ans→Z
+  If not(ʟM(iPart(Ans:Then
+    1→ʟM(iPart(Ans
+    Z→L₂(1+dim(L₂:prgmθGTES
+    If dim(Ans:Then
+    prgmθGTO:Ans+Zᴇ⁻3
+    If dim(L₆:augment(Ans,L₆
+    Ans→L₆
+    End
+  End
+  dim(L₆)-1→dim(L₆
+End:L₂:ClrList L₁,L₂,L₆

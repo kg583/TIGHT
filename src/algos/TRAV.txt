@@ -1,0 +1,26 @@
+// TRAV
+// Traverses the graph starting at vertex Ans
+// Utilizes the heuristic |u to perform informed search (see traverse.md)
+// Returns a list of vertices, predecessors, and traversal priorities sorted by visit order in O(VE + E * [|u complexity])
+
+{abs(iPart(real(Ans→L₆
+V:prgmθGTM
+While dim(L₆
+  L₆(dim(L₆→Z
+  iPart(real(Ans
+  If not(ʟM(Ans:Then
+    1→ʟM(Ans:imag(Z→θ
+    Z→L₂(1+dim(L₂:prgmθGTES
+    If dim(Ans:Then
+      Ans→L₁:prgmθGTO
+      augment(Ans+Zᴇ⁻3+|u[i],L₆→L₆
+    End
+    dim(L₆)-1→dim(L₆
+    If Ans:Then
+      real(L₆)+ᴇ3imag(L₆→L₁
+      SortD(L₁,L₆
+    End
+  Else
+    dim(L₆)-1→dim(L₆
+  End
+End:L₂:ClrList L₁,L₂,L₆

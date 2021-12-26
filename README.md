@@ -86,13 +86,18 @@ The following real variables and lists are defined for the graph upon creation a
 		* All edges have the same sign (i.e. directed and undirected edges are not mixed)
 	* Contains no duplicate edges
 		* For undirected graphs, the initial vertex is always the minimum of the two vertices
+* `M`: Marks
+	* Entries are `M`
+		* `M`: Vertex or edge mark (usually an integer)
+	* Set during any graph traversal call to denote visited vertices
+	* Not guarnateed to exist
 * `V`: Vertices
-	* Entries are `L + D[i]`
+	* Entries are `L + W[i]`
 		* `L`: Vertex label (usually an integer)
-		* `D`: Vertex weight (any real number strictly between `~|E48` and `|E48`)
+		* `W`: Vertex weight (any real number strictly between `~|E48` and `|E48`)
 	* Sign and fractional part of real part can be set arbitrarily by the user
-		* All subprograms ignore these components of vertex entries
-	* If a vertex contains no entry, it is assumed to be uncolored and have no associated data
+		* All subprograms ignore, but do not necessarily respect, these components of vertex entries
+	* Not guaranteed to exist
 * `X`: Vertex X coordinates
 	* Entries are within the range `[~1,1]`
 * `Y`: Vertex Y coordinates

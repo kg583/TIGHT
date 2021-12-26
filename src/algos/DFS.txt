@@ -1,0 +1,19 @@
+// DFS
+// Traverses the graph starting at vertex Ans using depth-first search
+// Returns a list of vertices and predecessors sorted by visit order in O(VE)
+
+{abs(iPart(real(Ans→L₆
+V:prgmθGTM
+While dim(L₆
+  L₆(dim(L₆→Z
+  dim(L₆)-1→dim(L₆
+  If not(ʟM(iPart(Z:Then
+    1→ʟM(iPart(Z
+    Z→L₂(1+dim(L₂:prgmθGTES
+    If dim(Ans:Then
+    prgmθGTO:Ans+Zᴇ⁻3
+    If dim(L₆:augment(L₆,Ans
+    Ans→L₆
+    End
+  End
+End:L₂:ClrList L₁,L₂,L₆
