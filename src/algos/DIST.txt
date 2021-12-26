@@ -4,20 +4,20 @@
 // Returns an empty list if the graph contains a negative cycle and the list of distances otherwise in O(VE)
 
 abs(real(Ans→X
-V→dim(ʟθGT1
-Fill(ᴇ99,ʟθGT1
+V→dim(L₁
+Fill(ᴇ99,L₁
 0→ʟθGT1(X
-For(ʟE(1),2,V
+For(L₁(1),2,V
   For(θ,1,E
     ʟE(θ:prgmθGTZ
     not(W)+Wimag(Z
-    min(Ans+real(ʟθGT1(X)),real(ʟθGT1(Y→ʟθGT1(Y
+    min(Ans+real(L₁(X)),real(L₁(Y→ʟθGT1(Y
   End
 End
 For(θ,1,E
   ʟE(θ:prgmθGTZ
-  If imag(Z)+real(ʟθGT1(X))<real(ʟθGT1(Y:Then
-    ClrList ʟθGT1:E→θ
+  If imag(Z)+real(L₁(X))<real(L₁(Y:Then
+    ClrList L₁:E→θ
   End
-End:ʟθGT1
-DelVar ʟθGT1
+End:L₁
+ClrList L₁
