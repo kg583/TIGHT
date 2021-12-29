@@ -1,0 +1,7 @@
+// GENR
+// Generates the random graph type named in Ans as listed in genr.md
+
+prgmθGTA
+prgmθGTCLR
+prgmθGTGR
+ClrList L₆

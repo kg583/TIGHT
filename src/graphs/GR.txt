@@ -1,0 +1,17 @@
+// GR
+// Generates the random graph type named in L6 after argument parsing
+
+L₆(1
+If Ans=7:Then
+  abs(L₆(2→V
+  min(tanh(ᴇ9L₆→D
+  For(X,1,V
+    For(Y,1,1+X(D>0),V
+      If rand<abs(L₆(3:Then
+        prgmθGTE:Ans→ʟE(1+dim(ʟE
+      End
+    End
+  End
+  dim(ʟE→E
+Else:If Ans=19:Then
+  
