@@ -2,6 +2,7 @@
 // Make the current graph undirected, preserving current edge weights
 // Returns the graph in O(E)
 
-1→D:abs(real(ʟE
-min(iPart(Ans),ᴇ3fPart(Ans))+ᴇ⁻3max(abs(iPart(Ans)),abs(ᴇ3fPart(Ans
-Ans+[i]imag(ʟE→E
+If E:Then
+  1→D:abs(real(ʟE
+  min(iPart(Ans),ᴇ3fPart(Ans))+ᴇ⁻3max(abs(iPart(Ans)),abs(ᴇ3fPart(Ans
+  Ans+[i]imag(ʟE→E
