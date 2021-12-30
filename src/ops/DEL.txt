@@ -5,7 +5,7 @@
 
 If E>1:Then
   seq(real(ʟE(Y+(Z≥Ans))),Y,1,E-1)+[i]seq(imag(ʟE(Y+(Y≥Ans))),Y,1,E-1→E:E-1→E
-Else:DelVar EClrList ʟE
+  Else:prgmθGTCLR
 End
 prgmθGTW
 prgmθGTV
