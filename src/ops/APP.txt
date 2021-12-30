@@ -1,14 +1,19 @@
 // APP
 // Appends the edge list Ans to |LE and sets the graph characteristics
 // Does not replace the weights of already existing edges
-// Preserves the directedness of the graph
+// Assumes Ans contains no duplicates
 // Returns V in O(NE)
 
-Ans→L₆
-For(θ,1,dim(Ans
-  L₆(Ans
-  prgmθGTZ:prgmθGTE
-  If max(Ans≠real(ʟE:Ans→ʟE(1+dim(ʟE
+If E:Then
+  Ans→L₆
+  For(θ,1,dim(Ans
+    L₆(Ans
+    prgmθGTZ:prgmθGTE
+    If max(Ans≠real(ʟE:Ans+[i]imag(Z→ʟE(1+dim(ʟE
+  End
+Else:
+  Ans→E
+  prgmθGTD
 End
 prgmθGTW
 prgmθGTV
