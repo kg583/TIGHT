@@ -5,10 +5,9 @@
 // Returns the incident edge indices (may be none) in O(E)
 
 iPart(real(Ans→Z
-0→dim(L₁
 For(θ,1,E
   abs(real(ʟE(θ
   {iPart(Ans),Dᴇ3fPart(Ans
-  If max(Z=Ans:θ→L₁(1+dim(ʟθGT1
+  If max(Z=Ans:θ→L₁(1+dim(L₁
 End:abs(Z→Z:L₁
 ClrList L₁
