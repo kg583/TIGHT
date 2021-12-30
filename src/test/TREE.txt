@@ -4,4 +4,4 @@
 // Returns the number trees in the spanning forest if the graph is a forest and 0 otherwise in O(VE)
 
 prgmθGTSPAN
-Ans=real(ʟE:If Ans:1+sum(0≠DeltaList((real(ʟV
+Ans=real(ʟE:If Ans:1+sum(0≠DeltaList(real(ʟV
