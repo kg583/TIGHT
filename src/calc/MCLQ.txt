@@ -8,8 +8,9 @@ For(Y,1,V
   For(θ,1,dim(L₆
     L₆(θ→X
     prgmθGTI
-    If not(Ans:ᴇ3→θ
+    If not(Ans:Goto 0
   End
-  If θ<ᴇ3:Y→L₆(1+dim(L₆
-End:L₆
+  Y→L₆(1+dim(L₆
+End
+Lbl 0:L₆
 ClrList L₆
