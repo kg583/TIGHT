@@ -7,5 +7,5 @@ If V≤20:Then
   Ans→Z
   prgmθGTADJM
   prgmθGTDEGM
-  dim([A]:identity(max(Ans
+  identity(max(dim([A]
   Ans-Z[A]+Z^2([D]-Ans→[J]
