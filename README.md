@@ -1,4 +1,4 @@
-# TIGHT Package v1.0
+# TIGHT Package v0.5
 `TIGHT`, or TI GrapH Theory, is a package of lists and programs designed for analyzing and plotting discrete graphs on the TI-83+ series of calculators. These programs are intended to be used as subprograms for larger projects, and are implemented to minimize variable use and overall memory footprint. `TIGHT` can support both directed and undirected graphs with up to 999 edges and 999 vertices, with a diverse array of graph algorithms and plotting options at your disposal.
 
 ## Design Philosophy
