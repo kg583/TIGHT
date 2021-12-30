@@ -2,7 +2,6 @@
 // Computes the complement of the graph, removing any self-loops
 // Returns the complement edges in O(V^2E)
 
-0→dim(L₁
 For(X,1,V
   For(Y,1+X(D>0),V
     D(X+Yᴇ⁻3
