@@ -1,6 +1,5 @@
-// GENP
+// GP
 // Generates the edges of the path of abs(Ans) vertices in a row
 // If Ans < 0, the path is directed, starting at the first vertex
 // Returns the path in O(V)
-
 tanh(Ansᴇ9)(1+cumSum(not(binompdf(abs(Ans)-2,0

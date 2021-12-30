@@ -1,6 +1,5 @@
 // GEN
 // Generates the graph family member named in Ans as listed in gen.md
-
 prgmθGTA
 prgmθGTCLR
 prgmθGTG

@@ -1,7 +1,6 @@
 // LAY
 // Sets the |LX and |LY vertex coordinate lists
 // Options are specified in Ans as detailed in layout.md
-
 prgmθGTA:L₆(1
 If Ans=3:Then
   ⁻1+dim(L₆→X

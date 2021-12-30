@@ -1,7 +1,6 @@
 // COMN
 // Lists the vertices that are all adjacent to each vertex in Ans
 // Returns the list of common vertices (may be none) in O(NVE)
-
 abs(iPart(real(Ans→L₆
 1→X
 L₆(1:prgmθGTVS

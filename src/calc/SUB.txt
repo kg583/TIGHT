@@ -2,7 +2,6 @@
 // Determines the induced subgraph on the N vertices in Ans
 // Does nothing if there are no input vertices
 // Returns the edges of the subgraph (may be none) in O(NE)
-
 If dim(Ans:Then
   abs(real(Ans→L₆
   For(Y,1,E

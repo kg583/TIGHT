@@ -1,6 +1,5 @@
 // G
 // Generates the graph family member named in L6 after argument parsing
-
 L₆(1
 If Ans=3:Then
   L₆(2:prgmθGTGC

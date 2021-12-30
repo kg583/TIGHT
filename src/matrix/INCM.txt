@@ -1,7 +1,6 @@
 // INCM
 // Computes the incidence matrix of the graph in [I] based on the current edge ordering
 // Returns the final matrix entry in O(E), does nothing if the graph the product VE exceeds 400
-
 If VE≤400:Then
   {V,E→dim([I]
   For(θ,1,E

@@ -1,8 +1,7 @@
-// GENC
+// GC
 // Generates the edges of the cycle on abs(Ans) vertices
 // If Ans < 0, the cycle is directed, starting at the first vertex
 // Returns the cycle in O(V)
-
-Ans→Z:prgmθGTGENP
+Ans→Z:prgmθGTGP
 If Z<0:augment(Ans,{⁻Z-ᴇ⁻3
 If Z>0:augment(Ans,{1+Zᴇ⁻3

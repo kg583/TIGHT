@@ -2,7 +2,6 @@
 // Computes the maximal clique containing the vertex Ans
 // Finds an oriented clique if the graph is directed
 // Returns the vertices of the clique in O(V^2)
-
 {abs(iPart(real(Ans→L₆
 For(Y,1,V
   For(θ,1,dim(L₆

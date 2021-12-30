@@ -1,7 +1,6 @@
 // GCOL
 // Greedily colors the graph by labeling its vertices via the vertex ordering Ans
 // Returns the number of colors used in O(V^2 + VE)
-
 abs(iPart(real(Ans→L₆
 V→dim(ʟV:[i]imag(ʟV→V
 For(Y,1,dim(L₅

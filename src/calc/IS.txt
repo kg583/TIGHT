@@ -3,7 +3,6 @@
 // If the graph is directed and Ans > 0, the listed edge indices correspond to the outgoing edges
 // If the graph is directed and Ans < 0, the listed edge indices correspond to the incoming edges
 // Returns the incident edge indices (may be none) in O(E)
-
 iPart(real(Ans→Z
 For(θ,1,E
   abs(real(ʟE(θ

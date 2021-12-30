@@ -2,5 +2,4 @@
 // Converts the list of indices in Ans into the corresponding list of vertices
 // All indices are assumed to be valid
 // Returns the corresponding vertices in O(N), does nothing if the input list is empty
-
 If dim(Ans:seq(real(ʟV(Ans(Y))),Y,1,dim(Ans))+[i]seq(imag(ʟV(Ans(Y))),Y,1,dim(Ans

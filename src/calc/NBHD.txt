@@ -1,7 +1,6 @@
 // NBHD
 // Determines the neighborhood of the vertex Ans
 // Returns the edges of the neighborhood (may be none) in O(E^2)
-
 prgmθGTVS
 If dim(Ans:augment(Ans,{Z
 prgmθGTSUB

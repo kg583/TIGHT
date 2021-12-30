@@ -2,6 +2,5 @@
 // Clears all weights and data from the graph if the graph is non-empty
 // Sets the weightedness of the graph to 0
 // Returns in O(V + E)
-
 If E:DelVar Wreal(ʟE→E
 If dim(ʟV:real(ʟV→V

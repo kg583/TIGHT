@@ -1,7 +1,6 @@
 // REV
 // Reverses all edges, including any bidirected edges, to create the graph transpose
 // Returns the reversed edges in O(E), does nothing if the graph is undirected
-
 If D<0:Then
   abs(real(ʟE
   ⁻ᴇ3fPart(Ans)-ᴇ⁻3iPart(Ans)-[i]imag(ʟE→E

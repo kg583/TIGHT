@@ -1,5 +1,4 @@
 // DENS
 // Computes the density of the graph depending on its directedness, where an empty graph has density = 0
 // Returns the density in O(1)
-
 0:If V:E/V nCr 2(1+(D>0

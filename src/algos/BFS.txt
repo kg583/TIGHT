@@ -1,7 +1,6 @@
 // BFS
 // Traverses the graph starting at vertex Ans using breadth-first search
 // Returns a list of vertices and predecessors sorted by visit order in O(VE)
-
 {abs(iPart(real(Ans→L₆
 V:prgmθGTM:1
 While Ans

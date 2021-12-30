@@ -2,7 +2,6 @@
 // Checks if the edge Ans(1) is incident to the edge Ans(2)
 // If the graph is directed, incidence holds if one edge is incoming to and the other outgoing from the common vertex
 // Returns the common vertex if it exists and zero otherwise in O(1)
-
 real(Ans:augment(iPart(Ans),ᴇ3fPart(Ans
 If max(Ans(1)={Ans(4),DAns(2:Then
   abs(Ans(1

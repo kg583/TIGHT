@@ -3,6 +3,5 @@
 // Labels each vertex based on their tree within the forest
 // Modifies the current edge ordering to ascend with respect to edge weight
 // Returns the indices of the edges of the minimum spanning forest in O(V^2 + VE + E^2)
-
 1:prgmθGTSORT
 prgmθGTSPAN

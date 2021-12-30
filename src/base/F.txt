@@ -1,7 +1,6 @@
 // F
 // Filters the list Ans to remove zero entries, where all other entries must be positive
 // Returns the filtered list in O(N)
-
 Ans→L₁:SortD(L₁
 sum(0≠real(Ans→dim(L₁
 L₁:ClrList L₁

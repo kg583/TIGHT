@@ -2,6 +2,5 @@
 // Extracts the saved graph named in Ans to |LE and sets the graphs characteristics
 // Truncates Ans to at most five characters
 // Returns V in O(E)
-
 expr("ʟ"+sub(Ans,1,min(5,length(Ans
 prgmθGTSTO

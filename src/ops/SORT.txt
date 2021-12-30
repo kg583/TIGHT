@@ -2,7 +2,6 @@
 // Sorts the edges of the graph
 // Options are specified in Ans as detailed in sort.md
 // Returns the sorting criterion in O(E^2), fails if an ivnalid option is specified
-
 Ans→Z
 If not(Ans:Then
   rand(E

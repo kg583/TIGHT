@@ -2,7 +2,6 @@
 // Adds the edge Ans to the graph
 // Sets the weight of the edge to imag(Ans) if the edge already exists
 // Returns V in O(E)
-
 If not(E:Then:{Ans→E
   prgmθGTD
 Else

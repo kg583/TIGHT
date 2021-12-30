@@ -2,6 +2,5 @@
 // Checks if the graph is a tree
 // Labels the vertices in |LV based on their tree within a minimum spanning forest
 // Returns the number trees in the spanning forest if the graph is a forest and 0 otherwise in O(VE)
-
 prgmθGTSPAN
 Ans=real(ʟE:If Ans:1+sum(0≠DeltaList(real(ʟV

@@ -3,7 +3,6 @@
 // If the graph is unweighted, each weight is assumed to equal one
 // If the graph is undirected, the sum of adjacent weights is calculated
 // Returns in O(E)
-
 abs(iPart(real(Ans→Z
 not(W)+Wimag(ʟE
 sum((Z=abs(iPart(real(ʟE))))Ans+Dsum(Ans*(Z=abs(ᴇ3fPart(real(ʟE

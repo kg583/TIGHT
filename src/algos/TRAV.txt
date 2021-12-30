@@ -2,7 +2,6 @@
 // Traverses the graph starting at vertex Ans
 // Utilizes the heuristic |u to perform informed search (see traverse.md)
 // Returns a list of vertices, predecessors, and traversal priorities sorted by visit order in O(VE + E * [|u complexity])
-
 {abs(iPart(real(Ans→L₆
 V:prgmθGTM
 While dim(L₆

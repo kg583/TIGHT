@@ -1,7 +1,6 @@
 // PLOT
 // Plots the graph using the |LX and |LY vertex coordinate lists if they are non-empty
 // Options are specified in Ans as detailed in plot.md
-
 real(Ans→L₆
 If 2>dim(Ans:2→L₆(2
 If 3>dim(L₆:0→L₆(3
@@ -48,4 +47,5 @@ If Ans and V≤dim(ʟX) and V≤dim(ʟY:Then
       End
     End
   End
-  ClrList L₁,L₂,L₆
+End
+ClrList L₁,L₂,L₆

@@ -2,7 +2,6 @@
 // Converts the graph into its moral graph
 // The moral graph of a directed graph is the undirected counterpart with all vertices having a common child also connected
 // Returns the graph in O(E^2)
-
 For(θ,1,E
 ʟE(θ:prgmθGTZ
 For(Z,1,E

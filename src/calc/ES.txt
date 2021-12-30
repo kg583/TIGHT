@@ -3,7 +3,6 @@
 // If the graph is directed and Ans > 0, the listed edges are outgoing
 // If the graph is directed and Ans < 0, the listed edges are incoming
 // Returns the incident edges (may be none) in O(E)
-
 iPart(real(Ans→Z
 abs(real(ʟE
 Z=iPart(Ans) or Z=Dᴇ3fPart(Ans

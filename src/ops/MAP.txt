@@ -2,7 +2,6 @@
 // Maps the vertices of the graph to the vertex ordering Ans
 // Removes duplicate edges based on the current edge ordering for non-injective mappings
 // Returns V in O(E^2)
-
 abs(iPart(real(Ans→L₆
 ʟE→L₁:ClrList ʟE
 For(θ,1,E

@@ -3,7 +3,6 @@
 // If the graph is undirected, the labels are the sum of adjacent weights
 // Labels are scaled by Ans
 // Returns the final vertex entry in O(VE)
-
 real(Ans→θ
 V→dim(ʟV
 For(Z,1,V

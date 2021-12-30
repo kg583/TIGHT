@@ -2,8 +2,6 @@
 // Determines if a graph is strongly regular and, if so, its parameters
 // The graph must have at least two vertices
 // Returns the four defining parameters of the graph if it is strongly regular and an empty list otherwise in O(V^3E + VE)
-
-ClrList L₃
 prgmθGTKREG
 If Ans:Then
   {V,Ans,⁻1,⁻1→θGT3

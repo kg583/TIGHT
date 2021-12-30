@@ -1,6 +1,5 @@
 // ROT
 // Rotates the |LX and |LY coordinate lists counterclockwise by the angle Ans (measured in radians)
 // Returns in O(1)
-
 e^([i]Ans)(ʟX+[i]ʟY→Y
 real(Ans→X:imag(ʟY→Y

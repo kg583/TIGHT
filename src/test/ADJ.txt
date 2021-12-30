@@ -1,7 +1,6 @@
 // ADJ
 // Checks if the vertex Ans(1) is adjacent to the vertex Ans(2)
 // Returns the index of the connecting edge if it exists and 0 otherwise in O(E)
-
 abs(iPart(real(Ans→L₆
 abs(real(ʟE
 1+sum(not(cumSum(Ans=sum(L₆{1,ᴇ⁻3}) or DAns=sum(L₆{ᴇ⁻3,1
