@@ -1,51 +1,6 @@
 // LAY
 // Sets the |LX and |LY vertex coordinate lists
 // Options are specified in Ans as detailed in layout.md
-prgmθGTA:L₆(1
-If Ans=3:Then
-  ⁻1+dim(L₆→X
-  For(Y,1,Ans
-    L₆(Y+1→Z:abs(iPart(Ans
-    If Ans=1:Then:{0
-    Else
-      YXˉ¹[i]e^(2π[i]/AnscumSum(not(binompdf(Ans-1,0
-    End
-    Ans*(1-abs(fPart(Z
-    If Y=1:Then
-      Ans→X
-    Else
-      If Z>0:Then
-        augment(ʟX,Ans→X
-      Else
-        augment(Ans,ʟX→X
-      End
-    End
-  End
-  imag(ʟX→Y:real(ʟX→X
-Else:If Ans=12:Then
-  ClrList ʟX,ʟY
-  ⁻2+dim(L₆→θ
-  For(Y,0,Ans
-    ⁻1+abs(L₆(Y+2→Z
-    For(X,0,iPart(Ans
-      If iPart(Z:Then
-        2X/iPart(Z)-1
-        Ans-Zˉ¹fPart(Z:If Ans<0:Ans+2Zˉ¹fPart(Z
-      Else:0
-      End:Anstanh(ᴇ9L₆(Y+2→ʟX(1+dim(ʟX
-      1-2Y/θ→ʟY(1+dim(ʟY
-    End
-  End
-Else:If Ans=15:Then
-  "Orbital goes here
-Else:If Ans=20:Then:{0→X
-  iPart(L₆(2→Z:abs(Ans→X
-  2+iPart(logBASE(Ans,2→θ
-  {1-2/Ans→Y
-  For(Y,1,θ-2
-    1-2^Y+2cumSum(not(binompdf(2^Y-1,0
-    augment(ʟX,Ans/2^Y→X
-    1-2θˉ¹(Y+1:augment(ʟY,AnscumSum(not(binompdf(2^Y-1,0→Y
-  End:ZʟY/X→Y
-  X→dim(ʟX:Ans→dim(ʟY
-Else
+prgmθGTA
+prgmθGTL
+ClrList L₆
