@@ -9,7 +9,7 @@ While dim(Ans
   Ans→L₂:1→Y
   L₆(X:prgmθGTVS
   While Y≤dim(Ans
-    If min(L₆≠Ans(Y:Then
+    If min(L₂≠Ans(Y:Then
       seq(Ans(Z+(Z≥Y)),Z,1,dim(Ans)-1
     Else
       IS>(Y,V
