@@ -1,12 +1,11 @@
 // P
-// Constructs the path arriving at vertex Z given the list Ans of edge indices leading from each vertex of the graph
+// Constructs the path arriving at vertex Z given the list Ans of edges leading from each vertex of the graph
 // The path is assumed to end once a predecessor edge index is non-positive
-// Returns the path of edge indices in O(E)
-
+// Returns the path of edges in O(E)
 Ans→L₆:Ans(Z
 While Ans>0
   {Ans:If dim(L₁:augment(Ans,L₁:Ans→L₁
-  ʟE(Ans(1:prgmθGTO
+  real(Ans(1:prgmθGTO
   Ans→Z:L₆(Ans
 End:L₁
 ClrList L₁,L₆
