@@ -6,7 +6,7 @@
 
 If V≤20:Then
   real(Ans→θ
-  0identity(V→[D]
+  identity(V→[D]
   For(Z,1,V
     Ztanh(ᴇ9θ:prgmθGTDEG
     Ans→[D](Z,Z
