@@ -1,13 +1,12 @@
 // SUB
 // Determines the induced subgraph on the N vertices in Ans
 // Does nothing if there are no input vertices
-// Returns the indices of the edges of the subgraph (may be none) in O(NE)
+// Returns the edges of the subgraph (may be none) in O(NE)
 
 If dim(Ans:Then
   abs(real(Ans→L₆
-  ClrList L₆
   For(Y,1,E
     abs(real(ʟE(Y
-    If max(L₆=iPart(Ans))max(L₆=ᴇ3fPart(Ans:Y→L₁(1+dim(L₁
+    If max(L₆=iPart(Ans))max(L₆=ᴇ3fPart(Ans:ʟE(Y→L₁(1+dim(L₁
   End:L₁
   ClrList L₁,L₆
