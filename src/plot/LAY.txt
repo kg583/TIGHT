@@ -33,7 +33,7 @@ Else:If Ans=12:Then
         2X/iPart(Z)-1
         Ans-Zˉ¹fPart(Z:If Ans<0:Ans+2Zˉ¹fPart(Z
       Else:0
-      End:Anstanh(ᴇ9ʟθGT(Y+2→ʟX(1+dim(ʟX
+      End:Anstanh(ᴇ9L₆(Y+2→ʟX(1+dim(ʟX
       1-2Y/θ→ʟY(1+dim(ʟY
     End
   End
